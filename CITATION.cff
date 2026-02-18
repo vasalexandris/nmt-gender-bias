@@ -10,10 +10,12 @@ authors:
     given-names: Nikolaos
     email: nasimop@uowm.gr
     affiliation: "University of Western Macedonia"
+	orcid: "https://orcid.org/0000-0000-0000-0000"  # Add Asimopoulos ORCID if he has one
 title: "The English Trap: Gender Bias and Grammatical Information Loss Through English-Influenced Universal Representations in Multilingual NMT"
 version: 1.0.0
 date-released: 2026-02-13
 url: "https://github.com/vasalexandris/nmt-gender-bias"
+doi: "10.5281/zenodo.18686006"
 repository-code: "https://github.com/vasalexandris/nmt-gender-bias"
 keywords:
   - neural machine translation
@@ -24,6 +26,10 @@ keywords:
   - Greek
   - Spanish
 license: MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18686006
+    description: "Zenodo DOI for dataset"
 preferred-citation:
   type: article
   authors:
