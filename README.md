@@ -1,6 +1,7 @@
 # English-Influenced Interlingua in Multilingual NMT
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18686006.svg)](https://doi.org/10.5281/zenodo.18686006)
 [![Paper](https://img.shields.io/badge/Paper-Computational%20Linguistics-blue)](https://github.com/vasalexandris/nmt-gender-bias)
 
 This repository contains the dataset, code, and supplementary materials for the paper:
@@ -225,14 +226,13 @@ P(L | system) = exp(score_L) / Σ exp(score_k)
 If you use this dataset or methodology, please cite:
 
 ```bibtex
-@article{alexandris2026english,
-  title={English-Influenced Interlingua in Multilingual Neural Machine Translation: 
-         Black-Box Pivot Detection, Systematic Gender Bias, Polysemy Distortion, 
-         and Architectural Mitigation through Large Language Models},
+@article{alexandris2026englishtrap,
+  title={The English Trap: Gender Bias and Grammatical Information Loss Through
+         English-Influenced Universal Representations in Multilingual NMT},
   author={Alexandris, Vasileios and Asimopoulos, Nikolaos},
-  journal={Computational Linguistics},
+  journal={Under Review},
   year={2026},
-  note={Submitted}
+  note={Under review}
 }
 ```
 
