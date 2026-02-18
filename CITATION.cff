@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+authors:
+  - family-names: Alexandris
+    given-names: Vasileios
+    email: vasalexandris76@gmail.com
+    affiliation: "University of Western Macedonia"
+    orcid: "https://orcid.org/0000-0000-0000-0000"  # Add your ORCID if you have one
+  - family-names: Asimopoulos
+    given-names: Nikolaos
+    email: nasimop@uowm.gr
+    affiliation: "University of Western Macedonia"
+title: "The English Trap: Gender Bias and Grammatical Information Loss Through English-Influenced Universal Representations in Multilingual NMT"
+version: 1.0.0
+date-released: 2026-02-13
+url: "https://github.com/vasalexandris/nmt-gender-bias"
+repository-code: "https://github.com/vasalexandris/nmt-gender-bias"
+keywords:
+  - neural machine translation
+  - gender bias
+  - multilingual NMT
+  - pivot language detection
+  - large language models
+  - Greek
+  - Spanish
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Alexandris
+      given-names: Vasileios
+    - family-names: Asimopoulos
+      given-names: Nikolaos
+  title: "The English Trap: Gender Bias and Grammatical Information Loss Through English-Influenced Universal Representations in Multilingual NMT"
+  journal: "Computational Linguistics"
+  year: 2026
+  status: submitted
