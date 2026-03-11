@@ -1,7 +1,5 @@
 # The English Trap: Gender Bias and Grammatical Information Loss Through English-Influenced Universal Representations in Multilingual NMT
 
-**Vasileios Alexandris & Nikolaos Asimopoulos**  
-Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece
 
 ---
 
@@ -92,22 +90,7 @@ A high probability for English indicates that the system's internal representati
 
 ---
 
-## Citation
 
-If you use this dataset or code, please cite:
-
-```bibtex
-@dataset{alexandris_2026_englishtrap,
-  author    = {Alexandris, Vasileios and Asimopoulos, Nikolaos},
-  title     = {The English Trap: Gender Bias and Grammatical Information Loss 
-               Through English-Influenced Universal Representations in Multilingual NMT},
-  year      = {2026},
-  publisher = {Zenodo},
-  version   = {2.0.0},
-  doi       = {10.5281/zenodo.18881815},
-  url       = {https://doi.org/10.5281/zenodo.18881815}
-}
-```
 
 ---
 
@@ -118,7 +101,3 @@ Copyright (C) 2026 The Authors.
 
 ---
 
-## Contact
-
-- Vasileios Alexandris — vasalexandris76@gmail.com  
-- Nikolaos Asimopoulos — nasimop@uowm.gr
