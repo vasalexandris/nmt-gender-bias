@@ -1,0 +1,8 @@
+# Additional dependencies for reproducing the open-weight model validation
+# (code/run_nllb.py, code/run_eurollm.py). Kept separate from requirements.txt
+# because these are heavy (torch, llama-cpp-python) and only needed for that step.
+torch==2.14.0
+transformers==5.17.0
+sentencepiece>=0.2.0
+huggingface_hub>=0.25.0
+llama-cpp-python==0.3.35
