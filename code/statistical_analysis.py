@@ -71,9 +71,9 @@ greek_spanish_scores = {
 
 # Gender bias error counts
 bias_errors = {
-    'Spanish→Greek': {'Google': 45, 'DeepL Classic': 42, 'DeepL Next Gen': 4},
+    'Spanish→Greek': {'Google': 45, 'DeepL Classic': 41, 'DeepL Next Gen': 4},
     'Greek→Spanish': {'Google': 40, 'DeepL Classic': 37, 'DeepL Next Gen': 3},
-    'Combined': {'Google': 85, 'DeepL Classic': 79, 'DeepL Next Gen': 7}
+    'Combined': {'Google': 85, 'DeepL Classic': 78, 'DeepL Next Gen': 7}
 }
 
 total_sentences = {'per_direction': 56, 'combined': 112}
@@ -310,7 +310,7 @@ def main():
     print("-" * 80)
     print("\nSystem               English-Matching   Bias Rate")
     print("Google Translate     51.8%              75.9%")
-    print("DeepL Classic        37.5%              70.5%")
+    print("DeepL Classic        37.5%              69.6%")
     print("DeepL Next Gen       18.8%               6.25%")
     print("Note: With n=3 systems, formal significance testing is not appropriate.")
     print("The pattern is perfectly monotonic across all 3 systems.")
@@ -365,6 +365,41 @@ def main():
         print("of pivot languages' phrasing the system's output matches', not as singling out")
         print("one language with a uniquely large margin -- the same caveat already applies to")
         print("e.g. DeepL Classic's non-significant chi-square result (p=0.35) above.")
+
+    # 9. Bias rates of all five systems and pivot matches split by bias flag (read from the annotated CSVs)
+    if OPEN_MODELS_LOADED:
+        print("\n\n9. BIAS RATE AND PIVOT MATCHES SPLIT BY BIAS FLAG (ALL FIVE SYSTEMS)")
+        print("-" * 80)
+        print("Rule used for Gender_Bias=1: gender lost/changed, or a tense/number/person change,")
+        print("or a lost polysemous sense; purely lexical differences stay 0.\n")
+        system_files = {
+            'Google Translate': ('{d}_google_translate.csv'),
+            'DeepL Classic': ('{d}_deepl_classic.csv'),
+            'DeepL Next Gen': ('{d}_deepl_nextgen.csv'),
+            'NLLB': ('data_nllb/{d}_nllb.csv'),
+            'EuroLLM': ('data_eurollm/{d}_eurollm.csv'),
+        }
+        frames = {}
+        for system, pattern in system_files.items():
+            frames[system] = pd.concat([pd.read_csv(pattern.format(d=d)) for d in ('ES_EL', 'EL_ES')], ignore_index=True)
+
+        print(f"{'System':18s} {'Bias':>9s}   English match: biased / not biased   best other language among biased")
+        rates = {}
+        for system, df in frames.items():
+            biased = df[df['Gender_Bias'] == 1]
+            clean = df[df['Gender_Bias'] == 0]
+            rates[system] = len(biased) / len(df)
+            eng_b = biased['Pivot_English_Score'].mean()
+            eng_c = clean['Pivot_English_Score'].mean() if len(clean) else float('nan')
+            others = {lang: biased[f'Pivot_{lang}_Score'].mean() for lang in PIVOT_LANGS if lang != 'English'}
+            best = max(others, key=others.get)
+            print(f"{system:18s} {len(biased):3d}/{len(df)} {rates[system]:6.1%}   {eng_b:6.1%} / {eng_c:6.1%}"
+                  f"{'':14s} {best} ({others[best]:.1%}), n_biased={len(biased)}")
+
+        print("\nCohen's h against DeepL Next Gen:")
+        for system in ('Google Translate', 'DeepL Classic', 'NLLB', 'EuroLLM'):
+            print(f"  {system:18s} h = {cohens_h(rates[system], rates['DeepL Next Gen']):5.3f}")
+        print("\nNote: with few biased sentences (DeepL Next Gen: 7) the split is descriptive only.")
 
     print("\n" + "=" * 80)
     print("Analysis complete!")

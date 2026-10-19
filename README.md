@@ -25,7 +25,7 @@ Evaluated on **3 MT systems**:
 | System | Architecture | Gender Error Rate |
 |--------|-------------|-------------------|
 | Google Translate | Transformer | 75.9% |
-| DeepL Classic | Transformer | 70.5% |
+| DeepL Classic | Transformer | 69.6% |
 | DeepL Next Gen | LLM-based | 6.25% |
 
 Pivot language detection across **16 typologically diverse languages**:
@@ -87,7 +87,7 @@ A high probability for English indicates that the system's internal representati
 | System | English Pivot Probability | Gender Accuracy | Cohen's h vs Next Gen |
 |--------|--------------------------|-----------------|----------------------|
 | Google Translate | **97.3%** | 24.1% | 1.61 (Huge) |
-| DeepL Classic | 61.2% (p=0.35, n.s.) | 29.5% | 1.49 (Huge) |
+| DeepL Classic | 61.2% (p=0.35, n.s.) | 30.4% | 1.47 (Huge) |
 | DeepL Next Gen | <0.1% | **93.75%** | — |
 
 ---
