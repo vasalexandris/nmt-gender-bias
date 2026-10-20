@@ -49,6 +49,8 @@ they are the `Pivot_French_Translation` / `Pivot_Polish_Translation` columns pro
   of the source (e.g. a noun meaning "women"), exactly as in the primary study's gold. Gold is fixed before any system output is seen.
 - The English route is checked as in the primary study; sentences where it retains the tested feature are excluded from the diagnostic subset.
 
+Decision (authors, 2026-10-20): the `N` sentences are kept as they are, are not scored, and are reported separately; they are not replaced.
+
 ## 4. Systems (all open, all pinned)
 
 | System | Setting | Revision / pin |
