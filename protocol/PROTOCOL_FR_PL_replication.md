@@ -38,8 +38,13 @@ they are the `Pivot_French_Translation` / `Pivot_Polish_Translation` columns pro
 - `N` sentences are reported but **excluded from the gender-bias rate and the diagnostic subset** (there is no gender in the source to lose);
   they are analysed separately as a negative control (do systems insert gender where none is given?). Primary rates use `Y` + `Neutral-by-design`.
   No minimum N is fixed; N is an outcome and is reported.
-- Candidate-pivot translations (16 languages) are regenerated from these French/Polish sources with the same strict prompt (no gender-marking words
-  added), then back-translated into the target language.
+- Candidate-pivot texts: the 14 retained languages reuse the existing strict translations (which were made from the Spanish / Greek originals; the French /
+  Polish renderings are their direct translations, so for `Y` sentences the two coincide in gender content; for `N` sentences the candidate texts still carry
+  the original gender and are not used for the primary analysis). The two new candidates (Spanish, Greek) are strict translations of the French / Polish
+  source. Back-translation of every candidate into the target language was written by Claude with these rules: faithful, no gender-marking word added;
+  an unmarked 'they/you/I/we' becomes the masculine/virile form where the target forces a choice; a subject pronoun is kept only when the candidate has a
+  feminine pronoun that the target verb would not mark; an ambiguous candidate (e.g. 'bats', 'Bank', 'seal', 'stamps') receives its most frequent sense as
+  primary string and the other sense in the `..._BackTrans_Alt` column. Files: `data_fr_pl/FR_PL_pivots.csv`, `data_fr_pl/PL_FR_pivots.csv`; generation code in `code/fr_pl/`.
 - **Gold** translations are written from the source into the target language; here, and only here, an extra word may be added to render the gender
   of the source (e.g. a noun meaning "women"), exactly as in the primary study's gold. Gold is fixed before any system output is seen.
 - The English route is checked as in the primary study; sentences where it retains the tested feature are excluded from the diagnostic subset.
