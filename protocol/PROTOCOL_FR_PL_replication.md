@@ -26,8 +26,10 @@ ambiguous) that English drops or merges. The set is therefore targeted, not repr
 
 ## 3. Sentence adaptation (FR and PL)
 
-- Each of the 112 Spanish/Greek items is adapted by a native speaker of the source language, keeping `Category` and
-  `Gender_Bias_Focus` labels. FR→PL uses 56 French sources; PL→FR uses 56 Polish sources.
+- The existing sentences are reused, not redesigned. The 56 Spanish sources (ES→EL) are translated into French (FR→PL) and the 56 Greek
+  sources (EL→ES) into Polish (PL→FR) by a native speaker of the source language, keeping `Category` and `Gender_Bias_Focus` labels.
+  Only items that cannot be carried over (see below) are replaced by a new item of the same category. The target-language gold is the only
+  text written from scratch.
 - Adaptation criteria, in order: (1) the source sentence must carry the target feature in a form English would drop
   or merge (e.g. French *elles*, *celles*, participle agreement; Polish past-tense gender, *one/oni*); (2) same grammatical
   category as the original; (3) same length and register; (4) polysemy items use a source word with two distinct target
