@@ -3,7 +3,7 @@
 Status: **DRAFT, not yet frozen.** It becomes binding when committed with the line `FROZEN: <date>` below, *before* any
 FR/PL sentence is translated by any system. After freezing, every deviation is logged in `protocol/DEVIATIONS.md`.
 
-FROZEN: (not frozen)
+FROZEN: 2026-10-20 (author approved starting the system runs; the gold translations are still under the author's review and any change to them will be logged in `protocol/DEVIATIONS.md` — system outputs do not depend on gold)
 
 ## 1. Purpose and scope
 
