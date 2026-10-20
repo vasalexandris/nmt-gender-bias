@@ -112,6 +112,6 @@ with the repo. Exploratory analyses are labelled as such and kept separate from 
 ## 9. Outstanding decisions before freezing
 
 1. Whether a native speaker of French and of Polish can be found for even a small spot check of gold and labels.
-2. Whether to include NLLB-200 3.3B as a second checkpoint (it shares training data with 1.3B; not an independent replicate).
+2. ~~Whether to include NLLB-200 3.3B as a second checkpoint~~ Decided (authors, 2026-10-20): not included, in either language pair; NLLB-200 distilled 1.3B and EuroLLM-9B are the only open systems.
 3. Independent system for the English-route robustness check (Section 5).
 4. Whether to keep the 13 FR / 6 PL `N` sentences as a negative control or replace them with items that carry the signal.
