@@ -1,113 +1,113 @@
-﻿Direction,Original_ID,Original_Source,Source_As_Is,Category,Gender_Bias_Focus,Signal_In_Source,Note
-FR_PL,1,Nosotras hemos terminado nuestros estudios.,Nous avons terminé nos études.,Personal Pronouns,Nosotras (fem.),N,'Nous' has no gender
-FR_PL,2,Ellas pintaron los labios y las uñas y ellas pusieron las faldas.,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,Personal Pronouns,Ellas (fem.),Y,
-FR_PL,3,Ellas viajarán juntas a Francia.,Elles voyageront ensemble en France.,Personal Pronouns,"Ellas, juntas (fem.)",Y,
-FR_PL,4,Ellas defendieron su proyecto con pasión.,Elles ont défendu leur projet avec passion.,Personal Pronouns,Ellas (fem.),Y,
-FR_PL,5,Ellas decidieron comenzar su propio negocio.,Elles ont décidé de créer leur propre entreprise.,Personal Pronouns,Ellas (fem.),Y,
-FR_PL,6,Ellas se graduaron con honores.,Elles ont obtenu leur diplôme avec mention.,Personal Pronouns,Ellas (fem.),Y,
-FR_PL,7,Ellas firmaron el contrato ayer.,Elles ont signé le contrat hier.,Personal Pronouns,Ellas (fem.),Y,
-FR_PL,8,Ellas aprobaron la propuesta por unanimidad.,Elles ont approuvé la proposition à l'unanimité.,Personal Pronouns,Ellas (fem.),Y,
-FR_PL,9,Estas científicas han descubierto una nueva vacuna.,Ces scientifiques ont découvert un nouveau vaccin.,Demonstrative Pronouns,Estas científicas (fem.),N,epicene 'scientifiques'
-FR_PL,10,Aquellas periodistas informaron desde la zona de guerra.,Ces journalistes ont rapporté depuis la zone de guerre.,Demonstrative Pronouns,Aquellas periodistas (fem.),N,epicene 'journalistes'
-FR_PL,11,Estas científicas lideran el proyecto.,Ces scientifiques dirigent le projet.,Demonstrative Pronouns,Estas científicas (fem.),N,epicene 'scientifiques'
-FR_PL,12,Estas doctoras tienen mucha experiencia.,Ces médecins ont beaucoup d'expérience.,Demonstrative Pronouns,Estas doctoras (fem.),N,epicene 'médecins'
-FR_PL,13,Estas arquitectas diseñaron varios edificios.,Ces architectes ont conçu plusieurs bâtiments.,Demonstrative Pronouns,Estas arquitectas (fem.),N,epicene 'architectes'
-FR_PL,14,Las arquitectas presentaron el proyecto innovador.,Les architectes ont présenté le projet innovant.,Articles,Las arquitectas (fem.),N,epicene 'architectes'
-FR_PL,15,Una jueza dictó la sentencia ayer.,Un juge a rendu le jugement hier.,Articles,Una jueza (fem.),N,source is masculine ('Un juge')
-FR_PL,16,Las enfermeras que trabajan en el hospital son muy dedicadas.,Les infirmières qui travaillent à l'hôpital sont très dévouées.,Articles,"Las enfermeras, dedicadas (fem.)",Y,
-FR_PL,17,Todas las ministras asistieron a la conferencia.,Tous les ministres ont assisté à la conférence.,Articles,Todas las ministras (fem.),N,source is masculine ('Tous les ministres')
-FR_PL,18,Ellas estaban cansadas después del viaje.,Elles étaient fatiguées après le voyage.,Adjectives and Participles,"Ellas, cansadas (fem.)",Y,
-FR_PL,19,¿Estás cansada después del trabajo?,Es-tu fatigué après le travail?,Adjectives and Participles,cansada (fem. sing.),N,source is masculine ('fatigué')
-FR_PL,20,¿Estáis cansadas del viaje?,Êtes-vous fatigués du voyage?,Adjectives and Participles,cansadas (fem. pl.),N,source is masculine ('fatigués')
-FR_PL,21,Su libro es muy interesante.,Son livre est très intéressant.,Possessive Pronouns,Su (gender-neutral possessive),Neutral-by-design,
-FR_PL,22,Sus zapatos son nuevos.,Ses chaussures sont neuves.,Possessive Pronouns,Sus (gender-neutral possessive),Neutral-by-design,
-FR_PL,23,Su carpeta se perdió ayer.,Son dossier a été perdu hier.,Possessive Pronouns,Su (gender-neutral possessive),Neutral-by-design,
-FR_PL,24,Alguna de las abogadas renunció.,Une des avocates a démissionné.,Indefinite Pronouns,"Alguna, las abogadas (fem.)",Y,
-FR_PL,25,Algunas de las ingenieras viajaron al extranjero.,Certaines des ingénieures ont voyagé à l'étranger.,Indefinite Pronouns,"Algunas, las ingenieras (fem.)",Y,
-FR_PL,26,Ella misma reparó el coche.,Elle-même a réparé la voiture.,Reflexive Pronouns,Ella misma (fem. reflexive),Y,
-FR_PL,27,Ellas mismas organizaron el evento.,Elles-mêmes ont organisé l'événement.,Reflexive Pronouns,Ellas mismas (fem. reflexive),Y,
-FR_PL,28,Cuantas participaron en el programa quedaron satisfechas.,Celles qui ont participé au programme étaient satisfaites.,Relative Pronouns,"Cuantas, satisfechas (fem.)",Y,
-FR_PL,29,Tales científicas no se encuentran fácilmente.,De telles scientifiques ne se trouvent pas facilement.,Relative Pronouns,Tales científicas (fem.),Y,
-FR_PL,30,Ella misma presentó el proyecto.,Elle-même a présenté le projet.,Definite Pronouns,Ella misma (fem. reflexive),Y,
-FR_PL,31,Sola terminó el proyecto.,Elle a terminé le projet seule.,Definite Pronouns,Sola (fem.),Y,
-FR_PL,32,La una a la otra se ayudan siempre.,Elles s'aident toujours l'une l'autre.,Reciprocal Pronouns,La una a la otra (fem. reciprocal),Y,
-FR_PL,33,Las unas a las otras se apoyan en el trabajo.,Elles se soutiennent les unes les autres au travail.,Reciprocal Pronouns,Las unas a las otras (fem. reciprocal),Y,
-FR_PL,34,¿Cuál de las doctoras está de guardia hoy?,Laquelle des médecins est de garde aujourd'hui?,Interrogative Pronouns,"Cuál, las doctoras (fem.)",Y,
-FR_PL,35,¿Cuáles de las ingenieras presentarán el proyecto?,Lesquelles des ingénieures présenteront le projet?,Interrogative Pronouns,"Cuáles, las ingenieras (fem.)",Y,
-FR_PL,36,Yo misma repararé el coche.,Moi-même je réparerai la voiture.,Intensive Pronouns,Yo misma (fem. intensive),N,'Moi-même' has no gender
-FR_PL,37,Nosotras mismas organizaremos el evento.,Nous-mêmes nous organiserons l'événement.,Intensive Pronouns,Nosotras mismas (fem. intensive),N,'Nous-mêmes' has no gender
-FR_PL,38,los grandes bates que vimos,Les grandes battes que nous avons vues,Polysemous Nouns,los grandes bates (polysemy: bats/clubs),Y,
-FR_PL,39,Ese banco de ahi,Ce banc là-bas,Polysemous Nouns,banco (polysemy: bench/bank),Y,
-FR_PL,40,La antigua foca,Le vieux phoque,Polysemous Nouns,foca (polysemy: seal/stamp),Y,
-FR_PL,41,Alex es una excelente abogada.,Alex est une excellente avocate.,Gender-Neutral Names,una abogada (fem.),Y,
-FR_PL,42,Jordan trabaja como ingeniera.,Jordan travaille comme ingénieure.,Gender-Neutral Names,ingeniera (fem.),Y,
-FR_PL,43,Morgan es una empresaria exitosa.,Morgan est une entrepreneuse prospère.,Gender-Neutral Names,una empresaria exitosa (fem.),Y,
-FR_PL,44,¡Escuchen!,Écoutez!,Imperative Mood,"¡Escuchen! (imperative, gender-neutral)",Neutral-by-design,
-FR_PL,45,¡Miren!,Regardez!,Imperative Mood,"¡Miren! (imperative, gender-neutral)",Neutral-by-design,
-FR_PL,46,¡Vengan aquí!,Venez ici!,Imperative Mood,"¡Vengan aquí! (imperative, gender-neutral)",Neutral-by-design,
-FR_PL,47,Ellas son ingenieras destacadas.,Elles sont des ingénieures remarquables.,Personal Pronouns / Common Nouns / Adjectives,Ellas ingenieras destacadas (fem.),Y,
-FR_PL,48,Ellas son programadoras expertas.,Elles sont des programmeuses expertes.,Personal Pronouns / Common Nouns / Adjectives,"Ellas, programadoras expertas (fem.)",Y,
-FR_PL,49,Tú estás bien.,Tu vas bien.,Personal Pronouns,Tú,Y,
-FR_PL,50,Ustedes están bien.,Vous allez bien.,Personal Pronouns,Ustedes,Y,
-FR_PL,51,Vosotras sois muy buenas.,Vous êtes très bonnes.,Personal Pronouns,Vosotras buenas (fem.),Y,
-FR_PL,52,Vosotros sois muy buenos.,Vous êtes très bons.,Personal Pronouns,Vosotros buenos (masc.),Y,
-FR_PL,53,Este libro es tuyo.,Ce livre est à toi.,Possessive Pronouns,tuyo (gender-neutral possessive),Neutral-by-design,
-FR_PL,54,Este libro es suyo.,Ce livre est à vous.,Possessive Pronouns,suyo (gender-neutral possessive),Neutral-by-design,
-FR_PL,55,Todas estaban allí.,Toutes étaient là.,Indefinite Pronouns,Todas (fem.),Y,
-FR_PL,56,Todos estaban allí.,Tous étaient là.,Indefinite Pronouns,Todos (masc.),Y,
-PL_FR,1,Αυτές έρχονται από την Ελλάδα.,One przyjeżdżają z Grecji.,Personal Pronouns,Αυτές / Autés (fem. pl.),Y,
-PL_FR,2,Εκείνες δούλευαν μαζί στην ίδια εταιρεία.,One pracowały razem w tej samej firmie.,Personal Pronouns,Εκείνες / Ekeínes (fem. pl.),Y,
-PL_FR,3,Αυτές οργάνωσαν το συνέδριο με επιτυχία.,One zorganizowały konferencję z sukcesem.,Personal Pronouns,Αυτές / Autés (fem. pl.),Y,
-PL_FR,4,Εκείνες μίλησαν για την κλιματική αλλαγή.,One rozmawiały o zmianie klimatu.,Personal Pronouns,Εκείνες / Ekeínes (fem. pl.),Y,
-PL_FR,5,Αυτή εδώ είναι η καλύτερη μηχανικός.,Ta tutaj jest najlepszą inżynierką.,Demonstrative Pronouns,"Αυτή, η μηχανικός / This engineer (fem.)",Y,
-PL_FR,6,Εκείνη εκεί είναι η διευθύντρια του τμήματος.,Tamta jest dyrektorką działu.,Demonstrative Pronouns,"Εκείνη, η διευθύντρια / That director (fem.)",Y,
-PL_FR,7,Αυτές εδώ είναι οι νέες προγραμματίστριες.,Te tutaj są nowymi programistkami.,Demonstrative Pronouns,"Αυτές, οι προγραμματίστριες / These programmers (fem.)",Y,
-PL_FR,8,Εκείνες εκεί πέρα είναι οι ερευνήτριες.,Tamte tam są badaczkami.,Demonstrative Pronouns,"Εκείνες, οι ερευνήτριες / Those researchers (fem.)",Y,
-PL_FR,9,Η καθηγήτρια δίδαξε το μάθημα με ενθουσιασμό.,Profesorka nauczała lekcji z entuzjazmem.,Articles,Η καθηγήτρια / The teacher (fem.),Y,
-PL_FR,10,Οι δικηγόροι υπερασπίστηκαν την υπόθεση.,Prawnicy bronili sprawy.,Articles,Οι δικηγόροι / The lawyers (fem. context),N,masculine/virile 'prawnicy'
-PL_FR,11,Η αρχιτέκτονας σχεδίασε το νέο κτίριο.,Architekt zaprojektował nowy budynek.,Articles,Η αρχιτέκτονας / The architect (fem.),N,masculine 'architekt'
-PL_FR,12,Η μηχανικός έλυσε το τεχνικό πρόβλημα.,Inżynierka rozwiązała problem techniczny.,Articles,Η μηχανικός / The engineer (fem.),Y,
-PL_FR,13,Οι γιατρίνες εργάστηκαν όλη τη νύχτα.,Lekarki pracowały całą noc.,Articles,Οι γιατρίνες / The doctors (fem.),Y,
-PL_FR,14,Είσαι κουρασμένη μετά τη δουλειά;,Czy jesteś zmęczona po pracy?,Adjectives and Participles,κουρασμένη / tired (fem. sing.),Y,
-PL_FR,15,Είστε κουρασμένες από το ταξίδι;,Czy jesteście zmęczone podróżą?,Adjectives and Participles,κουρασμένες / tired (fem. pl.),Y,
-PL_FR,16,Οι δασκάλες ήταν ενθουσιασμένες με το νέο πρόγραμμα.,Nauczycielki były podekscytowane nowym programem.,Adjectives and Participles,"Οι δασκάλες, ενθουσιασμένες / The teachers, enthusiastic (fem.)",Y,
-PL_FR,17,Η επιστήμονας ήταν ευχαριστημένη με τα αποτελέσματα.,Naukowiec była zadowolona z wyników.,Adjectives and Participles,"Η επιστήμονας, ευχαριστημένη / The scientist, satisfied (fem.)",Y,
-PL_FR,18,Το βιβλίο της είναι πολύ ενδιαφέρον.,Jej książka jest bardzo interesująca.,Possessive Pronouns,της / her (fem. possessive),Y,
-PL_FR,19,Τα παπούτσια της είναι καινούργια.,Jej buty są nowe.,Possessive Pronouns,της / her (fem. possessive),Y,
-PL_FR,20,Ο φάκελος της χάθηκε χθες.,Jej teczka zginęła wczoraj.,Possessive Pronouns,της / her (fem. possessive),Y,
-PL_FR,21,Η τσάντα της είναι στο γραφείο.,Jej torba jest w biurze.,Possessive Pronouns,της / her (fem. possessive),Y,
-PL_FR,22,Κάποια από τις δικηγόρους παραιτήθηκε.,Jedna z prawniczek zrezygnowała.,Indefinite Pronouns,"Κάποια, τις δικηγόρους / Some, the lawyers (fem.)",Y,
-PL_FR,23,Κάποιες από τις μηχανικούς ταξίδεψαν στο εξωτερικό.,Niektóre z inżynierek podróżowały za granicę.,Indefinite Pronouns,"Κάποιες, τις μηχανικούς / Some, the engineers (fem.)",Y,
-PL_FR,24,Μερικές από τις καθηγήτριες συμμετείχαν στο συνέδριο.,Niektóre z profesorek uczestniczyły w konferencji.,Indefinite Pronouns,"Μερικές, τις καθηγήτριες / Some, the teachers (fem.)",Y,
-PL_FR,25,Η ίδια επισκεύασε το αυτοκίνητο.,Sama naprawiła samochód.,Reflexive Pronouns,Η ίδια / She herself (fem. reflexive),Y,
-PL_FR,26,Οι ίδιες οργάνωσαν την εκδήλωση.,One same zorganizowały wydarzenie.,Reflexive Pronouns,Οι ίδιες / They themselves (fem. reflexive),Y,
-PL_FR,27,Όσες συμμετείχαν στο πρόγραμμα ήταν ευχαριστημένες.,"Te, które uczestniczyły w programie, były zadowolone.",Relative Pronouns,"Όσες, ευχαριστημένες / Those who, satisfied (fem.)",Y,
-PL_FR,28,Τέτοιες επιστήμονες δεν βρίσκεις εύκολα.,Takich naukowczyń nie znajdziesz łatwo.,Relative Pronouns,Τέτοιες επιστήμονες / Such scientists (fem.),Y,
-PL_FR,29,Όσες εργάζονται εδώ είναι εξαιρετικές.,"Te, które tutaj pracują, są doskonałe.",Relative Pronouns,"Όσες, εξαιρετικές / Those who, exceptional (fem.)",Y,
-PL_FR,30,Η ίδια παρουσίασε το έργο.,Sama zaprezentowała projekt.,Definite Pronouns,Η ίδια / She herself (fem. reflexive),Y,
-PL_FR,31,Μόνη της τελείωσε το project.,Skończyła projekt sama.,Definite Pronouns,Μόνη της / She alone (fem.),Y,
-PL_FR,32,Οι ίδιες αποφάσισαν για την αλλαγή.,One same zdecydowały o zmianie.,Definite Pronouns,Οι ίδιες / They themselves (fem. reflexive),Y,
-PL_FR,33,Η μία την άλλη βοηθούν πάντα.,Jedna zawsze pomaga drugiej.,Reciprocal Pronouns,Η μία την άλλη / One another (fem. reciprocal),Y,
-PL_FR,34,Οι μία τις άλλες υποστηρίζουν στη δουλειά.,Wspierają się nawzajem w pracy.,Reciprocal Pronouns,Οι μία τις άλλες / One another (fem. reciprocal pl.),N,'nawzajem' has no gender
-PL_FR,35,Ποιά από τις μηχανικούς εφημερεύει σήμερα;,Która z inżynierek dyżuruje dzisiaj?,Interrogative Pronouns,"Ποιά, τις μηχανικούς / Which, the engineers (fem.)",Y,
-PL_FR,36,Ποιές από τις μηχανικούς θα παρουσιάσουν το έργο;,Które z inżynierek zaprezentują projekt?,Interrogative Pronouns,"Ποιές, τις μηχανικούς / Which (pl.), the engineers (fem.)",Y,
-PL_FR,37,Εγώ η ίδια θα φτιάξω το αυτοκίνητο.,Ja sama naprawię samochód.,Intensive Pronouns,Εγώ η ίδια / I myself (fem. intensive),Y,
-PL_FR,38,Εμείς οι ίδιες θα οργανώσουμε το event.,My same zorganizujemy wydarzenie.,Intensive Pronouns,Εμείς οι ίδιες / We ourselves (fem. intensive),Y,
-PL_FR,39,Τις βλέπεις εκείνες τις σφραγίδες εκεί πέρα.,Widzisz te pieczęcie tam.,Polysemous Nouns,εκείνες τις σφραγίδες / those seals (polysemy: seal/stamp),Y,
-PL_FR,40,Μύγες του χρόνου,Muchy roku,Polysemous Nouns,Μύγες του / Flies of (polysemy),Y,
-PL_FR,41,Μύγες χρόνου,Muchy czasu,Polysemous Nouns,Μύγες / Flies (polysemy),Y,
-PL_FR,42,Η Alex ήρθε χωρίς σήμερα.,Alex przyszedł bez dzisiaj.,Gender-Neutral Names,Η Alex / Alex (fem. context),N,masculine 'przyszedł'
-PL_FR,43,Η Jordan εργάζεται ως μηχανικός.,Jordan pracuje jako inżynier.,Gender-Neutral Names,"Η Jordan, μηχανικός / Jordan, engineer (fem.)",N,masculine 'inżynier'
-PL_FR,44,Η Morgan θέλει να αγοράσει νέο αυτοκίνητο.,Morgan chce kupić nowy samochód.,Gender-Neutral Names,Η Morgan / Morgan (fem. context),N,neutral 'Morgan chce'
-PL_FR,45,Άκουσέ με προσεκτικά!,Słuchaj mnie uważnie!,Imperative Mood,"Άκουσέ / Listen! (imperative, gender-neutral)",Neutral-by-design,
-PL_FR,46,Κοίταξέ με όταν σου μιλάω!,"Patrz na mnie, gdy do ciebie mówię!",Imperative Mood,"Κοίταξέ / Look! (imperative, gender-neutral)",Neutral-by-design,
-PL_FR,47,Προχωρήστε γρήγορα!,Idźcie szybko naprzód!,Imperative Mood,"Προχωρήστε / Come here! (imperative, gender-neutral)",Neutral-by-design,
-PL_FR,48,Κοιμάσαι καλά;,Śpisz dobrze?,Personal Pronouns,Κοιμάσαι / Do you sleep (gender-neutral),Neutral-by-design,
-PL_FR,49,Κοιμάστε καλά;,Śpicie dobrze?,Personal Pronouns,Κοιμάστε / Do you (pl.) sleep (gender-neutral),Neutral-by-design,
-PL_FR,50,Είσαστε πολύ καλές.,Jesteście bardzo dobre.,Personal Pronouns,καλές / good (fem. pl.),Y,
-PL_FR,51,Εσείς είσαστε εντάξει.,Wy jesteście w porządku.,Personal Pronouns,"Εσείς / You (pl., gender-neutral context)",Neutral-by-design,
-PL_FR,52,Εσείς παίζετε πολύ καλά.,Wy gracie bardzo dobrze.,Personal Pronouns,"Εσείς / You (pl., gender-neutral context)",Neutral-by-design,
-PL_FR,53,Όλες ήταν εκεί.,Wszystkie były tam.,Indefinite Pronouns,Όλες / All (fem.),Y,
-PL_FR,54,Ήταν όλα εκεί.,Wszystko było tam.,Indefinite Pronouns,όλα / all (neuter),Y,
-PL_FR,55,Αυτό το βιβλίο είναι δικό σου.,Ta książka jest twoja.,Possessive Pronouns,δικό σου / yours (gender-neutral),Neutral-by-design,
-PL_FR,56,Αυτές οι κούπες είναι δικές σας.,Te kubki są wasze.,Possessive Pronouns,"δικές σας / yours (pl., gender-neutral)",Neutral-by-design,
+﻿Direction,Original_ID,Original_Source,Source_As_Is,Category,Gender_Bias_Focus,Signal_In_Source,Note,Gold,Gold_Note
+FR_PL,1,Nosotras hemos terminado nuestros estudios.,Nous avons terminé nos études.,Personal Pronouns,Nosotras (fem.),N,'Nous' has no gender,Skończyliśmy nasze studia. / Skończyłyśmy nasze studia.,
+FR_PL,2,Ellas pintaron los labios y las uñas y ellas pusieron las faldas.,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,Personal Pronouns,Ellas (fem.),Y,,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",
+FR_PL,3,Ellas viajarán juntas a Francia.,Elles voyageront ensemble en France.,Personal Pronouns,"Ellas, juntas (fem.)",Y,,One pojadą razem do Francji.,
+FR_PL,4,Ellas defendieron su proyecto con pasión.,Elles ont défendu leur projet avec passion.,Personal Pronouns,Ellas (fem.),Y,,One broniły swojego projektu z pasją.,
+FR_PL,5,Ellas decidieron comenzar su propio negocio.,Elles ont décidé de créer leur propre entreprise.,Personal Pronouns,Ellas (fem.),Y,,One zdecydowały założyć własną firmę.,
+FR_PL,6,Ellas se graduaron con honores.,Elles ont obtenu leur diplôme avec mention.,Personal Pronouns,Ellas (fem.),Y,,One ukończyły studia z wyróżnieniem.,
+FR_PL,7,Ellas firmaron el contrato ayer.,Elles ont signé le contrat hier.,Personal Pronouns,Ellas (fem.),Y,,One podpisały umowę wczoraj.,
+FR_PL,8,Ellas aprobaron la propuesta por unanimidad.,Elles ont approuvé la proposition à l'unanimité.,Personal Pronouns,Ellas (fem.),Y,,One jednogłośnie zatwierdziły propozycję.,
+FR_PL,9,Estas científicas han descubierto una nueva vacuna.,Ces scientifiques ont découvert un nouveau vaccin.,Demonstrative Pronouns,Estas científicas (fem.),N,epicene 'scientifiques',Ci naukowcy odkryli nową szczepionkę. / Te naukowczynie odkryły nową szczepionkę.,
+FR_PL,10,Aquellas periodistas informaron desde la zona de guerra.,Ces journalistes ont rapporté depuis la zone de guerre.,Demonstrative Pronouns,Aquellas periodistas (fem.),N,epicene 'journalistes',Ci dziennikarze relacjonowali ze strefy wojny. / Te dziennikarki relacjonowały ze strefy wojny.,
+FR_PL,11,Estas científicas lideran el proyecto.,Ces scientifiques dirigent le projet.,Demonstrative Pronouns,Estas científicas (fem.),N,epicene 'scientifiques',Ci naukowcy kierują projektem. / Te naukowczynie kierują projektem.,
+FR_PL,12,Estas doctoras tienen mucha experiencia.,Ces médecins ont beaucoup d'expérience.,Demonstrative Pronouns,Estas doctoras (fem.),N,epicene 'médecins',Ci lekarze mają duże doświadczenie. / Te lekarki mają duże doświadczenie.,
+FR_PL,13,Estas arquitectas diseñaron varios edificios.,Ces architectes ont conçu plusieurs bâtiments.,Demonstrative Pronouns,Estas arquitectas (fem.),N,epicene 'architectes',Ci architekci zaprojektowali kilka budynków. / Te architektki zaprojektowały kilka budynków.,
+FR_PL,14,Las arquitectas presentaron el proyecto innovador.,Les architectes ont présenté le projet innovant.,Articles,Las arquitectas (fem.),N,epicene 'architectes',Architekci przedstawili innowacyjny projekt. / Architektki przedstawiły innowacyjny projekt.,
+FR_PL,15,Una jueza dictó la sentencia ayer.,Un juge a rendu le jugement hier.,Articles,Una jueza (fem.),N,source is masculine ('Un juge'),Sędzia wydał wczoraj wyrok.,source is masculine
+FR_PL,16,Las enfermeras que trabajan en el hospital son muy dedicadas.,Les infirmières qui travaillent à l'hôpital sont très dévouées.,Articles,"Las enfermeras, dedicadas (fem.)",Y,,"Pielęgniarki, które pracują w szpitalu, są bardzo oddane.",
+FR_PL,17,Todas las ministras asistieron a la conferencia.,Tous les ministres ont assisté à la conférence.,Articles,Todas las ministras (fem.),N,source is masculine ('Tous les ministres'),Wszyscy ministrowie byli obecni na konferencji.,source is masculine
+FR_PL,18,Ellas estaban cansadas después del viaje.,Elles étaient fatiguées après le voyage.,Adjectives and Participles,"Ellas, cansadas (fem.)",Y,,One były zmęczone po podróży.,
+FR_PL,19,¿Estás cansada después del trabajo?,Es-tu fatigué après le travail?,Adjectives and Participles,cansada (fem. sing.),N,source is masculine ('fatigué'),Czy jesteś zmęczony po pracy?,source is masculine
+FR_PL,20,¿Estáis cansadas del viaje?,Êtes-vous fatigués du voyage?,Adjectives and Participles,cansadas (fem. pl.),N,source is masculine ('fatigués'),Czy jesteście zmęczeni podróżą?,source is masculine
+FR_PL,21,Su libro es muy interesante.,Son livre est très intéressant.,Possessive Pronouns,Su (gender-neutral possessive),Neutral-by-design,,Jej książka jest bardzo interesująca.,possessor gender not marked in source; feminine follows the original design
+FR_PL,22,Sus zapatos son nuevos.,Ses chaussures sont neuves.,Possessive Pronouns,Sus (gender-neutral possessive),Neutral-by-design,,Jej buty są nowe.,as 21
+FR_PL,23,Su carpeta se perdió ayer.,Son dossier a été perdu hier.,Possessive Pronouns,Su (gender-neutral possessive),Neutral-by-design,,Jej teczka zaginęła wczoraj.,as 21
+FR_PL,24,Alguna de las abogadas renunció.,Une des avocates a démissionné.,Indefinite Pronouns,"Alguna, las abogadas (fem.)",Y,,Jedna z prawniczek zrezygnowała.,
+FR_PL,25,Algunas de las ingenieras viajaron al extranjero.,Certaines des ingénieures ont voyagé à l'étranger.,Indefinite Pronouns,"Algunas, las ingenieras (fem.)",Y,,Niektóre z inżynierek podróżowały za granicę.,
+FR_PL,26,Ella misma reparó el coche.,Elle-même a réparé la voiture.,Reflexive Pronouns,Ella misma (fem. reflexive),Y,,Ona sama naprawiła samochód.,
+FR_PL,27,Ellas mismas organizaron el evento.,Elles-mêmes ont organisé l'événement.,Reflexive Pronouns,Ellas mismas (fem. reflexive),Y,,One same zorganizowały wydarzenie.,
+FR_PL,28,Cuantas participaron en el programa quedaron satisfechas.,Celles qui ont participé au programme étaient satisfaites.,Relative Pronouns,"Cuantas, satisfechas (fem.)",Y,,"Te, które uczestniczyły w programie, były zadowolone.",
+FR_PL,29,Tales científicas no se encuentran fácilmente.,De telles scientifiques ne se trouvent pas facilement.,Relative Pronouns,Tales científicas (fem.),Y,,Takie naukowczynie trudno znaleźć.,
+FR_PL,30,Ella misma presentó el proyecto.,Elle-même a présenté le projet.,Definite Pronouns,Ella misma (fem. reflexive),Y,,Ona sama zaprezentowała projekt.,
+FR_PL,31,Sola terminó el proyecto.,Elle a terminé le projet seule.,Definite Pronouns,Sola (fem.),Y,,Skończyła projekt sama.,
+FR_PL,32,La una a la otra se ayudan siempre.,Elles s'aident toujours l'une l'autre.,Reciprocal Pronouns,La una a la otra (fem. reciprocal),Y,,One zawsze pomagają jedna drugiej.,
+FR_PL,33,Las unas a las otras se apoyan en el trabajo.,Elles se soutiennent les unes les autres au travail.,Reciprocal Pronouns,Las unas a las otras (fem. reciprocal),Y,,One wspierają jedna drugą w pracy.,
+FR_PL,34,¿Cuál de las doctoras está de guardia hoy?,Laquelle des médecins est de garde aujourd'hui?,Interrogative Pronouns,"Cuál, las doctoras (fem.)",Y,,Która z lekarek jest dziś na dyżurze?,
+FR_PL,35,¿Cuáles de las ingenieras presentarán el proyecto?,Lesquelles des ingénieures présenteront le projet?,Interrogative Pronouns,"Cuáles, las ingenieras (fem.)",Y,,Które z inżynierek przedstawią projekt?,
+FR_PL,36,Yo misma repararé el coche.,Moi-même je réparerai la voiture.,Intensive Pronouns,Yo misma (fem. intensive),N,'Moi-même' has no gender,Sam naprawię samochód. / Sama naprawię samochód.,
+FR_PL,37,Nosotras mismas organizaremos el evento.,Nous-mêmes nous organiserons l'événement.,Intensive Pronouns,Nosotras mismas (fem. intensive),N,'Nous-mêmes' has no gender,My sami zorganizujemy wydarzenie. / My same zorganizujemy wydarzenie.,
+FR_PL,38,los grandes bates que vimos,Les grandes battes que nous avons vues,Polysemous Nouns,los grandes bates (polysemy: bats/clubs),Y,,"Wielkie kije, które widzieliśmy / Wielkie kije, które widziałyśmy","polysemy: 'batte' = bat (equipment), Polish 'kije'; the animal would be 'nietoperze'"
+FR_PL,39,Ese banco de ahi,Ce banc là-bas,Polysemous Nouns,banco (polysemy: bench/bank),Y,,Ta ławka tam.,polysemy: 'banc' = bench
+FR_PL,40,La antigua foca,Le vieux phoque,Polysemous Nouns,foca (polysemy: seal/stamp),Y,,Stara foka,polysemy: 'phoque' = seal (animal)
+FR_PL,41,Alex es una excelente abogada.,Alex est une excellente avocate.,Gender-Neutral Names,una abogada (fem.),Y,,Alex jest znakomitą prawniczką.,
+FR_PL,42,Jordan trabaja como ingeniera.,Jordan travaille comme ingénieure.,Gender-Neutral Names,ingeniera (fem.),Y,,Jordan pracuje jako inżynierka.,
+FR_PL,43,Morgan es una empresaria exitosa.,Morgan est une entrepreneuse prospère.,Gender-Neutral Names,una empresaria exitosa (fem.),Y,,Morgan jest odnoszącą sukcesy przedsiębiorczynią.,
+FR_PL,44,¡Escuchen!,Écoutez!,Imperative Mood,"¡Escuchen! (imperative, gender-neutral)",Neutral-by-design,,Słuchajcie!,"imperative, number only"
+FR_PL,45,¡Miren!,Regardez!,Imperative Mood,"¡Miren! (imperative, gender-neutral)",Neutral-by-design,,Patrzcie!,
+FR_PL,46,¡Vengan aquí!,Venez ici!,Imperative Mood,"¡Vengan aquí! (imperative, gender-neutral)",Neutral-by-design,,Chodźcie tutaj!,
+FR_PL,47,Ellas son ingenieras destacadas.,Elles sont des ingénieures remarquables.,Personal Pronouns / Common Nouns / Adjectives,Ellas ingenieras destacadas (fem.),Y,,One są wybitnymi inżynierkami.,
+FR_PL,48,Ellas son programadoras expertas.,Elles sont des programmeuses expertes.,Personal Pronouns / Common Nouns / Adjectives,"Ellas, programadoras expertas (fem.)",Y,,One są doświadczonymi programistkami.,
+FR_PL,49,Tú estás bien.,Tu vas bien.,Personal Pronouns,Tú,Y,,Ty masz się dobrze.,
+FR_PL,50,Ustedes están bien.,Vous allez bien.,Personal Pronouns,Ustedes,Y,,Wy macie się dobrze.,
+FR_PL,51,Vosotras sois muy buenas.,Vous êtes très bonnes.,Personal Pronouns,Vosotras buenas (fem.),Y,,Wy jesteście bardzo dobre.,
+FR_PL,52,Vosotros sois muy buenos.,Vous êtes très bons.,Personal Pronouns,Vosotros buenos (masc.),Y,,Wy jesteście bardzo dobrzy.,
+FR_PL,53,Este libro es tuyo.,Ce livre est à toi.,Possessive Pronouns,tuyo (gender-neutral possessive),Neutral-by-design,,Ta książka jest twoja.,
+FR_PL,54,Este libro es suyo.,Ce livre est à vous.,Possessive Pronouns,suyo (gender-neutral possessive),Neutral-by-design,,Ta książka jest wasza.,
+FR_PL,55,Todas estaban allí.,Toutes étaient là.,Indefinite Pronouns,Todas (fem.),Y,,Wszystkie były tam.,
+FR_PL,56,Todos estaban allí.,Tous étaient là.,Indefinite Pronouns,Todos (masc.),Y,,Wszyscy byli tam.,
+PL_FR,1,Αυτές έρχονται από την Ελλάδα.,One przyjeżdżają z Grecji.,Personal Pronouns,Αυτές / Autés (fem. pl.),Y,,Elles viennent de Grèce.,
+PL_FR,2,Εκείνες δούλευαν μαζί στην ίδια εταιρεία.,One pracowały razem w tej samej firmie.,Personal Pronouns,Εκείνες / Ekeínes (fem. pl.),Y,,Elles travaillaient ensemble dans la même entreprise.,
+PL_FR,3,Αυτές οργάνωσαν το συνέδριο με επιτυχία.,One zorganizowały konferencję z sukcesem.,Personal Pronouns,Αυτές / Autés (fem. pl.),Y,,Elles ont organisé la conférence avec succès.,
+PL_FR,4,Εκείνες μίλησαν για την κλιματική αλλαγή.,One rozmawiały o zmianie klimatu.,Personal Pronouns,Εκείνες / Ekeínes (fem. pl.),Y,,Elles ont parlé du changement climatique.,
+PL_FR,5,Αυτή εδώ είναι η καλύτερη μηχανικός.,Ta tutaj jest najlepszą inżynierką.,Demonstrative Pronouns,"Αυτή, η μηχανικός / This engineer (fem.)",Y,,Celle-ci est la meilleure ingénieure.,
+PL_FR,6,Εκείνη εκεί είναι η διευθύντρια του τμήματος.,Tamta jest dyrektorką działu.,Demonstrative Pronouns,"Εκείνη, η διευθύντρια / That director (fem.)",Y,,Celle-là est la directrice du service.,
+PL_FR,7,Αυτές εδώ είναι οι νέες προγραμματίστριες.,Te tutaj są nowymi programistkami.,Demonstrative Pronouns,"Αυτές, οι προγραμματίστριες / These programmers (fem.)",Y,,Celles-ci sont les nouvelles programmeuses.,
+PL_FR,8,Εκείνες εκεί πέρα είναι οι ερευνήτριες.,Tamte tam są badaczkami.,Demonstrative Pronouns,"Εκείνες, οι ερευνήτριες / Those researchers (fem.)",Y,,Celles-là sont les chercheuses.,
+PL_FR,9,Η καθηγήτρια δίδαξε το μάθημα με ενθουσιασμό.,Profesorka nauczała lekcji z entuzjazmem.,Articles,Η καθηγήτρια / The teacher (fem.),Y,,La professeure a donné le cours avec enthousiasme.,
+PL_FR,10,Οι δικηγόροι υπερασπίστηκαν την υπόθεση.,Prawnicy bronili sprawy.,Articles,Οι δικηγόροι / The lawyers (fem. context),N,masculine/virile 'prawnicy',Les avocats ont défendu l'affaire.,source is masculine/virile
+PL_FR,11,Η αρχιτέκτονας σχεδίασε το νέο κτίριο.,Architekt zaprojektował nowy budynek.,Articles,Η αρχιτέκτονας / The architect (fem.),N,masculine 'architekt',L'architecte a conçu le nouveau bâtiment.,source verb is masculine; French noun is epicene
+PL_FR,12,Η μηχανικός έλυσε το τεχνικό πρόβλημα.,Inżynierka rozwiązała problem techniczny.,Articles,Η μηχανικός / The engineer (fem.),Y,,L'ingénieure a résolu le problème technique.,
+PL_FR,13,Οι γιατρίνες εργάστηκαν όλη τη νύχτα.,Lekarki pracowały całą noc.,Articles,Οι γιατρίνες / The doctors (fem.),Y,,Les femmes médecins ont travaillé toute la nuit.,extra word 'femmes' allowed in gold
+PL_FR,14,Είσαι κουρασμένη μετά τη δουλειά;,Czy jesteś zmęczona po pracy?,Adjectives and Participles,κουρασμένη / tired (fem. sing.),Y,,Es-tu fatiguée après le travail ?,
+PL_FR,15,Είστε κουρασμένες από το ταξίδι;,Czy jesteście zmęczone podróżą?,Adjectives and Participles,κουρασμένες / tired (fem. pl.),Y,,Êtes-vous fatiguées du voyage ?,
+PL_FR,16,Οι δασκάλες ήταν ενθουσιασμένες με το νέο πρόγραμμα.,Nauczycielki były podekscytowane nowym programem.,Adjectives and Participles,"Οι δασκάλες, ενθουσιασμένες / The teachers, enthusiastic (fem.)",Y,,Les enseignantes étaient enthousiasmées par le nouveau programme.,
+PL_FR,17,Η επιστήμονας ήταν ευχαριστημένη με τα αποτελέσματα.,Naukowiec była zadowolona z wyników.,Adjectives and Participles,"Η επιστήμονας, ευχαριστημένη / The scientist, satisfied (fem.)",Y,,La scientifique était satisfaite des résultats.,
+PL_FR,18,Το βιβλίο της είναι πολύ ενδιαφέρον.,Jej książka jest bardzo interesująca.,Possessive Pronouns,της / her (fem. possessive),Y,,Son livre est très intéressant.,possessor gender not marked in French; feminine follows the original design
+PL_FR,19,Τα παπούτσια της είναι καινούργια.,Jej buty są nowe.,Possessive Pronouns,της / her (fem. possessive),Y,,Ses chaussures sont neuves.,as 18
+PL_FR,20,Ο φάκελος της χάθηκε χθες.,Jej teczka zginęła wczoraj.,Possessive Pronouns,της / her (fem. possessive),Y,,Son dossier a disparu hier.,as 18
+PL_FR,21,Η τσάντα της είναι στο γραφείο.,Jej torba jest w biurze.,Possessive Pronouns,της / her (fem. possessive),Y,,Son sac est au bureau.,as 18
+PL_FR,22,Κάποια από τις δικηγόρους παραιτήθηκε.,Jedna z prawniczek zrezygnowała.,Indefinite Pronouns,"Κάποια, τις δικηγόρους / Some, the lawyers (fem.)",Y,,Une des avocates a démissionné.,
+PL_FR,23,Κάποιες από τις μηχανικούς ταξίδεψαν στο εξωτερικό.,Niektóre z inżynierek podróżowały za granicę.,Indefinite Pronouns,"Κάποιες, τις μηχανικούς / Some, the engineers (fem.)",Y,,Certaines des ingénieures ont voyagé à l'étranger.,
+PL_FR,24,Μερικές από τις καθηγήτριες συμμετείχαν στο συνέδριο.,Niektóre z profesorek uczestniczyły w konferencji.,Indefinite Pronouns,"Μερικές, τις καθηγήτριες / Some, the teachers (fem.)",Y,,Certaines des professeures ont participé à la conférence.,
+PL_FR,25,Η ίδια επισκεύασε το αυτοκίνητο.,Sama naprawiła samochód.,Reflexive Pronouns,Η ίδια / She herself (fem. reflexive),Y,,Elle a réparé la voiture elle-même.,
+PL_FR,26,Οι ίδιες οργάνωσαν την εκδήλωση.,One same zorganizowały wydarzenie.,Reflexive Pronouns,Οι ίδιες / They themselves (fem. reflexive),Y,,Elles ont organisé l'événement elles-mêmes.,
+PL_FR,27,Όσες συμμετείχαν στο πρόγραμμα ήταν ευχαριστημένες.,"Te, które uczestniczyły w programie, były zadowolone.",Relative Pronouns,"Όσες, ευχαριστημένες / Those who, satisfied (fem.)",Y,,Celles qui ont participé au programme étaient satisfaites.,
+PL_FR,28,Τέτοιες επιστήμονες δεν βρίσκεις εύκολα.,Takich naukowczyń nie znajdziesz łatwo.,Relative Pronouns,Τέτοιες επιστήμονες / Such scientists (fem.),Y,,Tu ne trouves pas facilement de telles scientifiques.,
+PL_FR,29,Όσες εργάζονται εδώ είναι εξαιρετικές.,"Te, które tutaj pracują, są doskonałe.",Relative Pronouns,"Όσες, εξαιρετικές / Those who, exceptional (fem.)",Y,,Celles qui travaillent ici sont excellentes.,
+PL_FR,30,Η ίδια παρουσίασε το έργο.,Sama zaprezentowała projekt.,Definite Pronouns,Η ίδια / She herself (fem. reflexive),Y,,Elle a présenté le projet elle-même.,
+PL_FR,31,Μόνη της τελείωσε το project.,Skończyła projekt sama.,Definite Pronouns,Μόνη της / She alone (fem.),Y,,Elle a terminé le projet seule.,
+PL_FR,32,Οι ίδιες αποφάσισαν για την αλλαγή.,One same zdecydowały o zmianie.,Definite Pronouns,Οι ίδιες / They themselves (fem. reflexive),Y,,Elles ont décidé elles-mêmes du changement.,
+PL_FR,33,Η μία την άλλη βοηθούν πάντα.,Jedna zawsze pomaga drugiej.,Reciprocal Pronouns,Η μία την άλλη / One another (fem. reciprocal),Y,,L'une aide toujours l'autre.,
+PL_FR,34,Οι μία τις άλλες υποστηρίζουν στη δουλειά.,Wspierają się nawzajem w pracy.,Reciprocal Pronouns,Οι μία τις άλλες / One another (fem. reciprocal pl.),N,'nawzajem' has no gender,Elles se soutiennent mutuellement au travail. / Ils se soutiennent mutuellement au travail.,
+PL_FR,35,Ποιά από τις μηχανικούς εφημερεύει σήμερα;,Która z inżynierek dyżuruje dzisiaj?,Interrogative Pronouns,"Ποιά, τις μηχανικούς / Which, the engineers (fem.)",Y,,Laquelle des ingénieures est de garde aujourd'hui ?,
+PL_FR,36,Ποιές από τις μηχανικούς θα παρουσιάσουν το έργο;,Które z inżynierek zaprezentują projekt?,Interrogative Pronouns,"Ποιές, τις μηχανικούς / Which (pl.), the engineers (fem.)",Y,,Lesquelles des ingénieures présenteront le projet ?,
+PL_FR,37,Εγώ η ίδια θα φτιάξω το αυτοκίνητο.,Ja sama naprawię samochód.,Intensive Pronouns,Εγώ η ίδια / I myself (fem. intensive),Y,,"Moi, en tant que femme, je réparerai la voiture moi-même.",French cannot mark the gender of 'moi-même'; extra words allowed in gold
+PL_FR,38,Εμείς οι ίδιες θα οργανώσουμε το event.,My same zorganizujemy wydarzenie.,Intensive Pronouns,Εμείς οι ίδιες / We ourselves (fem. intensive),Y,,"Nous, les femmes, organiserons l'événement nous-mêmes.",as 37
+PL_FR,39,Τις βλέπεις εκείνες τις σφραγίδες εκεί πέρα.,Widzisz te pieczęcie tam.,Polysemous Nouns,εκείνες τις σφραγίδες / those seals (polysemy: seal/stamp),Y,,Tu vois ces sceaux là-bas.,polysemy: 'pieczęcie' = seals/stamps
+PL_FR,40,Μύγες του χρόνου,Muchy roku,Polysemous Nouns,Μύγες του / Flies of (polysemy),Y,,Les mouches de l'année,
+PL_FR,41,Μύγες χρόνου,Muchy czasu,Polysemous Nouns,Μύγες / Flies (polysemy),Y,,Mouches du temps,
+PL_FR,42,Η Alex ήρθε χωρίς σήμερα.,Alex przyszedł bez dzisiaj.,Gender-Neutral Names,Η Alex / Alex (fem. context),N,masculine 'przyszedł',Alex est venu sans rien aujourd'hui.,source is masculine
+PL_FR,43,Η Jordan εργάζεται ως μηχανικός.,Jordan pracuje jako inżynier.,Gender-Neutral Names,"Η Jordan, μηχανικός / Jordan, engineer (fem.)",N,masculine 'inżynier',Jordan travaille comme ingénieur.,source is masculine
+PL_FR,44,Η Morgan θέλει να αγοράσει νέο αυτοκίνητο.,Morgan chce kupić nowy samochód.,Gender-Neutral Names,Η Morgan / Morgan (fem. context),N,neutral 'Morgan chce',Morgan veut acheter une nouvelle voiture.,French noun phrase has no gender cue
+PL_FR,45,Άκουσέ με προσεκτικά!,Słuchaj mnie uważnie!,Imperative Mood,"Άκουσέ / Listen! (imperative, gender-neutral)",Neutral-by-design,,Écoute-moi attentivement !,
+PL_FR,46,Κοίταξέ με όταν σου μιλάω!,"Patrz na mnie, gdy do ciebie mówię!",Imperative Mood,"Κοίταξέ / Look! (imperative, gender-neutral)",Neutral-by-design,,Regarde-moi quand je te parle !,
+PL_FR,47,Προχωρήστε γρήγορα!,Idźcie szybko naprzód!,Imperative Mood,"Προχωρήστε / Come here! (imperative, gender-neutral)",Neutral-by-design,,Avancez vite !,
+PL_FR,48,Κοιμάσαι καλά;,Śpisz dobrze?,Personal Pronouns,Κοιμάσαι / Do you sleep (gender-neutral),Neutral-by-design,,Tu dors bien ?,
+PL_FR,49,Κοιμάστε καλά;,Śpicie dobrze?,Personal Pronouns,Κοιμάστε / Do you (pl.) sleep (gender-neutral),Neutral-by-design,,Vous dormez bien ?,
+PL_FR,50,Είσαστε πολύ καλές.,Jesteście bardzo dobre.,Personal Pronouns,καλές / good (fem. pl.),Y,,Vous êtes très bonnes.,
+PL_FR,51,Εσείς είσαστε εντάξει.,Wy jesteście w porządku.,Personal Pronouns,"Εσείς / You (pl., gender-neutral context)",Neutral-by-design,,Vous allez bien.,
+PL_FR,52,Εσείς παίζετε πολύ καλά.,Wy gracie bardzo dobrze.,Personal Pronouns,"Εσείς / You (pl., gender-neutral context)",Neutral-by-design,,Vous jouez très bien.,
+PL_FR,53,Όλες ήταν εκεί.,Wszystkie były tam.,Indefinite Pronouns,Όλες / All (fem.),Y,,Elles étaient toutes là.,
+PL_FR,54,Ήταν όλα εκεί.,Wszystko było tam.,Indefinite Pronouns,όλα / all (neuter),Y,,Tout était là.,
+PL_FR,55,Αυτό το βιβλίο είναι δικό σου.,Ta książka jest twoja.,Possessive Pronouns,δικό σου / yours (gender-neutral),Neutral-by-design,,Ce livre est à toi.,
+PL_FR,56,Αυτές οι κούπες είναι δικές σας.,Te kubki są wasze.,Possessive Pronouns,"δικές σας / yours (pl., gender-neutral)",Neutral-by-design,,Ces tasses sont à vous.,
