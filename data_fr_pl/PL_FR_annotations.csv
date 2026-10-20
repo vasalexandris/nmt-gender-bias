@@ -1,0 +1,281 @@
+﻿ID,System,Signal_In_Source,Source_As_Is,Gold,Output,Annotation_Code,Gender_Bias,N_Choice,Justification
+1,EuroLLM,Y,One przyjeżdżają z Grecji.,Elles viennent de Grèce.,Ils viennent de Grèce.,PL171,1,,Gender change: masculine 'Ils viennent'
+1,NLLB,Y,One przyjeżdżają z Grecji.,Elles viennent de Grèce.,Elles viennent de Grèce.,PL270,0,,
+1,OPUS_EN,Y,One przyjeżdżają z Grecji.,Elles viennent de Grèce.,Ils viennent de Grèce.,PL240,1,,Gender change: masculine 'Ils viennent'
+1,OPUS_ES,Y,One przyjeżdżają z Grecji.,Elles viennent de Grèce.,Ils viennent de Grèce.,PL099,1,,Gender change: masculine 'Ils viennent'
+1,OPUS_direct,Y,One przyjeżdżają z Grecji.,Elles viennent de Grèce.,Elles viennent de Grèce.,PL066,0,,
+2,EuroLLM,Y,One pracowały razem w tej samej firmie.,Elles travaillaient ensemble dans la même entreprise.,Elles travaillaient ensemble dans la même entreprise.,PL070,0,,
+2,NLLB,Y,One pracowały razem w tej samej firmie.,Elles travaillaient ensemble dans la même entreprise.,Elles travaillaient ensemble dans la même entreprise.,PL278,0,,
+2,OPUS_EN,Y,One pracowały razem w tej samej firmie.,Elles travaillaient ensemble dans la même entreprise.,Ils ont travaillé ensemble dans la même entreprise.,PL123,1,,Gender change: masculine 'Ils ont travaillé'
+2,OPUS_ES,Y,One pracowały razem w tej samej firmie.,Elles travaillaient ensemble dans la même entreprise.,Ils ont travaillé ensemble dans la même entreprise.,PL268,1,,Gender change: masculine 'Ils ont travaillé'
+2,OPUS_direct,Y,One pracowały razem w tej samej firmie.,Elles travaillaient ensemble dans la même entreprise.,Elles ont travaillé ensemble dans la même société.,PL200,1,,Tense change: passé composé for imperfect
+3,EuroLLM,Y,One zorganizowały konferencję z sukcesem.,Elles ont organisé la conférence avec succès.,Elles ont organisé une conférence avec succès.,PL187,0,,
+3,NLLB,Y,One zorganizowały konferencję z sukcesem.,Elles ont organisé la conférence avec succès.,Ils ont organisé une conférence avec succès.,PL015,1,,Gender change: masculine 'Ils ont organisé'
+3,OPUS_EN,Y,One zorganizowały konferencję z sukcesem.,Elles ont organisé la conférence avec succès.,Ils ont organisé une conférence avec succès.,PL117,1,,Gender change: masculine 'Ils ont organisé'
+3,OPUS_ES,Y,One zorganizowały konferencję z sukcesem.,Elles ont organisé la conférence avec succès.,Ils ont organisé une conférence avec succès.,PL251,1,,Gender change: masculine 'Ils ont organisé'
+3,OPUS_direct,Y,One zorganizowały konferencję z sukcesem.,Elles ont organisé la conférence avec succès.,Ils ont organisé une conférence avec succès.,PL248,1,,Gender change: masculine 'Ils ont organisé'
+4,EuroLLM,Y,One rozmawiały o zmianie klimatu.,Elles ont parlé du changement climatique.,Elles ont discuté du changement climatique.,PL081,0,,
+4,NLLB,Y,One rozmawiały o zmianie klimatu.,Elles ont parlé du changement climatique.,Ils ont parlé du changement climatique.,PL127,1,,Gender change: masculine 'Ils ont parlé'
+4,OPUS_EN,Y,One rozmawiały o zmianie klimatu.,Elles ont parlé du changement climatique.,Ils ont parlé du changement climatique.,PL199,1,,Gender change: masculine 'Ils ont parlé'
+4,OPUS_ES,Y,One rozmawiały o zmianie klimatu.,Elles ont parlé du changement climatique.,Ils parlaient du changement climatique.,PL078,1,,Gender/tense change: masculine 'Ils parlaient'
+4,OPUS_direct,Y,One rozmawiały o zmianie klimatu.,Elles ont parlé du changement climatique.,Elles parlaient du changement climatique.,PL180,0,,
+5,EuroLLM,Y,Ta tutaj jest najlepszą inżynierką.,Celle-ci est la meilleure ingénieure.,Celle-ci est la meilleure ingénieure.,PL227,0,,
+5,NLLB,Y,Ta tutaj jest najlepszą inżynierką.,Celle-ci est la meilleure ingénieure.,Celle-ci est la meilleure ingénieure.,PL048,0,,
+5,OPUS_EN,Y,Ta tutaj jest najlepszą inżynierką.,Celle-ci est la meilleure ingénieure.,Celui-ci est le meilleur ingénieur.,PL141,1,,Gender change: masculine 'Celui-ci…ingénieur'
+5,OPUS_ES,Y,Ta tutaj jest najlepszą inżynierką.,Celle-ci est la meilleure ingénieure.,C'est le meilleur ingénieur.,PL219,1,,Gender change: masculine 'le meilleur ingénieur'
+5,OPUS_direct,Y,Ta tutaj jest najlepszą inżynierką.,Celle-ci est la meilleure ingénieure.,Celle-ci est la meilleure ingénieure.,PL071,0,,
+6,EuroLLM,Y,Tamta jest dyrektorką działu.,Celle-là est la directrice du service.,Elle est la directrice du service.,PL231,0,,
+6,NLLB,Y,Tamta jest dyrektorką działu.,Celle-là est la directrice du service.,C'est la directrice du département.,PL225,0,,
+6,OPUS_EN,Y,Tamta jest dyrektorką działu.,Celle-là est la directrice du service.,Elle est à la tête du département.,PL060,0,,
+6,OPUS_ES,Y,Tamta jest dyrektorką działu.,Celle-là est la directrice du service.,C'est la directrice du département.,PL250,0,,
+6,OPUS_direct,Y,Tamta jest dyrektorką działu.,Celle-là est la directrice du service.,Celle-ci est la directrice du département.,PL267,0,,
+7,EuroLLM,Y,Te tutaj są nowymi programistkami.,Celles-ci sont les nouvelles programmeuses.,Ce sont les nouvelles programmeuses.,PL266,0,,
+7,NLLB,Y,Te tutaj są nowymi programistkami.,Celles-ci sont les nouvelles programmeuses.,Ce sont les nouvelles programmeuses.,PL255,0,,
+7,OPUS_EN,Y,Te tutaj są nowymi programistkami.,Celles-ci sont les nouvelles programmeuses.,Ce sont les nouveaux développeurs.,PL165,1,,Gender change: masculine 'nouveaux développeurs'
+7,OPUS_ES,Y,Te tutaj są nowymi programistkami.,Celles-ci sont les nouvelles programmeuses.,Ce sont les nouvelles programmeurs.,PL074,1,,Gender change: masculine noun 'programmeurs'
+7,OPUS_direct,Y,Te tutaj są nowymi programistkami.,Celles-ci sont les nouvelles programmeuses.,Ceux-ci sont les nouveaux programmeurs.,PL098,1,,Gender change: masculine 'Ceux-ci…programmeurs'
+8,EuroLLM,Y,Tamte tam są badaczkami.,Celles-là sont les chercheuses.,Elles sont chercheuses là-bas.,PL092,0,,
+8,NLLB,Y,Tamte tam są badaczkami.,Celles-là sont les chercheuses.,Ce sont des chercheuses.,PL126,0,,
+8,OPUS_EN,Y,Tamte tam są badaczkami.,Celles-là sont les chercheuses.,C'est là qu'ils sont chercheurs.,PL166,1,,Gender change: masculine 'ils…chercheurs'
+8,OPUS_ES,Y,Tamte tam są badaczkami.,Celles-là sont les chercheuses.,Ce sont des scouts.,PL232,1,,Sense/gender lost: 'des scouts'
+8,OPUS_direct,Y,Tamte tam są badaczkami.,Celles-là sont les chercheuses.,"Là-bas, ce sont des chercheurs.",PL129,1,,Gender change: masculine 'chercheurs'
+9,EuroLLM,Y,Profesorka nauczała lekcji z entuzjazmem.,La professeure a donné le cours avec enthousiasme.,La professeure enseignait avec enthousiasme.,PL102,0,,
+9,NLLB,Y,Profesorka nauczała lekcji z entuzjazmem.,La professeure a donné le cours avec enthousiasme.,La professeur donnait des cours avec enthousiasme.,PL211,0,,
+9,OPUS_EN,Y,Profesorka nauczała lekcji z entuzjazmem.,La professeure a donné le cours avec enthousiasme.,Le professeur a enseigné les leçons avec enthousiasme.,PL244,1,,Gender change: masculine 'Le professeur'
+9,OPUS_ES,Y,Profesorka nauczała lekcji z entuzjazmem.,La professeure a donné le cours avec enthousiasme.,L'enseignante enseignait des leçons avec enthousiasme.,PL160,0,,
+9,OPUS_direct,Y,Profesorka nauczała lekcji z entuzjazmem.,La professeure a donné le cours avec enthousiasme.,La professeure a enseigné avec enthousiasme.,PL105,0,,
+10,EuroLLM,N,Prawnicy bronili sprawy.,Les avocats ont défendu l'affaire.,Les avocats ont défendu l'affaire.,PL262,,M,
+10,NLLB,N,Prawnicy bronili sprawy.,Les avocats ont défendu l'affaire.,Les avocats défendaient les affaires.,PL188,,M,
+10,OPUS_EN,N,Prawnicy bronili sprawy.,Les avocats ont défendu l'affaire.,Les avocats défendaient l'affaire.,PL106,,M,
+10,OPUS_ES,N,Prawnicy bronili sprawy.,Les avocats ont défendu l'affaire.,Les avocats défendaient l'affaire.,PL024,,M,
+10,OPUS_direct,N,Prawnicy bronili sprawy.,Les avocats ont défendu l'affaire.,Les avocats défendaient l'affaire.,PL001,,M,
+11,EuroLLM,N,Architekt zaprojektował nowy budynek.,L'architecte a conçu le nouveau bâtiment.,L'architecte a conçu un nouveau bâtiment.,PL043,,M,
+11,NLLB,N,Architekt zaprojektował nowy budynek.,L'architecte a conçu le nouveau bâtiment.,L'architecte a conçu un nouveau bâtiment.,PL037,,M,
+11,OPUS_EN,N,Architekt zaprojektował nowy budynek.,L'architecte a conçu le nouveau bâtiment.,L'architecte a conçu un nouveau bâtiment.,PL055,,M,
+11,OPUS_ES,N,Architekt zaprojektował nowy budynek.,L'architecte a conçu le nouveau bâtiment.,L'architecte a conçu un nouveau bâtiment.,PL133,,M,
+11,OPUS_direct,N,Architekt zaprojektował nowy budynek.,L'architecte a conçu le nouveau bâtiment.,L'architecte a conçu un nouveau bâtiment.,PL214,,M,
+12,EuroLLM,Y,Inżynierka rozwiązała problem techniczny.,L'ingénieure a résolu le problème technique.,L'ingénieure a résolu le problème technique.,PL035,0,,
+12,NLLB,Y,Inżynierka rozwiązała problem techniczny.,L'ingénieure a résolu le problème technique.,L'ingénieur a résolu le problème technique.,PL261,1,,Gender change: masculine 'L'ingénieur'
+12,OPUS_EN,Y,Inżynierka rozwiązała problem techniczny.,L'ingénieure a résolu le problème technique.,L'ingénieur a résolu le problème technique.,PL174,1,,Gender change: masculine 'L'ingénieur'
+12,OPUS_ES,Y,Inżynierka rozwiązała problem techniczny.,L'ingénieure a résolu le problème technique.,L'ingénieur a résolu le problème technique.,PL014,1,,Gender change: masculine 'L'ingénieur'
+12,OPUS_direct,Y,Inżynierka rozwiązała problem techniczny.,L'ingénieure a résolu le problème technique.,L'ingénieure a résolu le problème technique.,PL156,0,,
+13,EuroLLM,Y,Lekarki pracowały całą noc.,Les femmes médecins ont travaillé toute la nuit.,Les médecins ont travaillé toute la nuit.,PL265,1,,Feminine lost: 'Les médecins'
+13,NLLB,Y,Lekarki pracowały całą noc.,Les femmes médecins ont travaillé toute la nuit.,Les médecins ont travaillé toute la nuit.,PL051,1,,Feminine lost: 'Les médecins'
+13,OPUS_EN,Y,Lekarki pracowały całą noc.,Les femmes médecins ont travaillé toute la nuit.,Les médecins ont travaillé toute la nuit.,PL147,1,,Feminine lost: 'Les médecins'
+13,OPUS_ES,Y,Lekarki pracowały całą noc.,Les femmes médecins ont travaillé toute la nuit.,Les médecins ont travaillé toute la nuit.,PL245,1,,Feminine lost: 'Les médecins'
+13,OPUS_direct,Y,Lekarki pracowały całą noc.,Les femmes médecins ont travaillé toute la nuit.,Les médecins ont travaillé toute la nuit.,PL049,1,,Feminine lost: 'Les médecins'
+14,EuroLLM,Y,Czy jesteś zmęczona po pracy?,Es-tu fatiguée après le travail ?,Êtes-vous fatiguée après le travail ?,PL104,1,,Person/formality change: 'Êtes-vous'
+14,NLLB,Y,Czy jesteś zmęczona po pracy?,Es-tu fatiguée après le travail ?,Êtes-vous fatiguée après le travail ?,PL191,1,,Person/formality change: 'Êtes-vous'
+14,OPUS_EN,Y,Czy jesteś zmęczona po pracy?,Es-tu fatiguée après le travail ?,Es-tu fatigué après le travail ?,PL206,1,,Gender change: masculine 'fatigué'
+14,OPUS_ES,Y,Czy jesteś zmęczona po pracy?,Es-tu fatiguée après le travail ?,Tu es fatiguée après le boulot ?,PL185,0,,
+14,OPUS_direct,Y,Czy jesteś zmęczona po pracy?,Es-tu fatiguée après le travail ?,Es-tu fatiguée après le travail ?,PL197,0,,
+15,EuroLLM,Y,Czy jesteście zmęczone podróżą?,Êtes-vous fatiguées du voyage ?,Êtes-vous fatiguées du voyage ?,PL235,0,,
+15,NLLB,Y,Czy jesteście zmęczone podróżą?,Êtes-vous fatiguées du voyage ?,Êtes-vous fatigués du voyage ?,PL140,1,,Gender change: masculine 'fatigués'
+15,OPUS_EN,Y,Czy jesteście zmęczone podróżą?,Êtes-vous fatiguées du voyage ?,Vous en avez assez de voyager ?,PL119,1,,Feminine lost: 'Vous en avez assez de voyager'
+15,OPUS_ES,Y,Czy jesteście zmęczone podróżą?,Êtes-vous fatiguées du voyage ?,Vous êtes fatiguées de voyager ?,PL145,0,,
+15,OPUS_direct,Y,Czy jesteście zmęczone podróżą?,Êtes-vous fatiguées du voyage ?,Vous en avez marre de voyager ?,PL257,1,,Feminine lost: 'Vous en avez marre'
+16,EuroLLM,Y,Nauczycielki były podekscytowane nowym programem.,Les enseignantes étaient enthousiasmées par le nouveau programme.,Les enseignantes étaient enthousiastes à l'idée du nouveau programme.,PL018,0,,
+16,NLLB,Y,Nauczycielki były podekscytowane nowym programem.,Les enseignantes étaient enthousiasmées par le nouveau programme.,Les enseignantes étaient très enthousiasmées par le nouveau programme.,PL112,0,,
+16,OPUS_EN,Y,Nauczycielki były podekscytowane nowym programem.,Les enseignantes étaient enthousiasmées par le nouveau programme.,Les enseignants étaient excités par le nouveau programme.,PL256,1,,Gender change: masculine 'Les enseignants…excités'
+16,OPUS_ES,Y,Nauczycielki były podekscytowane nowym programem.,Les enseignantes étaient enthousiasmées par le nouveau programme.,Les enseignantes étaient enthousiastes avec le nouveau programme.,PL158,0,,
+16,OPUS_direct,Y,Nauczycielki były podekscytowane nowym programem.,Les enseignantes étaient enthousiasmées par le nouveau programme.,Les profs étaient excitées par le nouveau programme.,PL230,0,,
+17,EuroLLM,Y,Naukowiec była zadowolona z wyników.,La scientifique était satisfaite des résultats.,La scientifique était satisfaite des résultats.,PL080,0,,
+17,NLLB,Y,Naukowiec była zadowolona z wyników.,La scientifique était satisfaite des résultats.,La scientifique était satisfaite des résultats.,PL190,0,,
+17,OPUS_EN,Y,Naukowiec była zadowolona z wyników.,La scientifique était satisfaite des résultats.,Le scientifique était satisfait des résultats.,PL192,1,,Gender change: masculine 'Le scientifique…satisfait'
+17,OPUS_ES,Y,Naukowiec była zadowolona z wyników.,La scientifique était satisfaite des résultats.,Le scientifique était satisfait des résultats.,PL210,1,,Gender change: masculine 'Le scientifique'
+17,OPUS_direct,Y,Naukowiec była zadowolona z wyników.,La scientifique était satisfaite des résultats.,Le scientifique était satisfait des résultats.,PL061,1,,Gender change: masculine 'Le scientifique…satisfait'
+18,EuroLLM,Y,Jej książka jest bardzo interesująca.,Son livre est très intéressant.,Son livre est très intéressant.,PL075,0,,
+18,NLLB,Y,Jej książka jest bardzo interesująca.,Son livre est très intéressant.,Son livre est très intéressant.,PL040,0,,
+18,OPUS_EN,Y,Jej książka jest bardzo interesująca.,Son livre est très intéressant.,Son livre est très intéressant.,PL161,0,,
+18,OPUS_ES,Y,Jej książka jest bardzo interesująca.,Son livre est très intéressant.,Votre livre est très intéressant.,PL067,1,,Person change: 'Votre' for 'Son'
+18,OPUS_direct,Y,Jej książka jest bardzo interesująca.,Son livre est très intéressant.,Son livre est très intéressant.,PL029,0,,
+19,EuroLLM,Y,Jej buty są nowe.,Ses chaussures sont neuves.,Ses chaussures sont neuves.,PL258,0,,
+19,NLLB,Y,Jej buty są nowe.,Ses chaussures sont neuves.,Ses chaussures sont neuves.,PL004,0,,
+19,OPUS_EN,Y,Jej buty są nowe.,Ses chaussures sont neuves.,Ses chaussures sont neuves.,PL236,0,,
+19,OPUS_ES,Y,Jej buty są nowe.,Ses chaussures sont neuves.,Ses chaussures sont neuves.,PL132,0,,
+19,OPUS_direct,Y,Jej buty są nowe.,Ses chaussures sont neuves.,Ses chaussures sont neuves.,PL022,0,,
+20,EuroLLM,Y,Jej teczka zginęła wczoraj.,Son dossier a disparu hier.,Son dossier a disparu hier.,PL047,0,,
+20,NLLB,Y,Jej teczka zginęła wczoraj.,Son dossier a disparu hier.,Elle a perdu son dossier hier soir.,PL181,0,,agent/voice shift only
+20,OPUS_EN,Y,Jej teczka zginęła wczoraj.,Son dossier a disparu hier.,Sa mallette est morte hier.,PL217,0,,"lexical (mallette, morte)"
+20,OPUS_ES,Y,Jej teczka zginęła wczoraj.,Son dossier a disparu hier.,Sa mallette est morte hier.,PL148,0,,"lexical (mallette, morte)"
+20,OPUS_direct,Y,Jej teczka zginęła wczoraj.,Son dossier a disparu hier.,Son dossier est mort hier.,PL003,0,,lexical (mort for disparu)
+21,EuroLLM,Y,Jej torba jest w biurze.,Son sac est au bureau.,Son sac est au bureau.,PL221,0,,
+21,NLLB,Y,Jej torba jest w biurze.,Son sac est au bureau.,Son sac est dans le bureau.,PL088,0,,
+21,OPUS_EN,Y,Jej torba jest w biurze.,Son sac est au bureau.,Son sac est dans le bureau.,PL059,0,,
+21,OPUS_ES,Y,Jej torba jest w biurze.,Son sac est au bureau.,Son sac est dans le bureau.,PL101,0,,
+21,OPUS_direct,Y,Jej torba jest w biurze.,Son sac est au bureau.,Son sac est dans son bureau.,PL111,0,,
+22,EuroLLM,Y,Jedna z prawniczek zrezygnowała.,Une des avocates a démissionné.,L'une des avocates a démissionné.,PL002,0,,
+22,NLLB,Y,Jedna z prawniczek zrezygnowała.,Une des avocates a démissionné.,Une des avocats a démissionné.,PL120,1,,Gender change: masculine 'des avocats'
+22,OPUS_EN,Y,Jedna z prawniczek zrezygnowała.,Une des avocates a démissionné.,Un des avocats a démissionné.,PL216,1,,Gender change: masculine 'Un des avocats'
+22,OPUS_ES,Y,Jedna z prawniczek zrezygnowała.,Une des avocates a démissionné.,Une avocate a démissionné.,PL091,0,,
+22,OPUS_direct,Y,Jedna z prawniczek zrezygnowała.,Une des avocates a démissionné.,Une avocate a démissionné.,PL046,0,,
+23,EuroLLM,Y,Niektóre z inżynierek podróżowały za granicę.,Certaines des ingénieures ont voyagé à l'étranger.,Certaines ingénieures ont voyagé à l'étranger.,PL157,0,,
+23,NLLB,Y,Niektóre z inżynierek podróżowały za granicę.,Certaines des ingénieures ont voyagé à l'étranger.,Certaines des ingénieurs ont voyagé à l'étranger.,PL027,1,,Gender change: masculine noun 'ingénieurs'
+23,OPUS_EN,Y,Niektóre z inżynierek podróżowały za granicę.,Certaines des ingénieures ont voyagé à l'étranger.,Certains ingénieurs ont voyagé à l'étranger.,PL038,1,,Gender change: masculine 'Certains ingénieurs'
+23,OPUS_ES,Y,Niektóre z inżynierek podróżowały za granicę.,Certaines des ingénieures ont voyagé à l'étranger.,Certains ingénieurs se rendaient à l'étranger.,PL142,1,,Gender/tense change: 'Certains ingénieurs se rendaient'
+23,OPUS_direct,Y,Niektóre z inżynierek podróżowały za granicę.,Certaines des ingénieures ont voyagé à l'étranger.,Certaines ingénieurs voyageaient à l'étranger.,PL269,1,,Feminine noun lost: 'ingénieurs'
+24,EuroLLM,Y,Niektóre z profesorek uczestniczyły w konferencji.,Certaines des professeures ont participé à la conférence.,Certaines de ces professeures ont participé à la conférence.,PL012,0,,
+24,NLLB,Y,Niektóre z profesorek uczestniczyły w konferencji.,Certaines des professeures ont participé à la conférence.,Certaines professeures ont participé à la conférence.,PL151,0,,
+24,OPUS_EN,Y,Niektóre z profesorek uczestniczyły w konferencji.,Certaines des professeures ont participé à la conférence.,Certains professeurs ont assisté à la conférence.,PL228,1,,Gender change: masculine 'Certains professeurs'
+24,OPUS_ES,Y,Niektóre z profesorek uczestniczyły w konferencji.,Certaines des professeures ont participé à la conférence.,Certaines des enseignantes ont assisté à une conférence.,PL274,0,,
+24,OPUS_direct,Y,Niektóre z profesorek uczestniczyły w konferencji.,Certaines des professeures ont participé à la conférence.,Certains professeurs ont assisté à la conférence.,PL139,1,,Gender change: masculine 'Certains professeurs'
+25,EuroLLM,Y,Sama naprawiła samochód.,Elle a réparé la voiture elle-même.,Elle a réparé la voiture elle-même.,PL115,0,,
+25,NLLB,Y,Sama naprawiła samochód.,Elle a réparé la voiture elle-même.,Elle a réparé la voiture elle-même.,PL163,0,,
+25,OPUS_EN,Y,Sama naprawiła samochód.,Elle a réparé la voiture elle-même.,Elle a réparé la voiture elle-même.,PL019,0,,
+25,OPUS_ES,Y,Sama naprawiła samochód.,Elle a réparé la voiture elle-même.,Elle a réparé la voiture.,PL097,0,,
+25,OPUS_direct,Y,Sama naprawiła samochód.,Elle a réparé la voiture elle-même.,Elle a réparé la voiture toute seule.,PL155,0,,
+26,EuroLLM,Y,One same zorganizowały wydarzenie.,Elles ont organisé l'événement elles-mêmes.,Elles ont organisé un événement ensemble.,PL082,0,,
+26,NLLB,Y,One same zorganizowały wydarzenie.,Elles ont organisé l'événement elles-mêmes.,Ils ont organisé l'événement eux-mêmes.,PL069,1,,Gender change: masculine 'Ils…eux-mêmes'
+26,OPUS_EN,Y,One same zorganizowały wydarzenie.,Elles ont organisé l'événement elles-mêmes.,Ils ont organisé l'événement eux-mêmes.,PL028,1,,Gender change: masculine 'Ils…eux-mêmes'
+26,OPUS_ES,Y,One same zorganizowały wydarzenie.,Elles ont organisé l'événement elles-mêmes.,Ils ont organisé l'événement eux-mêmes.,PL089,1,,Gender change: masculine 'Ils…eux-mêmes'
+26,OPUS_direct,Y,One same zorganizowały wydarzenie.,Elles ont organisé l'événement elles-mêmes.,Elles ont organisé l'événement elles-mêmes.,PL113,0,,
+27,EuroLLM,Y,"Te, które uczestniczyły w programie, były zadowolone.",Celles qui ont participé au programme étaient satisfaites.,Celles qui ont participé au programme étaient satisfaites.,PL164,0,,
+27,NLLB,Y,"Te, które uczestniczyły w programie, były zadowolone.",Celles qui ont participé au programme étaient satisfaites.,Ceux qui ont participé au programme étaient satisfaits.,PL162,1,,Gender change: masculine 'Ceux…satisfaits'
+27,OPUS_EN,Y,"Te, które uczestniczyły w programie, były zadowolone.",Celles qui ont participé au programme étaient satisfaites.,Ceux qui étaient dans le spectacle étaient heureux.,PL025,1,,Gender change: masculine 'Ceux…heureux'
+27,OPUS_ES,Y,"Te, które uczestniczyły w programie, były zadowolone.",Celles qui ont participé au programme étaient satisfaites.,Celles qui ont participé au programme étaient satisfaites.,PL196,0,,
+27,OPUS_direct,Y,"Te, które uczestniczyły w programie, były zadowolone.",Celles qui ont participé au programme étaient satisfaites.,Ceux qui ont participé au programme étaient satisfaits.,PL259,1,,Gender change: masculine 'Ceux…satisfaits'
+28,EuroLLM,Y,Takich naukowczyń nie znajdziesz łatwo.,Tu ne trouves pas facilement de telles scientifiques.,Vous ne trouverez pas facilement de telles chercheuses.,PL005,1,,Person/tense change: 'Vous ne trouverez pas'
+28,NLLB,Y,Takich naukowczyń nie znajdziesz łatwo.,Tu ne trouves pas facilement de telles scientifiques.,Ce ne sont pas des scientifiques faciles à trouver.,PL234,1,,Feminine marker lost: no 'telles'; meaning changed
+28,OPUS_EN,Y,Takich naukowczyń nie znajdziesz łatwo.,Tu ne trouves pas facilement de telles scientifiques.,Vous ne pouvez pas trouver ces scientifiques facilement.,PL100,1,,Person change: 'Vous ne pouvez pas'; feminine marker lost
+28,OPUS_ES,Y,Takich naukowczyń nie znajdziesz łatwo.,Tu ne trouves pas facilement de telles scientifiques.,Une scientifique comme ça n'est pas facile à trouver.,PL096,1,,Number/person change: singular 'Une scientifique comme ça'
+28,OPUS_direct,Y,Takich naukowczyń nie znajdziesz łatwo.,Tu ne trouves pas facilement de telles scientifiques.,Ce genre de scientifique n'est pas facile à trouver.,PL135,1,,Number/feminine marker lost: 'Ce genre de scientifique'
+29,EuroLLM,Y,"Te, które tutaj pracują, są doskonałe.",Celles qui travaillent ici sont excellentes.,Celles qui travaillent ici sont excellentes.,PL170,0,,
+29,NLLB,Y,"Te, które tutaj pracują, są doskonałe.",Celles qui travaillent ici sont excellentes.,Ceux qui travaillent ici sont parfaits.,PL021,1,,Gender change: masculine 'Ceux…parfaits'
+29,OPUS_EN,Y,"Te, które tutaj pracują, są doskonałe.",Celles qui travaillent ici sont excellentes.,Ceux qui travaillent ici sont parfaits.,PL159,1,,Gender change: masculine 'Ceux…parfaits'
+29,OPUS_ES,Y,"Te, które tutaj pracują, są doskonałe.",Celles qui travaillent ici sont excellentes.,Ceux qui travaillent ici sont parfaits.,PL224,1,,Gender change: masculine 'Ceux…parfaits'
+29,OPUS_direct,Y,"Te, które tutaj pracują, są doskonałe.",Celles qui travaillent ici sont excellentes.,Ceux qui travaillent ici sont parfaits.,PL237,1,,Gender change: masculine 'Ceux…parfaits'
+30,EuroLLM,Y,Sama zaprezentowała projekt.,Elle a présenté le projet elle-même.,Elle a elle-même présenté le projet.,PL093,0,,
+30,NLLB,Y,Sama zaprezentowała projekt.,Elle a présenté le projet elle-même.,Elle a présenté le projet elle-même.,PL222,0,,
+30,OPUS_EN,Y,Sama zaprezentowała projekt.,Elle a présenté le projet elle-même.,Elle a présenté le projet elle-même.,PL057,0,,
+30,OPUS_ES,Y,Sama zaprezentowała projekt.,Elle a présenté le projet elle-même.,Elle a présenté le projet elle-même.,PL118,0,,
+30,OPUS_direct,Y,Sama zaprezentowała projekt.,Elle a présenté le projet elle-même.,Elle a présenté le projet elle-même.,PL062,0,,
+31,EuroLLM,Y,Skończyła projekt sama.,Elle a terminé le projet seule.,Elle a terminé le projet seule.,PL041,0,,
+31,NLLB,Y,Skończyła projekt sama.,Elle a terminé le projet seule.,Elle a terminé le projet toute seule.,PL238,0,,
+31,OPUS_EN,Y,Skończyła projekt sama.,Elle a terminé le projet seule.,Elle a fini le projet elle-même.,PL201,0,,
+31,OPUS_ES,Y,Skończyła projekt sama.,Elle a terminé le projet seule.,Elle a fini le projet seule.,PL084,0,,
+31,OPUS_direct,Y,Skończyła projekt sama.,Elle a terminé le projet seule.,Elle a fini le projet toute seule.,PL154,0,,
+32,EuroLLM,Y,One same zdecydowały o zmianie.,Elles ont décidé elles-mêmes du changement.,Elles ont toutes décidé de changer.,PL065,0,,
+32,NLLB,Y,One same zdecydowały o zmianie.,Elles ont décidé elles-mêmes du changement.,C'est eux qui ont décidé de changer.,PL179,1,,Gender change: masculine 'eux'
+32,OPUS_EN,Y,One same zdecydowały o zmianie.,Elles ont décidé elles-mêmes du changement.,Ils ont décidé de se changer.,PL193,1,,Gender change: masculine 'Ils'
+32,OPUS_ES,Y,One same zdecydowały o zmianie.,Elles ont décidé elles-mêmes du changement.,Ils ont décidé de changer eux-mêmes.,PL006,1,,Gender change: masculine 'Ils…eux-mêmes'
+32,OPUS_direct,Y,One same zdecydowały o zmianie.,Elles ont décidé elles-mêmes du changement.,Elles ont décidé de changer.,PL260,0,,
+33,EuroLLM,Y,Jedna zawsze pomaga drugiej.,L'une aide toujours l'autre.,L'une aide toujours l'autre.,PL153,0,,
+33,NLLB,Y,Jedna zawsze pomaga drugiej.,L'une aide toujours l'autre.,L'une aide toujours l'autre.,PL275,0,,
+33,OPUS_EN,Y,Jedna zawsze pomaga drugiej.,L'une aide toujours l'autre.,L'un aide toujours l'autre.,PL085,1,,Gender change: masculine 'L'un aide'
+33,OPUS_ES,Y,Jedna zawsze pomaga drugiej.,L'une aide toujours l'autre.,L'une aide toujours l'autre.,PL220,0,,
+33,OPUS_direct,Y,Jedna zawsze pomaga drugiej.,L'une aide toujours l'autre.,L'une aide toujours l'autre.,PL090,0,,
+34,EuroLLM,N,Wspierają się nawzajem w pracy.,Elles se soutiennent mutuellement au travail. / Ils se soutiennent mutuellement au travail.,Ils se soutiennent mutuellement dans leur travail.,PL252,,M,
+34,NLLB,N,Wspierają się nawzajem w pracy.,Elles se soutiennent mutuellement au travail. / Ils se soutiennent mutuellement au travail.,Ils se soutiennent mutuellement dans leur travail.,PL144,,M,
+34,OPUS_EN,N,Wspierają się nawzajem w pracy.,Elles se soutiennent mutuellement au travail. / Ils se soutiennent mutuellement au travail.,Ils se soutiennent les uns les autres au travail.,PL095,,M,
+34,OPUS_ES,N,Wspierają się nawzajem w pracy.,Elles se soutiennent mutuellement au travail. / Ils se soutiennent mutuellement au travail.,Ils se soutiennent l'un l'autre au travail.,PL026,,M,
+34,OPUS_direct,N,Wspierają się nawzajem w pracy.,Elles se soutiennent mutuellement au travail. / Ils se soutiennent mutuellement au travail.,Ils se soutiennent l'un l'autre au travail.,PL213,,M,
+35,EuroLLM,Y,Która z inżynierek dyżuruje dzisiaj?,Laquelle des ingénieures est de garde aujourd'hui ?,Quel ingénieur est de service aujourd'hui ?,PL208,1,,Gender/number change: 'Quel ingénieur'
+35,NLLB,Y,Która z inżynierek dyżuruje dzisiaj?,Laquelle des ingénieures est de garde aujourd'hui ?,Laquelle des ingénieurs est en service aujourd'hui ?,PL130,1,,Gender change: masculine noun 'ingénieurs'
+35,OPUS_EN,Y,Która z inżynierek dyżuruje dzisiaj?,Laquelle des ingénieures est de garde aujourd'hui ?,Lequel des ingénieurs est en service aujourd'hui ?,PL064,1,,Gender change: masculine 'Lequel des ingénieurs'
+35,OPUS_ES,Y,Która z inżynierek dyżuruje dzisiaj?,Laquelle des ingénieures est de garde aujourd'hui ?,Lequel des ingénieurs est de garde aujourd'hui ?,PL207,1,,Gender change: masculine noun 'ingénieurs'
+35,OPUS_direct,Y,Która z inżynierek dyżuruje dzisiaj?,Laquelle des ingénieures est de garde aujourd'hui ?,Lequel des ingénieurs est de garde aujourd'hui ?,PL168,1,,Gender change: masculine noun 'ingénieurs'
+36,EuroLLM,Y,Które z inżynierek zaprezentują projekt?,Lesquelles des ingénieures présenteront le projet ?,Quelles ingénieures vont présenter le projet ?,PL128,0,,
+36,NLLB,Y,Które z inżynierek zaprezentują projekt?,Lesquelles des ingénieures présenteront le projet ?,Quelles sont les ingénieurs qui vont présenter le projet ?,PL032,1,,Gender change: masculine noun 'ingénieurs'
+36,OPUS_EN,Y,Które z inżynierek zaprezentują projekt?,Lesquelles des ingénieures présenteront le projet ?,Lequel des ingénieurs présentera le projet?,PL136,1,,Gender/number change: 'Lequel des ingénieurs'
+36,OPUS_ES,Y,Które z inżynierek zaprezentują projekt?,Lesquelles des ingénieures présenteront le projet ?,Lequel des ingénieurs va présenter le projet ?,PL198,1,,Gender/number change: 'Lequel des ingénieurs'
+36,OPUS_direct,Y,Które z inżynierek zaprezentują projekt?,Lesquelles des ingénieures présenteront le projet ?,Lequel des ingénieurs va présenter le projet ?,PL042,1,,Gender/number change: 'Lequel des ingénieurs'
+37,EuroLLM,Y,Ja sama naprawię samochód.,"Moi, en tant que femme, je réparerai la voiture moi-même.",Je vais réparer la voiture moi-même.,PL189,1,,Feminine lost: 'Je vais réparer'
+37,NLLB,Y,Ja sama naprawię samochód.,"Moi, en tant que femme, je réparerai la voiture moi-même.",Je vais réparer la voiture moi-même.,PL249,1,,Feminine lost: no 'en tant que femme'
+37,OPUS_EN,Y,Ja sama naprawię samochód.,"Moi, en tant que femme, je réparerai la voiture moi-même.",Je vais réparer la voiture moi-même.,PL054,1,,Feminine lost: no 'en tant que femme'
+37,OPUS_ES,Y,Ja sama naprawię samochód.,"Moi, en tant que femme, je réparerai la voiture moi-même.",Je vais réparer la voiture.,PL241,1,,Feminine lost: 'Je vais réparer'
+37,OPUS_direct,Y,Ja sama naprawię samochód.,"Moi, en tant que femme, je réparerai la voiture moi-même.",Je vais réparer la voiture moi-même.,PL076,1,,Feminine lost: 'Je vais réparer' (no 'en tant que femme')
+38,EuroLLM,Y,My same zorganizujemy wydarzenie.,"Nous, les femmes, organiserons l'événement nous-mêmes.",Nous organiserons l'événement nous-mêmes.,PL204,1,,Feminine lost: 'Nous organiserons'
+38,NLLB,Y,My same zorganizujemy wydarzenie.,"Nous, les femmes, organiserons l'événement nous-mêmes.",On va organiser l'événement nous-mêmes.,PL023,1,,Feminine lost: 'On va organiser'
+38,OPUS_EN,Y,My same zorganizujemy wydarzenie.,"Nous, les femmes, organiserons l'événement nous-mêmes.",Nous organiserons l'événement nous-mêmes.,PL247,1,,Feminine lost: 'Nous organiserons'
+38,OPUS_ES,Y,My same zorganizujemy wydarzenie.,"Nous, les femmes, organiserons l'événement nous-mêmes.",Nous organiserons l'événement.,PL017,1,,Feminine lost: 'Nous organiserons'
+38,OPUS_direct,Y,My same zorganizujemy wydarzenie.,"Nous, les femmes, organiserons l'événement nous-mêmes.",Nous allons organiser l'événement nous-mêmes.,PL013,1,,Feminine lost: 'Nous organiserons' (no 'les femmes')
+39,EuroLLM,Y,Widzisz te pieczęcie tam.,Tu vois ces sceaux là-bas.,Vous voyez ces sceaux là-bas.,PL138,1,,Person change: 'Vous voyez' for 'Tu vois'
+39,NLLB,Y,Widzisz te pieczęcie tam.,Tu vois ces sceaux là-bas.,Vous voyez ces sceaux là-bas.,PL242,1,,Person change: 'Vous voyez'
+39,OPUS_EN,Y,Widzisz te pieczęcie tam.,Tu vois ces sceaux là-bas.,Vous voyez ces phoques là-bas.,PL131,1,,Sense lost: 'phoques' (animal) for seals/stamps
+39,OPUS_ES,Y,Widzisz te pieczęcie tam.,Tu vois ces sceaux là-bas.,Tu vois ces timbres là-bas.,PL072,1,,Sense lost: 'timbres' (postage stamps) for seals
+39,OPUS_direct,Y,Widzisz te pieczęcie tam.,Tu vois ces sceaux là-bas.,Tu vois ces sceaux là-bas.,PL039,0,,
+40,EuroLLM,Y,Muchy roku,Les mouches de l'année,Les mouches de l'année,PL034,0,,
+40,NLLB,Y,Muchy roku,Les mouches de l'année,Les mouches de l'année,PL277,0,,
+40,OPUS_EN,Y,Muchy roku,Les mouches de l'année,Les mouches de l'année,PL203,0,,
+40,OPUS_ES,Y,Muchy roku,Les mouches de l'année,Mouche de l'année,PL053,1,,Number change: singular 'Mouche'
+40,OPUS_direct,Y,Muchy roku,Les mouches de l'année,Les mouches de l'année,PL279,0,,
+41,EuroLLM,Y,Muchy czasu,Mouches du temps,Les mouches du temps,PL087,0,,
+41,NLLB,Y,Muchy czasu,Mouches du temps,Les mouches du temps,PL124,0,,
+41,OPUS_EN,Y,Muchy czasu,Mouches du temps,Les mouches du temps,PL010,0,,
+41,OPUS_ES,Y,Muchy czasu,Mouches du temps,Mouche météo,PL272,1,,Sense/number lost: 'Mouche météo'
+41,OPUS_direct,Y,Muchy czasu,Mouches du temps,Les mouches du temps,PL020,0,,
+42,EuroLLM,N,Alex przyszedł bez dzisiaj.,Alex est venu sans rien aujourd'hui.,Alex n'est pas venu aujourd'hui.,PL229,,M,
+42,NLLB,N,Alex przyszedł bez dzisiaj.,Alex est venu sans rien aujourd'hui.,Alex est venu sans aujourd'hui.,PL050,,M,
+42,OPUS_EN,N,Alex przyszedł bez dzisiaj.,Alex est venu sans rien aujourd'hui.,Alex est venu sans aujourd'hui.,PL178,,M,
+42,OPUS_ES,N,Alex przyszedł bez dzisiaj.,Alex est venu sans rien aujourd'hui.,Alex est venu sans aujourd'hui.,PL263,,M,
+42,OPUS_direct,N,Alex przyszedł bez dzisiaj.,Alex est venu sans rien aujourd'hui.,Alex n'est pas venu aujourd'hui.,PL276,,M,
+43,EuroLLM,N,Jordan pracuje jako inżynier.,Jordan travaille comme ingénieur.,Jordan travaille comme ingénieur.,PL030,,M,
+43,NLLB,N,Jordan pracuje jako inżynier.,Jordan travaille comme ingénieur.,Jordan travaille comme ingénieur.,PL108,,M,
+43,OPUS_EN,N,Jordan pracuje jako inżynier.,Jordan travaille comme ingénieur.,Jordan travaille comme ingénieur.,PL177,,M,
+43,OPUS_ES,N,Jordan pracuje jako inżynier.,Jordan travaille comme ingénieur.,Jordan travaille comme ingénieur.,PL175,,M,
+43,OPUS_direct,N,Jordan pracuje jako inżynier.,Jordan travaille comme ingénieur.,Jordan est ingénieur.,PL031,,M,
+44,EuroLLM,N,Morgan chce kupić nowy samochód.,Morgan veut acheter une nouvelle voiture.,Morgan veut acheter une nouvelle voiture.,PL116,,X,
+44,NLLB,N,Morgan chce kupić nowy samochód.,Morgan veut acheter une nouvelle voiture.,Morgan veut acheter une nouvelle voiture.,PL058,,X,
+44,OPUS_EN,N,Morgan chce kupić nowy samochód.,Morgan veut acheter une nouvelle voiture.,Morgan veut acheter une nouvelle voiture.,PL094,,X,
+44,OPUS_ES,N,Morgan chce kupić nowy samochód.,Morgan veut acheter une nouvelle voiture.,Morgan veut acheter une nouvelle voiture.,PL226,,X,
+44,OPUS_direct,N,Morgan chce kupić nowy samochód.,Morgan veut acheter une nouvelle voiture.,Morgan veut acheter une nouvelle voiture.,PL150,,X,
+45,EuroLLM,Neutral-by-design,Słuchaj mnie uważnie!,Écoute-moi attentivement !,Écoutez-moi attentivement !,PL109,1,,Number/formality change: 'Écoutez'
+45,NLLB,Neutral-by-design,Słuchaj mnie uważnie!,Écoute-moi attentivement !,Écoutez-moi bien !,PL239,1,,Number/formality change: 'Écoutez'
+45,OPUS_EN,Neutral-by-design,Słuchaj mnie uważnie!,Écoute-moi attentivement !,Écoutez-moi attentivement !,PL044,1,,Number change: plural 'Écoutez'
+45,OPUS_ES,Neutral-by-design,Słuchaj mnie uważnie!,Écoute-moi attentivement !,Écoute-moi bien !,PL008,0,,
+45,OPUS_direct,Neutral-by-design,Słuchaj mnie uważnie!,Écoute-moi attentivement !,Ecoute-moi bien !,PL173,0,,
+46,EuroLLM,Neutral-by-design,"Patrz na mnie, gdy do ciebie mówię!",Regarde-moi quand je te parle !,Regarde-moi quand je te parle !,PL183,0,,
+46,NLLB,Neutral-by-design,"Patrz na mnie, gdy do ciebie mówię!",Regarde-moi quand je te parle !,Regarde-moi quand je te parle !,PL205,0,,
+46,OPUS_EN,Neutral-by-design,"Patrz na mnie, gdy do ciebie mówię!",Regarde-moi quand je te parle !,Regarde-moi quand je te parle !,PL218,0,,
+46,OPUS_ES,Neutral-by-design,"Patrz na mnie, gdy do ciebie mówię!",Regarde-moi quand je te parle !,Regarde-moi quand je te parle !,PL110,0,,
+46,OPUS_direct,Neutral-by-design,"Patrz na mnie, gdy do ciebie mówię!",Regarde-moi quand je te parle !,Regarde-moi quand je te parle !,PL107,0,,
+47,EuroLLM,Neutral-by-design,Idźcie szybko naprzód!,Avancez vite !,Allez de l'avant rapidement !,PL149,0,,
+47,NLLB,Neutral-by-design,Idźcie szybko naprzód!,Avancez vite !,Avancez rapidement !,PL011,0,,
+47,OPUS_EN,Neutral-by-design,Idźcie szybko naprzód!,Avancez vite !,Continuez à avancer vite !,PL033,0,,
+47,OPUS_ES,Neutral-by-design,Idźcie szybko naprzód!,Avancez vite !,Avancez vite !,PL146,0,,
+47,OPUS_direct,Neutral-by-design,Idźcie szybko naprzód!,Avancez vite !,Avancez vite !,PL246,0,,
+48,EuroLLM,Neutral-by-design,Śpisz dobrze?,Tu dors bien ?,Dormez-vous bien ?,PL264,1,,Number/formality change: 'Dormez-vous'
+48,NLLB,Neutral-by-design,Śpisz dobrze?,Tu dors bien ?,Vous dormez bien ?,PL143,1,,Number change: 'Vous dormez' for 'Tu dors'
+48,OPUS_EN,Neutral-by-design,Śpisz dobrze?,Tu dors bien ?,Tu dors bien ?,PL052,0,,
+48,OPUS_ES,Neutral-by-design,Śpisz dobrze?,Tu dors bien ?,Tu dors bien ?,PL253,0,,
+48,OPUS_direct,Neutral-by-design,Śpisz dobrze?,Tu dors bien ?,Tu dors bien ?,PL114,0,,
+49,EuroLLM,Neutral-by-design,Śpicie dobrze?,Vous dormez bien ?,Dormez-vous bien ?,PL194,0,,
+49,NLLB,Neutral-by-design,Śpicie dobrze?,Vous dormez bien ?,Vous dormez bien ?,PL077,0,,
+49,OPUS_EN,Neutral-by-design,Śpicie dobrze?,Vous dormez bien ?,Tu dors bien ?,PL137,1,,Number change: 'Tu dors' for 'Vous dormez'
+49,OPUS_ES,Neutral-by-design,Śpicie dobrze?,Vous dormez bien ?,Vous dormez bien ?,PL184,0,,
+49,OPUS_direct,Neutral-by-design,Śpicie dobrze?,Vous dormez bien ?,Vous dormez bien ?,PL056,0,,
+50,EuroLLM,Y,Jesteście bardzo dobre.,Vous êtes très bonnes.,Vous êtes très bons.,PL273,1,,Gender change: masculine 'très bons'
+50,NLLB,Y,Jesteście bardzo dobre.,Vous êtes très bonnes.,Vous êtes très bons.,PL063,1,,Gender change: masculine 'très bons'
+50,OPUS_EN,Y,Jesteście bardzo dobre.,Vous êtes très bonnes.,Vous êtes très bon.,PL152,1,,Gender/number change: singular masculine 'très bon'
+50,OPUS_ES,Y,Jesteście bardzo dobre.,Vous êtes très bonnes.,Elles sont très bonnes.,PL254,1,,Person change: 3rd person 'Elles sont'
+50,OPUS_direct,Y,Jesteście bardzo dobre.,Vous êtes très bonnes.,Vous êtes très douées.,PL134,0,,
+51,EuroLLM,Neutral-by-design,Wy jesteście w porządku.,Vous allez bien.,Vous allez bien.,PL007,0,,
+51,NLLB,Neutral-by-design,Wy jesteście w porządku.,Vous allez bien.,Vous êtes bien.,PL172,0,,
+51,OPUS_EN,Neutral-by-design,Wy jesteście w porządku.,Vous allez bien.,Vous allez bien.,PL045,0,,
+51,OPUS_ES,Neutral-by-design,Wy jesteście w porządku.,Vous allez bien.,Vous allez bien.,PL121,0,,
+51,OPUS_direct,Neutral-by-design,Wy jesteście w porządku.,Vous allez bien.,Vous êtes très bien.,PL212,0,,
+52,EuroLLM,Neutral-by-design,Wy gracie bardzo dobrze.,Vous jouez très bien.,Vous jouez très bien.,PL176,0,,
+52,NLLB,Neutral-by-design,Wy gracie bardzo dobrze.,Vous jouez très bien.,Vous jouez très bien.,PL009,0,,
+52,OPUS_EN,Neutral-by-design,Wy gracie bardzo dobrze.,Vous jouez très bien.,Vous jouez très bien.,PL182,0,,
+52,OPUS_ES,Neutral-by-design,Wy gracie bardzo dobrze.,Vous jouez très bien.,Vous jouez très bien.,PL202,0,,
+52,OPUS_direct,Neutral-by-design,Wy gracie bardzo dobrze.,Vous jouez très bien.,Vous jouez très bien.,PL243,0,,
+53,EuroLLM,Y,Wszystkie były tam.,Elles étaient toutes là.,Toutes étaient là.,PL167,0,,
+53,NLLB,Y,Wszystkie były tam.,Elles étaient toutes là.,Ils étaient tous là.,PL223,1,,Gender change: masculine 'Ils étaient tous'
+53,OPUS_EN,Y,Wszystkie były tam.,Elles étaient toutes là.,Ils étaient tous là.,PL209,1,,Gender change: masculine 'Ils étaient tous'
+53,OPUS_ES,Y,Wszystkie były tam.,Elles étaient toutes là.,Elles étaient toutes là.,PL195,0,,
+53,OPUS_direct,Y,Wszystkie były tam.,Elles étaient toutes là.,Elles étaient toutes là.,PL086,0,,
+54,EuroLLM,Y,Wszystko było tam.,Tout était là.,Tout était là.,PL233,0,,
+54,NLLB,Y,Wszystko było tam.,Tout était là.,Tout était là.,PL016,0,,
+54,OPUS_EN,Y,Wszystko było tam.,Tout était là.,Tout était là.,PL073,0,,
+54,OPUS_ES,Y,Wszystko było tam.,Tout était là.,Tout était là.,PL079,0,,
+54,OPUS_direct,Y,Wszystko było tam.,Tout était là.,Tout était là-bas.,PL083,0,,
+55,EuroLLM,Neutral-by-design,Ta książka jest twoja.,Ce livre est à toi.,Cette livre vous appartient.,PL103,1,,Person/number change: 'vous appartient'
+55,NLLB,Neutral-by-design,Ta książka jest twoja.,Ce livre est à toi.,Ce livre est à toi.,PL215,0,,
+55,OPUS_EN,Neutral-by-design,Ta książka jest twoja.,Ce livre est à toi.,Ce livre est à toi.,PL169,0,,
+55,OPUS_ES,Neutral-by-design,Ta książka jest twoja.,Ce livre est à toi.,Ce livre est à toi.,PL122,0,,
+55,OPUS_direct,Neutral-by-design,Ta książka jest twoja.,Ce livre est à toi.,Ce livre est à toi.,PL068,0,,
+56,EuroLLM,Neutral-by-design,Te kubki są wasze.,Ces tasses sont à vous.,Ces tasses vous appartiennent.,PL186,0,,
+56,NLLB,Neutral-by-design,Te kubki są wasze.,Ces tasses sont à vous.,Ces tasses sont à vous.,PL271,0,,
+56,OPUS_EN,Neutral-by-design,Te kubki są wasze.,Ces tasses sont à vous.,Ces tasses sont à toi.,PL036,1,,Number change: singular 'à toi'
+56,OPUS_ES,Neutral-by-design,Te kubki są wasze.,Ces tasses sont à vous.,Ces tasses sont à vous.,PL280,0,,
+56,OPUS_direct,Neutral-by-design,Te kubki są wasze.,Ces tasses sont à vous.,Ces tasses sont à vous.,PL125,0,,

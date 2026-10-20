@@ -1,0 +1,281 @@
+﻿ID,System,Signal_In_Source,Source_As_Is,Gold,Output,Annotation_Code,Gender_Bias,N_Choice,Justification
+1,EuroLLM,N,Nous avons terminé nos études.,Skończyliśmy nasze studia. / Skończyłyśmy nasze studia.,Zakończyliśmy studia.,FR211,,M,
+1,NLLB,N,Nous avons terminé nos études.,Skończyliśmy nasze studia. / Skończyłyśmy nasze studia.,Skończyliśmy studia.,FR135,,M,
+1,OPUS_EN,N,Nous avons terminé nos études.,Skończyliśmy nasze studia. / Skończyłyśmy nasze studia.,Skończyliśmy studia.,FR036,,M,
+1,OPUS_ES,N,Nous avons terminé nos études.,Skończyliśmy nasze studia. / Skończyłyśmy nasze studia.,Skończyliśmy nasze studia.,FR184,,M,
+1,OPUS_direct,N,Nous avons terminé nos études.,Skończyliśmy nasze studia. / Skończyłyśmy nasze studia.,Skończyliśmy studia.,FR161,,M,
+2,EuroLLM,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowały usta i paznokcie oraz założyły spódniczki.,FR139,0,,
+2,NLLB,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowały usta i paznokcie i założyły spódnice.,FR017,0,,
+2,OPUS_EN,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowali usta i paznokcie i założyli spódnice.,FR113,1,,Gender change: virile 'Pomalowali'
+2,OPUS_ES,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowali jej usta i paznokcie i założyli spódnice.,FR061,1,,Gender change: virile 'Pomalowali' (and 'jej' added)
+2,OPUS_direct,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowały usta i paznokcie i założyły spódnice.,FR110,0,,
+3,EuroLLM,Y,Elles voyageront ensemble en France.,One pojadą razem do Francji.,Będą razem podróżować po Francji.,FR220,1,,Feminine lost: 'Będą…podróżować'
+3,NLLB,Y,Elles voyageront ensemble en France.,One pojadą razem do Francji.,Będą razem podróżować do Francji.,FR062,1,,Feminine lost: 'Będą…podróżować'
+3,OPUS_EN,Y,Elles voyageront ensemble en France.,One pojadą razem do Francji.,Będą podróżować razem we Francji.,FR093,1,,Feminine lost: 'Będą…podróżować'
+3,OPUS_ES,Y,Elles voyageront ensemble en France.,One pojadą razem do Francji.,Razem pojedziecie do Francji.,FR050,1,,Person change: 'pojedziecie' (2nd person); feminine lost
+3,OPUS_direct,Y,Elles voyageront ensemble en France.,One pojadą razem do Francji.,Będą podróżować razem do Francji.,FR233,1,,Feminine lost: 'Będą podróżować'
+4,EuroLLM,Y,Elles ont défendu leur projet avec passion.,One broniły swojego projektu z pasją.,Z pasją broniły swojego projektu.,FR272,0,,
+4,NLLB,Y,Elles ont défendu leur projet avec passion.,One broniły swojego projektu z pasją.,Z pasją broniły swojego projektu.,FR011,0,,
+4,OPUS_EN,Y,Elles ont défendu leur projet avec passion.,One broniły swojego projektu z pasją.,Bronili swego projektu pasją.,FR046,1,,Gender change: virile 'Bronili'
+4,OPUS_ES,Y,Elles ont défendu leur projet avec passion.,One broniły swojego projektu z pasją.,Broniły swojego projektu z pasją.,FR260,0,,
+4,OPUS_direct,Y,Elles ont défendu leur projet avec passion.,One broniły swojego projektu z pasją.,Broniły swojego projektu z pasją.,FR010,0,,
+5,EuroLLM,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Zdecydowały się na założenie własnej firmy.,FR143,0,,
+5,NLLB,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Postanowiły założyć własną firmę.,FR092,0,,
+5,OPUS_EN,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Zdecydowali się założyć własny interes.,FR243,1,,Gender change: virile 'Zdecydowali'
+5,OPUS_ES,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Zdecydowali się założyć własną firmę.,FR218,1,,Gender change: virile 'Zdecydowali'
+5,OPUS_direct,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Zdecydowały się założyć własną firmę.,FR044,0,,
+6,EuroLLM,Y,Elles ont obtenu leur diplôme avec mention.,One ukończyły studia z wyróżnieniem.,Otrzymały dyplomy z wyróżnieniem.,FR101,0,,
+6,NLLB,Y,Elles ont obtenu leur diplôme avec mention.,One ukończyły studia z wyróżnieniem.,Ukończyły studia z wyróżnieniem.,FR261,0,,
+6,OPUS_EN,Y,Elles ont obtenu leur diplôme avec mention.,One ukończyły studia z wyróżnieniem.,Ukończyli z honorami.,FR144,1,,Gender change: virile 'Ukończyli'
+6,OPUS_ES,Y,Elles ont obtenu leur diplôme avec mention.,One ukończyły studia z wyróżnieniem.,Skończyli studia z honorami.,FR171,1,,Gender change: virile 'Skończyli'
+6,OPUS_direct,Y,Elles ont obtenu leur diplôme avec mention.,One ukończyły studia z wyróżnieniem.,Ukończyły szkołę z wyróżnieniem.,FR108,0,,
+7,EuroLLM,Y,Elles ont signé le contrat hier.,One podpisały umowę wczoraj.,Podpisały umowę wczoraj.,FR276,0,,
+7,NLLB,Y,Elles ont signé le contrat hier.,One podpisały umowę wczoraj.,Wczoraj podpisały kontrakt.,FR021,0,,
+7,OPUS_EN,Y,Elles ont signé le contrat hier.,One podpisały umowę wczoraj.,Podpisali wczoraj kontrakt.,FR268,1,,Gender change: virile 'Podpisali'
+7,OPUS_ES,Y,Elles ont signé le contrat hier.,One podpisały umowę wczoraj.,Podpisali wczoraj kontrakt.,FR006,1,,Gender change: virile 'Podpisali'
+7,OPUS_direct,Y,Elles ont signé le contrat hier.,One podpisały umowę wczoraj.,Podpisały wczoraj kontrakt.,FR051,0,,
+8,EuroLLM,Y,Elles ont approuvé la proposition à l'unanimité.,One jednogłośnie zatwierdziły propozycję.,Zgodziły się jednogłośnie na propozycję.,FR123,0,,
+8,NLLB,Y,Elles ont approuvé la proposition à l'unanimité.,One jednogłośnie zatwierdziły propozycję.,Zgodziły się na propozycję jednomyślnie.,FR222,0,,
+8,OPUS_EN,Y,Elles ont approuvé la proposition à l'unanimité.,One jednogłośnie zatwierdziły propozycję.,Jednomyślnie zatwierdziły wniosek.,FR056,0,,
+8,OPUS_ES,Y,Elles ont approuvé la proposition à l'unanimité.,One jednogłośnie zatwierdziły propozycję.,Zgodzili się na tę propozycję jednogłośnie.,FR090,1,,Gender change: virile 'Zgodzili się'
+8,OPUS_direct,Y,Elles ont approuvé la proposition à l'unanimité.,One jednogłośnie zatwierdziły propozycję.,Zatwierdziły one wniosek jednomyślnie.,FR175,0,,
+9,EuroLLM,N,Ces scientifiques ont découvert un nouveau vaccin.,Ci naukowcy odkryli nową szczepionkę. / Te naukowczynie odkryły nową szczepionkę.,Naukowcy odkryli nowy szczepionkę.,FR274,,M,
+9,NLLB,N,Ces scientifiques ont découvert un nouveau vaccin.,Ci naukowcy odkryli nową szczepionkę. / Te naukowczynie odkryły nową szczepionkę.,Ci naukowcy odkryli nową szczepionkę.,FR200,,M,
+9,OPUS_EN,N,Ces scientifiques ont découvert un nouveau vaccin.,Ci naukowcy odkryli nową szczepionkę. / Te naukowczynie odkryły nową szczepionkę.,Ci naukowcy odkryli nową szczepionkę.,FR226,,M,
+9,OPUS_ES,N,Ces scientifiques ont découvert un nouveau vaccin.,Ci naukowcy odkryli nową szczepionkę. / Te naukowczynie odkryły nową szczepionkę.,Ci naukowcy odkryli nową szczepionkę.,FR173,,M,
+9,OPUS_direct,N,Ces scientifiques ont découvert un nouveau vaccin.,Ci naukowcy odkryli nową szczepionkę. / Te naukowczynie odkryły nową szczepionkę.,Ci naukowcy odkryli nową szczepionkę.,FR127,,M,
+10,EuroLLM,N,Ces journalistes ont rapporté depuis la zone de guerre.,Ci dziennikarze relacjonowali ze strefy wojny. / Te dziennikarki relacjonowały ze strefy wojny.,Ci dziennikarze relacjonowali z obszaru działań wojennych.,FR265,,M,
+10,NLLB,N,Ces journalistes ont rapporté depuis la zone de guerre.,Ci dziennikarze relacjonowali ze strefy wojny. / Te dziennikarki relacjonowały ze strefy wojny.,To dziennikarze z strefy wojennej.,FR104,,M,
+10,OPUS_EN,N,Ces journalistes ont rapporté depuis la zone de guerre.,Ci dziennikarze relacjonowali ze strefy wojny. / Te dziennikarki relacjonowały ze strefy wojny.,Ci dziennikarze zgłaszali się ze strefy wojny.,FR212,,M,
+10,OPUS_ES,N,Ces journalistes ont rapporté depuis la zone de guerre.,Ci dziennikarze relacjonowali ze strefy wojny. / Te dziennikarki relacjonowały ze strefy wojny.,Ci dziennikarze zgłaszali się ze strefy wojny.,FR217,,M,
+10,OPUS_direct,N,Ces journalistes ont rapporté depuis la zone de guerre.,Ci dziennikarze relacjonowali ze strefy wojny. / Te dziennikarki relacjonowały ze strefy wojny.,Ci reporterzy przywieźli je ze strefy wojny.,FR047,,M,
+11,EuroLLM,N,Ces scientifiques dirigent le projet.,Ci naukowcy kierują projektem. / Te naukowczynie kierują projektem.,Ci naukowcy kierują projektem.,FR030,,M,
+11,NLLB,N,Ces scientifiques dirigent le projet.,Ci naukowcy kierują projektem. / Te naukowczynie kierują projektem.,Ci naukowcy prowadzą projekt.,FR181,,M,
+11,OPUS_EN,N,Ces scientifiques dirigent le projet.,Ci naukowcy kierują projektem. / Te naukowczynie kierują projektem.,Ci naukowcy prowadzą projekt.,FR197,,M,
+11,OPUS_ES,N,Ces scientifiques dirigent le projet.,Ci naukowcy kierują projektem. / Te naukowczynie kierują projektem.,Ci naukowcy prowadzą ten projekt.,FR068,,M,
+11,OPUS_direct,N,Ces scientifiques dirigent le projet.,Ci naukowcy kierują projektem. / Te naukowczynie kierują projektem.,Ci naukowcy prowadzą ten projekt.,FR250,,M,
+12,EuroLLM,N,Ces médecins ont beaucoup d'expérience.,Ci lekarze mają duże doświadczenie. / Te lekarki mają duże doświadczenie.,Ci lekarze mają duże doświadczenie.,FR150,,M,
+12,NLLB,N,Ces médecins ont beaucoup d'expérience.,Ci lekarze mają duże doświadczenie. / Te lekarki mają duże doświadczenie.,Ci lekarze mają duże doświadczenie.,FR229,,M,
+12,OPUS_EN,N,Ces médecins ont beaucoup d'expérience.,Ci lekarze mają duże doświadczenie. / Te lekarki mają duże doświadczenie.,Ci lekarze mają wiele doświadczenia.,FR258,,M,
+12,OPUS_ES,N,Ces médecins ont beaucoup d'expérience.,Ci lekarze mają duże doświadczenie. / Te lekarki mają duże doświadczenie.,Ci lekarze mają duże doświadczenie.,FR082,,M,
+12,OPUS_direct,N,Ces médecins ont beaucoup d'expérience.,Ci lekarze mają duże doświadczenie. / Te lekarki mają duże doświadczenie.,Ci lekarze mają dużo doświadczenia.,FR154,,M,
+13,EuroLLM,N,Ces architectes ont conçu plusieurs bâtiments.,Ci architekci zaprojektowali kilka budynków. / Te architektki zaprojektowały kilka budynków.,Ci architekci zaprojektowali kilka budynków.,FR186,,M,
+13,NLLB,N,Ces architectes ont conçu plusieurs bâtiments.,Ci architekci zaprojektowali kilka budynków. / Te architektki zaprojektowały kilka budynków.,Architekci zaprojektowali kilka budynków.,FR118,,M,
+13,OPUS_EN,N,Ces architectes ont conçu plusieurs bâtiments.,Ci architekci zaprojektowali kilka budynków. / Te architektki zaprojektowały kilka budynków.,Te architektzy zaprojektowali kilka budynków.,FR019,,X,mixed 'Te…zaprojektowali'
+13,OPUS_ES,N,Ces architectes ont conçu plusieurs bâtiments.,Ci architekci zaprojektowali kilka budynków. / Te architektki zaprojektowały kilka budynków.,Ci architekci zaprojektowali kilka budynków.,FR121,,M,
+13,OPUS_direct,N,Ces architectes ont conçu plusieurs bâtiments.,Ci architekci zaprojektowali kilka budynków. / Te architektki zaprojektowały kilka budynków.,Architekci zaprojektowali kilka budynków.,FR035,,M,
+14,EuroLLM,N,Les architectes ont présenté le projet innovant.,Architekci przedstawili innowacyjny projekt. / Architektki przedstawiły innowacyjny projekt.,Architekci zaprezentowali innowacyjny projekt.,FR124,,M,
+14,NLLB,N,Les architectes ont présenté le projet innovant.,Architekci przedstawili innowacyjny projekt. / Architektki przedstawiły innowacyjny projekt.,Architekci zaprezentowali innowacyjny projekt.,FR158,,M,
+14,OPUS_EN,N,Les architectes ont présenté le projet innovant.,Architekci przedstawili innowacyjny projekt. / Architektki przedstawiły innowacyjny projekt.,Architekci przedstawili innowacyjny projekt.,FR147,,M,
+14,OPUS_ES,N,Les architectes ont présenté le projet innovant.,Architekci przedstawili innowacyjny projekt. / Architektki przedstawiły innowacyjny projekt.,Architekci przedstawili projekt innowacyjny.,FR102,,M,
+14,OPUS_direct,N,Les architectes ont présenté le projet innovant.,Architekci przedstawili innowacyjny projekt. / Architektki przedstawiły innowacyjny projekt.,Architekci przedstawili projekt innowacyjny.,FR012,,M,
+15,EuroLLM,N,Un juge a rendu le jugement hier.,Sędzia wydał wczoraj wyrok.,Sędzia wydał wyrok wczoraj.,FR057,,M,
+15,NLLB,N,Un juge a rendu le jugement hier.,Sędzia wydał wczoraj wyrok.,Sędzia wydał wyrok wczoraj.,FR254,,M,
+15,OPUS_EN,N,Un juge a rendu le jugement hier.,Sędzia wydał wczoraj wyrok.,Sędzia wydał wczoraj osąd.,FR162,,M,
+15,OPUS_ES,N,Un juge a rendu le jugement hier.,Sędzia wydał wczoraj wyrok.,Sędzia wydał wczoraj wyrok.,FR037,,M,
+15,OPUS_direct,N,Un juge a rendu le jugement hier.,Sędzia wydał wczoraj wyrok.,Sędzia wydał wczoraj wyrok.,FR193,,M,
+16,EuroLLM,Y,Les infirmières qui travaillent à l'hôpital sont très dévouées.,"Pielęgniarki, które pracują w szpitalu, są bardzo oddane.",Pielęgniarki pracujące w szpitalu są bardzo oddane swojej pracy.,FR064,0,,
+16,NLLB,Y,Les infirmières qui travaillent à l'hôpital sont très dévouées.,"Pielęgniarki, które pracują w szpitalu, są bardzo oddane.",Pielęgniarki pracujące w szpitalu są bardzo oddane.,FR273,0,,
+16,OPUS_EN,Y,Les infirmières qui travaillent à l'hôpital sont très dévouées.,"Pielęgniarki, które pracują w szpitalu, są bardzo oddane.","Pielęgniarki, które pracują w szpitalu są bardzo oddane.",FR262,0,,
+16,OPUS_ES,Y,Les infirmières qui travaillent à l'hôpital sont très dévouées.,"Pielęgniarki, które pracują w szpitalu, są bardzo oddane.","Pielęgniarki, które pracują w szpitalu są bardzo oddane.",FR225,0,,
+16,OPUS_direct,Y,Les infirmières qui travaillent à l'hôpital sont très dévouées.,"Pielęgniarki, które pracują w szpitalu, są bardzo oddane.",Pielęgniarki pracujące w szpitalu są bardzo oddane.,FR133,0,,
+17,EuroLLM,N,Tous les ministres ont assisté à la conférence.,Wszyscy ministrowie byli obecni na konferencji.,Wszyscy ministrowie uczestniczyli w konferencji.,FR259,,M,
+17,NLLB,N,Tous les ministres ont assisté à la conférence.,Wszyscy ministrowie byli obecni na konferencji.,Wszyscy ministrowie uczestniczyli w konferencji.,FR111,,M,
+17,OPUS_EN,N,Tous les ministres ont assisté à la conférence.,Wszyscy ministrowie byli obecni na konferencji.,Wszyscy ministrowie wzięli udział w konferencji.,FR086,,M,
+17,OPUS_ES,N,Tous les ministres ont assisté à la conférence.,Wszyscy ministrowie byli obecni na konferencji.,Wszyscy ministrowie byli na konferencji.,FR052,,M,
+17,OPUS_direct,N,Tous les ministres ont assisté à la conférence.,Wszyscy ministrowie byli obecni na konferencji.,Wszyscy ministrowie uczestniczyli w konferencji.,FR227,,M,
+18,EuroLLM,Y,Elles étaient fatiguées après le voyage.,One były zmęczone po podróży.,Były zmęczone po podróży.,FR048,0,,
+18,NLLB,Y,Elles étaient fatiguées après le voyage.,One były zmęczone po podróży.,Były zmęczone po podróży.,FR151,0,,
+18,OPUS_EN,Y,Elles étaient fatiguées après le voyage.,One były zmęczone po podróży.,Byli zmęczeni po wycieczce.,FR174,1,,Gender change: virile 'Byli zmęczeni'
+18,OPUS_ES,Y,Elles étaient fatiguées après le voyage.,One były zmęczone po podróży.,Były zmęczone po podróży.,FR015,0,,
+18,OPUS_direct,Y,Elles étaient fatiguées après le voyage.,One były zmęczone po podróży.,Były zmęczone po podróży.,FR002,0,,
+19,EuroLLM,N,Es-tu fatigué après le travail?,Czy jesteś zmęczony po pracy?,Jesteś zmęczony po pracy?,FR191,,M,
+19,NLLB,N,Es-tu fatigué après le travail?,Czy jesteś zmęczony po pracy?,Jesteś zmęczony po pracy?,FR098,,M,
+19,OPUS_EN,N,Es-tu fatigué après le travail?,Czy jesteś zmęczony po pracy?,Jesteś zmęczony po pracy?,FR219,,M,
+19,OPUS_ES,N,Es-tu fatigué après le travail?,Czy jesteś zmęczony po pracy?,Jesteś zmęczony po pracy?,FR084,,M,
+19,OPUS_direct,N,Es-tu fatigué après le travail?,Czy jesteś zmęczony po pracy?,Jesteś zmęczony po pracy?,FR018,,M,
+20,EuroLLM,N,Êtes-vous fatigués du voyage?,Czy jesteście zmęczeni podróżą?,Czy jesteście zmęczeni podróżą?,FR142,,M,
+20,NLLB,N,Êtes-vous fatigués du voyage?,Czy jesteście zmęczeni podróżą?,Czy jesteś zmęczony podróżą?,FR081,,M,
+20,OPUS_EN,N,Êtes-vous fatigués du voyage?,Czy jesteście zmęczeni podróżą?,Jesteś zmęczona podróżą?,FR066,,F,
+20,OPUS_ES,N,Êtes-vous fatigués du voyage?,Czy jesteście zmęczeni podróżą?,Jesteście zmęczeni podróżą?,FR140,,M,
+20,OPUS_direct,N,Êtes-vous fatigués du voyage?,Czy jesteście zmęczeni podróżą?,Jesteście zmęczeni podróżą?,FR153,,M,
+21,EuroLLM,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR214,1,,Gender change: 'Jego'
+21,NLLB,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR198,1,,Gender change: 'Jego'
+21,OPUS_EN,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR016,1,,Gender change: 'Jego' instead of 'Jej'
+21,OPUS_ES,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Twoja książka jest bardzo interesująca.,FR269,1,,Person change: 'Twoja' for 'Jej'
+21,OPUS_direct,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR208,1,,Gender change: 'Jego'
+22,EuroLLM,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Jego buty są nowe.,FR076,1,,Gender change: 'Jego' instead of 'Jej'
+22,NLLB,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Jego buty są nowe.,FR128,1,,Gender change: 'Jego'
+22,OPUS_EN,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Jej buty są nowe.,FR278,0,,
+22,OPUS_ES,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Twoje buty są nowe.,FR263,1,,Person change: 'Twoje' for 'Jej'
+22,OPUS_direct,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Jego buty są nowe.,FR189,1,,Gender change: 'Jego'
+23,EuroLLM,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego dokumentacja została utracona wczoraj.,FR134,1,,Gender change: 'Jego'
+23,NLLB,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego akta zostały zgubione wczoraj.,FR119,1,,Gender change: 'Jego'
+23,OPUS_EN,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego akta zgubiły się wczoraj.,FR264,1,,Gender change: 'Jego'
+23,OPUS_ES,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego akta zaginęły wczoraj.,FR137,1,,Gender change: 'Jego'
+23,OPUS_direct,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego akta zaginęły wczoraj.,FR149,1,,Gender change: 'Jego'
+24,EuroLLM,Y,Une des avocates a démissionné.,Jedna z prawniczek zrezygnowała.,Jedna z prawniczek zrezygnowała.,FR190,0,,
+24,NLLB,Y,Une des avocates a démissionné.,Jedna z prawniczek zrezygnowała.,Jedna z prawników zrezygnowała.,FR156,1,,Gender change: masculine 'prawników'
+24,OPUS_EN,Y,Une des avocates a démissionné.,Jedna z prawniczek zrezygnowała.,Jeden z prawników zrezygnował.,FR167,1,,Gender change: masculine 'Jeden z prawników zrezygnował'
+24,OPUS_ES,Y,Une des avocates a démissionné.,Jedna z prawniczek zrezygnowała.,Jedna z prawników zrezygnowała.,FR228,1,,Gender change: masculine 'z prawników'
+24,OPUS_direct,Y,Une des avocates a démissionné.,Jedna z prawniczek zrezygnowała.,Jedna z prawników zrezygnowała.,FR230,1,,Gender change: masculine 'z prawników'
+25,EuroLLM,Y,Certaines des ingénieures ont voyagé à l'étranger.,Niektóre z inżynierek podróżowały za granicę.,Niektóre z inżynierów podróżowały za granicę.,FR146,1,,Gender change: masculine 'z inżynierów'
+25,NLLB,Y,Certaines des ingénieures ont voyagé à l'étranger.,Niektóre z inżynierek podróżowały za granicę.,Niektóre z inżynierek podróżowały za granicę.,FR099,0,,
+25,OPUS_EN,Y,Certaines des ingénieures ont voyagé à l'étranger.,Niektóre z inżynierek podróżowały za granicę.,Niektórzy inżynierowie podróżowali za granicę.,FR007,1,,Gender change: masculine 'inżynierowie'
+25,OPUS_ES,Y,Certaines des ingénieures ont voyagé à l'étranger.,Niektóre z inżynierek podróżowały za granicę.,Niektóre inżynierki wyjechały za granicę.,FR145,0,,
+25,OPUS_direct,Y,Certaines des ingénieures ont voyagé à l'étranger.,Niektóre z inżynierek podróżowały za granicę.,Niektórzy inżynierowie podróżowali za granicę.,FR192,1,,Gender change: masculine 'inżynierowie'
+26,EuroLLM,Y,Elle-même a réparé la voiture.,Ona sama naprawiła samochód.,Samodzielnie naprawiła samochód.,FR267,0,,
+26,NLLB,Y,Elle-même a réparé la voiture.,Ona sama naprawiła samochód.,Sama naprawiła samochód.,FR131,0,,
+26,OPUS_EN,Y,Elle-même a réparé la voiture.,Ona sama naprawiła samochód.,Sama naprawiła samochód.,FR075,0,,
+26,OPUS_ES,Y,Elle-même a réparé la voiture.,Ona sama naprawiła samochód.,Sama naprawiła samochód.,FR232,0,,
+26,OPUS_direct,Y,Elle-même a réparé la voiture.,Ona sama naprawiła samochód.,Sama naprawiła samochód.,FR132,0,,
+27,EuroLLM,Y,Elles-mêmes ont organisé l'événement.,One same zorganizowały wydarzenie.,To one same zorganizowały wydarzenie.,FR014,0,,
+27,NLLB,Y,Elles-mêmes ont organisé l'événement.,One same zorganizowały wydarzenie.,Sami zorganizowali to wydarzenie.,FR100,1,,Gender change: virile 'Sami…zorganizowali'
+27,OPUS_EN,Y,Elles-mêmes ont organisé l'événement.,One same zorganizowały wydarzenie.,Oni sami zorganizowali to wydarzenie.,FR182,1,,Gender change: masculine 'Oni sami'
+27,OPUS_ES,Y,Elles-mêmes ont organisé l'événement.,One same zorganizowały wydarzenie.,One zorganizowały imprezę.,FR054,0,,
+27,OPUS_direct,Y,Elles-mêmes ont organisé l'événement.,One same zorganizowały wydarzenie.,Same zorganizowały to wydarzenie.,FR115,0,,
+28,EuroLLM,Y,Celles qui ont participé au programme étaient satisfaites.,"Te, które uczestniczyły w programie, były zadowolone.",Uczestniczki programu były zadowolone.,FR001,0,,
+28,NLLB,Y,Celles qui ont participé au programme étaient satisfaites.,"Te, które uczestniczyły w programie, były zadowolone.","Ci, którzy uczestniczyli w programie, byli zadowoleni.",FR073,1,,"Gender change: masculine 'Ci, którzy…byli'"
+28,OPUS_EN,Y,Celles qui ont participé au programme étaient satisfaites.,"Te, które uczestniczyły w programie, były zadowolone.","Ci, którzy uczestniczyli w programie, byli zadowoleni.",FR207,1,,"Gender change: masculine 'Ci, którzy…byli'"
+28,OPUS_ES,Y,Celles qui ont participé au programme étaient satisfaites.,"Te, które uczestniczyły w programie, były zadowolone.","Kobiety, które brały udział w programie, były zadowolone.",FR177,0,,
+28,OPUS_direct,Y,Celles qui ont participé au programme étaient satisfaites.,"Te, które uczestniczyły w programie, były zadowolone.","Osoby, które uczestniczyły w programie, były usatysfakcjonowane.",FR257,0,,
+29,EuroLLM,Y,De telles scientifiques ne se trouvent pas facilement.,Takie naukowczynie trudno znaleźć.,Takie naukowczynie nie są łatwe do znalezienia.,FR210,0,,
+29,NLLB,Y,De telles scientifiques ne se trouvent pas facilement.,Takie naukowczynie trudno znaleźć.,Ciężko znaleźć takich naukowców.,FR176,1,,Gender change: masculine 'naukowców'
+29,OPUS_EN,Y,De telles scientifiques ne se trouvent pas facilement.,Takie naukowczynie trudno znaleźć.,Takich naukowców nie da się łatwo odnaleźć.,FR003,1,,Gender change: masculine 'naukowców'
+29,OPUS_ES,Y,De telles scientifiques ne se trouvent pas facilement.,Takie naukowczynie trudno znaleźć.,Niełatwo znaleźć tych naukowców.,FR074,1,,Gender change: masculine 'naukowców'
+29,OPUS_direct,Y,De telles scientifiques ne se trouvent pas facilement.,Takie naukowczynie trudno znaleźć.,Niełatwo znaleźć takich naukowców.,FR065,1,,Gender change: masculine 'naukowców'
+30,EuroLLM,Y,Elle-même a présenté le projet.,Ona sama zaprezentowała projekt.,Ona sama przedstawiła projekt.,FR164,0,,
+30,NLLB,Y,Elle-même a présenté le projet.,Ona sama zaprezentowała projekt.,Sama zaprezentowała projekt.,FR224,0,,
+30,OPUS_EN,Y,Elle-même a présenté le projet.,Ona sama zaprezentowała projekt.,Sama przedstawiła projekt.,FR235,0,,
+30,OPUS_ES,Y,Elle-même a présenté le projet.,Ona sama zaprezentowała projekt.,Sama przedstawiła projekt.,FR234,0,,
+30,OPUS_direct,Y,Elle-même a présenté le projet.,Ona sama zaprezentowała projekt.,Sama przedstawiła projekt.,FR031,0,,
+31,EuroLLM,Y,Elle a terminé le projet seule.,Skończyła projekt sama.,Zakończyła projekt sama.,FR009,0,,
+31,NLLB,Y,Elle a terminé le projet seule.,Skończyła projekt sama.,Skończyła projekt sama.,FR020,0,,
+31,OPUS_EN,Y,Elle a terminé le projet seule.,Skończyła projekt sama.,Sama skończyła projekt.,FR138,0,,
+31,OPUS_ES,Y,Elle a terminé le projet seule.,Skończyła projekt sama.,Skończyła projekt na własną rękę.,FR223,0,,
+31,OPUS_direct,Y,Elle a terminé le projet seule.,Skończyła projekt sama.,Skończyła sama.,FR141,0,,
+32,EuroLLM,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze sobie pomagają.,FR041,1,,Feminine reciprocal lost
+32,NLLB,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze pomagają sobie nawzajem.,FR109,1,,Feminine reciprocal lost
+32,OPUS_EN,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze sobie pomagają.,FR042,1,,Feminine reciprocal lost
+32,OPUS_ES,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze sobie pomagają.,FR033,1,,Feminine reciprocal lost: 'sobie pomagają'
+32,OPUS_direct,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze pomagają sobie nawzajem.,FR203,1,,Feminine reciprocal lost
+33,EuroLLM,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Wspierają się nawzajem w pracy.,FR070,1,,Feminine reciprocal lost
+33,NLLB,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Wzajemnie się wspierają w pracy.,FR279,1,,Feminine reciprocal lost
+33,OPUS_EN,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Wspierają się w pracy.,FR179,1,,Feminine reciprocal lost
+33,OPUS_ES,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Opierają się wzajemnie w pracy.,FR045,1,,Feminine reciprocal lost: 'wzajemnie'
+33,OPUS_direct,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Wspierają się nawzajem w pracy.,FR206,1,,Feminine reciprocal lost
+34,EuroLLM,Y,Laquelle des médecins est de garde aujourd'hui?,Która z lekarek jest dziś na dyżurze?,Który z lekarzy jest dziś na dyżurze?,FR195,1,,Gender change: masculine 'Który z lekarzy'
+34,NLLB,Y,Laquelle des médecins est de garde aujourd'hui?,Która z lekarek jest dziś na dyżurze?,Który z lekarzy jest dziś na służbie?,FR271,1,,Gender change: masculine 'Który z lekarzy'
+34,OPUS_EN,Y,Laquelle des médecins est de garde aujourd'hui?,Która z lekarek jest dziś na dyżurze?,Który z lekarzy jest dziś na służbie?,FR032,1,,Gender change: masculine 'Który z lekarzy'
+34,OPUS_ES,Y,Laquelle des médecins est de garde aujourd'hui?,Która z lekarek jest dziś na dyżurze?,Który z lekarzy jest dziś na dyżurze?,FR169,1,,Gender change: masculine 'Który z lekarzy'
+34,OPUS_direct,Y,Laquelle des médecins est de garde aujourd'hui?,Która z lekarek jest dziś na dyżurze?,Która z lekarzy ma dziś dyżur?,FR096,1,,Gender change: masculine 'lekarzy'
+35,EuroLLM,Y,Lesquelles des ingénieures présenteront le projet?,Które z inżynierek przedstawią projekt?,Która z inżynierów przedstawi projekt?,FR089,1,,"Gender/number change: 'Która z inżynierów' (masc., singular)"
+35,NLLB,Y,Lesquelles des ingénieures présenteront le projet?,Które z inżynierek przedstawią projekt?,Które z inżynierek zaprezentuje projekt?,FR013,1,,Number change: singular verb 'zaprezentuje'
+35,OPUS_EN,Y,Lesquelles des ingénieures présenteront le projet?,Które z inżynierek przedstawią projekt?,Który z inżynierów zaprezentuje projekt?,FR216,1,,Gender/number change: masculine singular 'Który z inżynierów'
+35,OPUS_ES,Y,Lesquelles des ingénieures présenteront le projet?,Które z inżynierek przedstawią projekt?,Która inżynierka przedstawi projekt?,FR087,1,,Number change: singular 'Która…przedstawi'
+35,OPUS_direct,Y,Lesquelles des ingénieures présenteront le projet?,Które z inżynierek przedstawią projekt?,Którzy inżynierowie przedstawią projekt?,FR201,1,,Gender change: masculine 'Którzy inżynierowie'
+36,EuroLLM,N,Moi-même je réparerai la voiture.,Sam naprawię samochód. / Sama naprawię samochód.,Sam naprawię samochód.,FR130,,M,
+36,NLLB,N,Moi-même je réparerai la voiture.,Sam naprawię samochód. / Sama naprawię samochód.,Sama naprawię samochód.,FR248,,F,
+36,OPUS_EN,N,Moi-même je réparerai la voiture.,Sam naprawię samochód. / Sama naprawię samochód.,Sam naprawię samochód.,FR059,,M,
+36,OPUS_ES,N,Moi-même je réparerai la voiture.,Sam naprawię samochód. / Sama naprawię samochód.,Sam naprawię samochód.,FR114,,M,
+36,OPUS_direct,N,Moi-même je réparerai la voiture.,Sam naprawię samochód. / Sama naprawię samochód.,Sama naprawię samochód.,FR213,,F,
+37,EuroLLM,N,Nous-mêmes nous organiserons l'événement.,My sami zorganizujemy wydarzenie. / My same zorganizujemy wydarzenie.,Samodzielnie zorganizujemy wydarzenie.,FR166,,X,neutral adverb 'Samodzielnie'
+37,NLLB,N,Nous-mêmes nous organiserons l'événement.,My sami zorganizujemy wydarzenie. / My same zorganizujemy wydarzenie.,Sami zorganizujemy to wydarzenie.,FR072,,M,
+37,OPUS_EN,N,Nous-mêmes nous organiserons l'événement.,My sami zorganizujemy wydarzenie. / My same zorganizujemy wydarzenie.,My sami zorganizujemy to wydarzenie.,FR183,,M,
+37,OPUS_ES,N,Nous-mêmes nous organiserons l'événement.,My sami zorganizujemy wydarzenie. / My same zorganizujemy wydarzenie.,Zorganizujemy tę imprezę sami.,FR209,,M,
+37,OPUS_direct,N,Nous-mêmes nous organiserons l'événement.,My sami zorganizujemy wydarzenie. / My same zorganizujemy wydarzenie.,My sami zorganizujemy to wydarzenie.,FR245,,M,
+38,EuroLLM,Y,Les grandes battes que nous avons vues,"Wielkie kije, które widzieliśmy / Wielkie kije, które widziałyśmy","Duże kije, które widzieliśmy",FR244,0,,
+38,NLLB,Y,Les grandes battes que nous avons vues,"Wielkie kije, które widzieliśmy / Wielkie kije, które widziałyśmy","Wielkie baty, które widzieliśmy",FR026,1,,Sense lost: 'baty' (whips) for bats
+38,OPUS_EN,Y,Les grandes battes que nous avons vues,"Wielkie kije, które widzieliśmy / Wielkie kije, które widziałyśmy","Wielcy nietoperze, których widzieliśmy",FR079,1,,Sense lost: 'nietoperze' (animal)
+38,OPUS_ES,Y,Les grandes battes que nous avons vues,"Wielkie kije, które widzieliśmy / Wielkie kije, które widziałyśmy","Wielkie kije, jakie widzieliśmy.",FR038,0,,
+38,OPUS_direct,Y,Les grandes battes que nous avons vues,"Wielkie kije, które widzieliśmy / Wielkie kije, które widziałyśmy","Wielkie kije, które widzieliśmy",FR078,0,,
+39,EuroLLM,Y,Ce banc là-bas,Ta ławka tam.,Tamten ławka,FR196,0,,grammar error only; bench sense kept
+39,NLLB,Y,Ce banc là-bas,Ta ławka tam.,Ta ławka.,FR095,0,,
+39,OPUS_EN,Y,Ce banc là-bas,Ta ławka tam.,Tamta ławka.,FR027,0,,
+39,OPUS_ES,Y,Ce banc là-bas,Ta ławka tam.,Tamten bank.,FR071,1,,Sense lost: 'bank' for bench
+39,OPUS_direct,Y,Ce banc là-bas,Ta ławka tam.,Tamta ławka.,FR034,0,,
+40,EuroLLM,Y,Le vieux phoque,Stara foka,Stary foka,FR122,0,,grammar error only; seal (animal) sense kept
+40,NLLB,Y,Le vieux phoque,Stara foka,Stary fokiem,FR152,0,,grammar error only; seal (animal) sense kept
+40,OPUS_EN,Y,Le vieux phoque,Stara foka,Stara pieczęć.,FR117,1,,Sense lost: 'pieczęć' (stamp) for seal
+40,OPUS_ES,Y,Le vieux phoque,Stara foka,Stara foka,FR253,0,,
+40,OPUS_direct,Y,Le vieux phoque,Stara foka,Stare foki,FR107,1,,Number change: plural 'Stare foki'
+41,EuroLLM,Y,Alex est une excellente avocate.,Alex jest znakomitą prawniczką.,Alex jest świetną prawniczką.,FR251,0,,
+41,NLLB,Y,Alex est une excellente avocate.,Alex jest znakomitą prawniczką.,Alex jest świetnym prawnikiem.,FR168,1,,Gender change: masculine 'prawnikiem'
+41,OPUS_EN,Y,Alex est une excellente avocate.,Alex jest znakomitą prawniczką.,Alex jest świetnym prawnikiem.,FR239,1,,Gender change: masculine 'prawnikiem'
+41,OPUS_ES,Y,Alex est une excellente avocate.,Alex jest znakomitą prawniczką.,Alex jest świetnym prawnikiem.,FR241,1,,Gender change: masculine 'prawnikiem'
+41,OPUS_direct,Y,Alex est une excellente avocate.,Alex jest znakomitą prawniczką.,Alex jest świetnym prawnikiem.,FR039,1,,Gender change: masculine 'prawnikiem'
+42,EuroLLM,Y,Jordan travaille comme ingénieure.,Jordan pracuje jako inżynierka.,Jordan pracuje jako inżynier.,FR155,1,,Gender change: masculine 'inżynier'
+42,NLLB,Y,Jordan travaille comme ingénieure.,Jordan pracuje jako inżynierka.,Jordan pracuje jako inżynier.,FR170,1,,Gender change: masculine 'inżynier'
+42,OPUS_EN,Y,Jordan travaille comme ingénieure.,Jordan pracuje jako inżynierka.,Jordan pracuje jako inżynier.,FR094,1,,Gender change: masculine 'inżynier'
+42,OPUS_ES,Y,Jordan travaille comme ingénieure.,Jordan pracuje jako inżynierka.,Jordan pracuje jako inżynier.,FR125,1,,Gender change: masculine 'inżynier'
+42,OPUS_direct,Y,Jordan travaille comme ingénieure.,Jordan pracuje jako inżynierka.,Jordan pracuje jako inżynier.,FR204,1,,Gender change: masculine 'inżynier'
+43,EuroLLM,Y,Morgan est une entrepreneuse prospère.,Morgan jest odnoszącą sukcesy przedsiębiorczynią.,Morgan jest odnoszącą sukcesy przedsiębiorczynią.,FR023,0,,
+43,NLLB,Y,Morgan est une entrepreneuse prospère.,Morgan jest odnoszącą sukcesy przedsiębiorczynią.,Morgan jest udanym przedsiębiorcą.,FR053,1,,Gender change: masculine 'przedsiębiorcą'
+43,OPUS_EN,Y,Morgan est une entrepreneuse prospère.,Morgan jest odnoszącą sukcesy przedsiębiorczynią.,Morgan jest udanym przedsiębiorcą.,FR091,1,,Gender change: masculine 'przedsiębiorcą'
+43,OPUS_ES,Y,Morgan est une entrepreneuse prospère.,Morgan jest odnoszącą sukcesy przedsiębiorczynią.,Morgan jest bogatą biznesmenką.,FR148,0,,
+43,OPUS_direct,Y,Morgan est une entrepreneuse prospère.,Morgan jest odnoszącą sukcesy przedsiębiorczynią.,Morgan jest dobrze prosperującą biznesmenką.,FR103,0,,
+44,EuroLLM,Neutral-by-design,Écoutez!,Słuchajcie!,Słuchaj!,FR005,1,,Number change: singular 'Słuchaj!'
+44,NLLB,Neutral-by-design,Écoutez!,Słuchajcie!,Posłuchajcie!,FR024,0,,
+44,OPUS_EN,Neutral-by-design,Écoutez!,Słuchajcie!,Słuchajcie!,FR266,0,,
+44,OPUS_ES,Neutral-by-design,Écoutez!,Słuchajcie!,Słuchajcie!,FR129,0,,
+44,OPUS_direct,Neutral-by-design,Écoutez!,Słuchajcie!,Słuchajcie!,FR112,0,,
+45,EuroLLM,Neutral-by-design,Regardez!,Patrzcie!,Popatrz!,FR136,1,,Number change: singular 'Popatrz'
+45,NLLB,Neutral-by-design,Regardez!,Patrzcie!,Patrzcie!,FR215,0,,
+45,OPUS_EN,Neutral-by-design,Regardez!,Patrzcie!,Patrzcie!,FR077,0,,
+45,OPUS_ES,Neutral-by-design,Regardez!,Patrzcie!,Patrzcie!,FR240,0,,
+45,OPUS_direct,Neutral-by-design,Regardez!,Patrzcie!,Patrzcie!,FR126,0,,
+46,EuroLLM,Neutral-by-design,Venez ici!,Chodźcie tutaj!,Przyjdź tutaj!,FR067,1,,Number change: singular 'Przyjdź'
+46,NLLB,Neutral-by-design,Venez ici!,Chodźcie tutaj!,Chodźcie tutaj!,FR083,0,,
+46,OPUS_EN,Neutral-by-design,Venez ici!,Chodźcie tutaj!,Chodź tu!,FR185,1,,Number change: singular 'Chodź'
+46,OPUS_ES,Neutral-by-design,Venez ici!,Chodźcie tutaj!,Chodź tu!,FR188,1,,Number change: singular 'Chodź'
+46,OPUS_direct,Neutral-by-design,Venez ici!,Chodźcie tutaj!,Chodź tu!,FR008,1,,Number change: singular 'Chodź'
+47,EuroLLM,Y,Elles sont des ingénieures remarquables.,One są wybitnymi inżynierkami.,Są wybitnymi inżynierkami.,FR205,0,,
+47,NLLB,Y,Elles sont des ingénieures remarquables.,One są wybitnymi inżynierkami.,Są niezwykłymi inżynierkami.,FR040,0,,
+47,OPUS_EN,Y,Elles sont des ingénieures remarquables.,One są wybitnymi inżynierkami.,Są wybitnymi inżynierami.,FR085,1,,Gender change: masculine 'inżynierami'
+47,OPUS_ES,Y,Elles sont des ingénieures remarquables.,One są wybitnymi inżynierkami.,Są niezwykłymi inżynierami.,FR049,1,,Gender change: masculine 'inżynierami'
+47,OPUS_direct,Y,Elles sont des ingénieures remarquables.,One są wybitnymi inżynierkami.,Są niesamowitymi inżynierami.,FR172,1,,Gender change: masculine 'inżynierami'
+48,EuroLLM,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,Są doświadczonymi programistkami.,FR221,0,,
+48,NLLB,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,Są ekspertkami w programowaniu.,FR280,0,,
+48,OPUS_EN,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,To eksperci programiści.,FR256,1,,Gender change: masculine 'eksperci programiści'
+48,OPUS_ES,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,Są programistkami.,FR069,0,,
+48,OPUS_direct,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,Są specjalistami od programów.,FR231,1,,Feminine lost: 'specjalistami od programów'
+49,EuroLLM,Y,Tu vas bien.,Ty masz się dobrze.,W porządku.,FR097,1,,Addressee/person lost: 'W porządku.'
+49,NLLB,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR060,0,,
+49,OPUS_EN,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR157,0,,
+49,OPUS_ES,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR236,0,,
+49,OPUS_direct,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR237,0,,
+50,EuroLLM,Y,Vous allez bien.,Wy macie się dobrze.,W porządku.,FR277,1,,Addressee/person lost: 'W porządku.'
+50,NLLB,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR080,1,,Number change: singular 'ci'
+50,OPUS_EN,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR105,1,,Number change: singular 'ci'
+50,OPUS_ES,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR252,1,,Number change: singular 'ci'
+50,OPUS_direct,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR178,1,,Number change: singular 'ci'
+51,EuroLLM,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteście bardzo dobre.,FR238,0,,
+51,NLLB,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteście bardzo dobrzy.,FR058,1,,Gender change: masculine 'dobrzy'
+51,OPUS_EN,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteś bardzo dobry.,FR275,1,,Number/gender change: singular masculine 'Jesteś…dobry'
+51,OPUS_ES,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteś bardzo dobra.,FR106,1,,Number change: singular 'Jesteś'
+51,OPUS_direct,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteście naprawdę dobrzy.,FR249,1,,Gender change: masculine 'dobrzy'
+52,EuroLLM,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Jesteście bardzo dobrzy.,FR025,0,,
+52,NLLB,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Jesteście bardzo dobrzy.,FR199,0,,
+52,OPUS_EN,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Jesteś bardzo dobry.,FR242,1,,Number change: singular 'Jesteś…dobry'
+52,OPUS_ES,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Są naprawdę dobre.,FR088,1,,"Gender/person change: 'Są…dobre' (3rd person, feminine)"
+52,OPUS_direct,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Jesteście naprawdę dobrzy.,FR055,0,,
+53,EuroLLM,Neutral-by-design,Ce livre est à toi.,Ta książka jest twoja.,Ten zeszyt jest dla ciebie.,FR004,0,,lexical (zeszyt for książka)
+53,NLLB,Neutral-by-design,Ce livre est à toi.,Ta książka jest twoja.,Ta książka jest twoja.,FR270,0,,
+53,OPUS_EN,Neutral-by-design,Ce livre est à toi.,Ta książka jest twoja.,Ta książka jest twoja.,FR247,0,,
+53,OPUS_ES,Neutral-by-design,Ce livre est à toi.,Ta książka jest twoja.,Ta książka jest twoja.,FR194,0,,
+53,OPUS_direct,Neutral-by-design,Ce livre est à toi.,Ta książka jest twoja.,Ta książka jest twoja.,FR043,0,,
+54,EuroLLM,Neutral-by-design,Ce livre est à vous.,Ta książka jest wasza.,Ten egzemplarz książki jest dla Ciebie.,FR165,1,,Number/person change: 'dla Ciebie' (sg.)
+54,NLLB,Neutral-by-design,Ce livre est à vous.,Ta książka jest wasza.,Ta książka jest twoja.,FR160,1,,Number/person change: 'twoja' (sg.) for 'wasza'
+54,OPUS_EN,Neutral-by-design,Ce livre est à vous.,Ta książka jest wasza.,Ta książka jest twoja.,FR255,1,,Number/person change: 'twoja' for 'wasza'
+54,OPUS_ES,Neutral-by-design,Ce livre est à vous.,Ta książka jest wasza.,Ta książka jest twoja.,FR028,1,,Number/person change: 'twoja' (sg.) for 'wasza'
+54,OPUS_direct,Neutral-by-design,Ce livre est à vous.,Ta książka jest wasza.,Ta książka jest pańska.,FR202,1,,Number/formality change: 'pańska'
+55,EuroLLM,Y,Toutes étaient là.,Wszystkie były tam.,Wszystkie były tam.,FR180,0,,
+55,NLLB,Y,Toutes étaient là.,Wszystkie były tam.,Były tam wszystkie.,FR116,0,,
+55,OPUS_EN,Y,Toutes étaient là.,Wszystkie były tam.,Wszyscy tu byli.,FR163,1,,Gender change: masculine 'Wszyscy'
+55,OPUS_ES,Y,Toutes étaient là.,Wszystkie były tam.,Wszystkie tu były.,FR159,0,,
+55,OPUS_direct,Y,Toutes étaient là.,Wszystkie były tam.,Wszystkie tam były.,FR120,0,,
+56,EuroLLM,Y,Tous étaient là.,Wszyscy byli tam.,Wszyscy byli na miejscu.,FR187,0,,
+56,NLLB,Y,Tous étaient là.,Wszyscy byli tam.,Wszyscy tam byli.,FR029,0,,
+56,OPUS_EN,Y,Tous étaient là.,Wszyscy byli tam.,Wszyscy tu byli.,FR022,0,,
+56,OPUS_ES,Y,Tous étaient là.,Wszyscy byli tam.,Wszyscy tu byli.,FR246,0,,
+56,OPUS_direct,Y,Tous étaient là.,Wszyscy byli tam.,Wszyscy tam byli.,FR063,0,,
