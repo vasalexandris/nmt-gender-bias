@@ -24,24 +24,25 @@ pronoun, article, adjective or participle; number/formality of "you"; a lexical 
 ambiguous) that English drops or merges. The set is therefore targeted, not representative; reported rates are
 "failure rates on English-lossy structures", not general bias rates.
 
-## 3. Sentence adaptation (FR and PL)
+## 3. Source sentences: carried over as-is
 
-- The existing sentences are reused, not redesigned. The 56 Spanish sources (ES→EL) are translated into French (FR→PL) and the 56 Greek
-  sources (EL→ES) into Polish (PL→FR) by a native speaker of the source language, keeping `Category` and `Gender_Bias_Focus` labels.
-  Only items that cannot be carried over (see below) are replaced by a new item of the same category. The target-language gold is the only
-  text written from scratch.
-- Adaptation criteria, in order: (1) the source sentence must carry the target feature in a form English would drop
-  or merge (e.g. French *elles*, *celles*, participle agreement; Polish past-tense gender, *one/oni*); (2) same grammatical
-  category as the original; (3) same length and register; (4) polysemy items use a source word with two distinct target
-  translations that coincide in English (new lexical items, listed with both senses).
-- Items with no 1-to-1 equivalent (e.g. features of Spanish *nosotras*, Greek neuter) are **replaced** by an item of the same
-  category or **dropped**, and logged in `data_fr_pl/adaptation_log.csv` (columns: original ID, direction, status
-  {kept, adapted, replaced, dropped}, reason). The final N per direction is reported; a minimum of 45 per direction
-  is required for the study to proceed.
-- A gold translation is written by a native speaker of the target language. Gold is fixed before any system output is seen.
-- The English route of every adapted sentence is checked (Claude-generated, as in the primary study): sentences
-  where the English route *retains* the tested feature are flagged and excluded from the diagnostic subset.
-- The sentence set and gold are committed and tagged **before** any system is run.
+Decision (authors): the existing sentences are carried over unchanged in structure, not redesigned or re-curated. The source sentences of the
+second pair are the French rendering of the 56 Spanish sentences and the Polish rendering of the 56 Greek sentences. These renderings already exist:
+they are the `Pivot_French_Translation` / `Pivot_Polish_Translation` columns produced under the strict rule used for all 16 candidates
+(**no extra word is added to express gender**). They are listed in `data_fr_pl/source_sentences_as_is.csv`. This is stated in the paper.
+
+- Because French and Polish do not always mark gender where Spanish and Greek do, each source sentence is labelled `Signal_In_Source`:
+  `Y` (the tested gender feature is marked in the source), `Neutral-by-design` (items that are gender-neutral in the original design: possessives,
+  imperatives, `tu/vous`), or `N` (the signal is absent or the source is masculine). Current counts: FR→PL 35 Y / 8 neutral / 13 N;
+  PL→FR 41 Y / 9 neutral / 6 N.
+- `N` sentences are reported but **excluded from the gender-bias rate and the diagnostic subset** (there is no gender in the source to lose);
+  they are analysed separately as a negative control (do systems insert gender where none is given?). Primary rates use `Y` + `Neutral-by-design`.
+  No minimum N is fixed; N is an outcome and is reported.
+- Candidate-pivot translations (16 languages) are regenerated from these French/Polish sources with the same strict prompt (no gender-marking words
+  added), then back-translated into the target language.
+- **Gold** translations are written from the source into the target language; here, and only here, an extra word may be added to render the gender
+  of the source (e.g. a noun meaning "women"), exactly as in the primary study's gold. Gold is fixed before any system output is seen.
+- The English route is checked as in the primary study; sentences where it retains the tested feature are excluded from the diagnostic subset.
 
 ## 4. Systems (all open, all pinned)
 
@@ -71,9 +72,11 @@ and of uneven quality; single run per system; `fr-en` was updated on the Hub in 
 
 - **Gender_Bias** (0/1), same rule as the primary study: 1 = gender lost or changed, or tense/number/person changed,
   or the polysemous sense lost; purely lexical differences = 0. A short justification is recorded for every 1.
-- Two annotators who are native speakers of the target language. Annotation is done blind to system identity,
-  in randomised order. The second annotator labels a random 30% (stratified by category); Cohen's κ is reported
-  before reconciliation; disagreements are resolved by discussion and logged.
+- **No native speakers of French or Polish are available.** Gold, source renderings, pivot translations and the annotation are produced by Claude,
+  following the written rule, annotation blind to system identity and in randomised order. This is a stated limitation. Mitigations: (i) an automatic
+  agreement check with a morphological tagger for the gender-bearing token, reported alongside the manual labels; (ii) a second annotation pass by the
+  same annotator after a delay, with test-retest agreement reported; (iii) if a native speaker becomes available, a spot check on ≥20% of items.
+  The study is therefore labelled an **exploratory replication**, not a confirmatory one.
 - **Diagnostic subset** (defined before outputs are seen, on the English route alone): sentences where (a) the English route is
   unique among the 16 candidates and (b) it diverges from gold on the tested feature. A system "matches" when its output carries the English
   route's biased marker (not necessarily the same string).
@@ -101,7 +104,7 @@ with the repo. Exploratory analyses are labelled as such and kept separate from 
 
 ## 9. Outstanding decisions before freezing
 
-1. Name and qualifications of the native annotators (FR, PL) and of the sentence adapters.
+1. Whether a native speaker of French and of Polish can be found for even a small spot check of gold and labels.
 2. Whether to include NLLB-200 3.3B as a second checkpoint (it shares training data with 1.3B; not an independent replicate).
 3. Independent system for the English-route robustness check (Section 5).
-4. Final N per direction after adaptation.
+4. Whether to keep the 13 FR / 6 PL `N` sentences as a negative control or replace them with items that carry the signal.
