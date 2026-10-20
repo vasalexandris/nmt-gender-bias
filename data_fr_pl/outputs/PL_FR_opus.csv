@@ -1,0 +1,57 @@
+﻿ID,Source_As_Is,direct_Output,en_Pivot,en_Output,es_Pivot,es_Output
+1,One przyjeżdżają z Grecji.,Elles viennent de Grèce.,They're coming from Greece.,Ils viennent de Grèce.,Vienen de Grecia.,Ils viennent de Grèce.
+2,One pracowały razem w tej samej firmie.,Elles ont travaillé ensemble dans la même société.,They worked together at the same company.,Ils ont travaillé ensemble dans la même entreprise.,Trabajaron juntas en la misma empresa.,Ils ont travaillé ensemble dans la même entreprise.
+3,One zorganizowały konferencję z sukcesem.,Ils ont organisé une conférence avec succès.,They organized a conference with success.,Ils ont organisé une conférence avec succès.,Han organizado una conferencia con éxito.,Ils ont organisé une conférence avec succès.
+4,One rozmawiały o zmianie klimatu.,Elles parlaient du changement climatique.,They talked about climate change.,Ils ont parlé du changement climatique.,Estaban hablando sobre el cambio climático.,Ils parlaient du changement climatique.
+5,Ta tutaj jest najlepszą inżynierką.,Celle-ci est la meilleure ingénieure.,This one's the best engineer.,Celui-ci est le meilleur ingénieur.,Esta es la mejor ingeniera.,C'est le meilleur ingénieur.
+6,Tamta jest dyrektorką działu.,Celle-ci est la directrice du département.,She's the head of the department.,Elle est à la tête du département.,Esa es la directora del departamento.,C'est la directrice du département.
+7,Te tutaj są nowymi programistkami.,Ceux-ci sont les nouveaux programmeurs.,These are the new developers.,Ce sont les nouveaux développeurs.,Estas son las nuevas programadoras.,Ce sont les nouvelles programmeurs.
+8,Tamte tam są badaczkami.,"Là-bas, ce sont des chercheurs.",That's where they're researchers.,C'est là qu'ils sont chercheurs.,Esas son exploradoras.,Ce sont des scouts.
+9,Profesorka nauczała lekcji z entuzjazmem.,La professeure a enseigné avec enthousiasme.,The professor taught lessons with enthusiasm.,Le professeur a enseigné les leçons avec enthousiasme.,La profesora enseñaba lecciones con entusiasmo.,L'enseignante enseignait des leçons avec enthousiasme.
+10,Prawnicy bronili sprawy.,Les avocats défendaient l'affaire.,Lawyers were defending the case.,Les avocats défendaient l'affaire.,Los abogados defendían el caso.,Les avocats défendaient l'affaire.
+11,Architekt zaprojektował nowy budynek.,L'architecte a conçu un nouveau bâtiment.,The architect designed a new building.,L'architecte a conçu un nouveau bâtiment.,El arquitecto diseñó un edificio nuevo.,L'architecte a conçu un nouveau bâtiment.
+12,Inżynierka rozwiązała problem techniczny.,L'ingénieure a résolu le problème technique.,The engineer solved the technical problem.,L'ingénieur a résolu le problème technique.,La ingeniera resolvió el problema técnico.,L'ingénieur a résolu le problème technique.
+13,Lekarki pracowały całą noc.,Les médecins ont travaillé toute la nuit.,Doctors worked all night.,Les médecins ont travaillé toute la nuit.,Las doctoras trabajaron toda la noche.,Les médecins ont travaillé toute la nuit.
+14,Czy jesteś zmęczona po pracy?,Es-tu fatiguée après le travail ?,Are you tired after work?,Es-tu fatigué après le travail ?,¿Estás cansada después del trabajo?,Tu es fatiguée après le boulot ?
+15,Czy jesteście zmęczone podróżą?,Vous en avez marre de voyager ?,Are you tired of traveling?,Vous en avez assez de voyager ?,¿Están cansadas de viajar?,Vous êtes fatiguées de voyager ?
+16,Nauczycielki były podekscytowane nowym programem.,Les profs étaient excitées par le nouveau programme.,The teachers were excited about the new program.,Les enseignants étaient excités par le nouveau programme.,Las maestras estaban entusiasmadas con el nuevo programa.,Les enseignantes étaient enthousiastes avec le nouveau programme.
+17,Naukowiec była zadowolona z wyników.,Le scientifique était satisfait des résultats.,The scientist was happy with the results.,Le scientifique était satisfait des résultats.,El científico estaba satisfecho con los resultados.,Le scientifique était satisfait des résultats.
+18,Jej książka jest bardzo interesująca.,Son livre est très intéressant.,Her book is very interesting.,Son livre est très intéressant.,Su libro es muy interesante.,Votre livre est très intéressant.
+19,Jej buty są nowe.,Ses chaussures sont neuves.,Her shoes are new.,Ses chaussures sont neuves.,Sus zapatos son nuevos.,Ses chaussures sont neuves.
+20,Jej teczka zginęła wczoraj.,Son dossier est mort hier.,Her briefcase died yesterday.,Sa mallette est morte hier.,Su maletín murió ayer.,Sa mallette est morte hier.
+21,Jej torba jest w biurze.,Son sac est dans son bureau.,Her bag's in the office.,Son sac est dans le bureau.,Su bolso está en la oficina.,Son sac est dans le bureau.
+22,Jedna z prawniczek zrezygnowała.,Une avocate a démissionné.,One of the lawyers quit.,Un des avocats a démissionné.,Una abogada renunció.,Une avocate a démissionné.
+23,Niektóre z inżynierek podróżowały za granicę.,Certaines ingénieurs voyageaient à l'étranger.,Some of the engineers traveled abroad.,Certains ingénieurs ont voyagé à l'étranger.,Algunas de las ingenieros viajaban al extranjero.,Certains ingénieurs se rendaient à l'étranger.
+24,Niektóre z profesorek uczestniczyły w konferencji.,Certains professeurs ont assisté à la conférence.,Some of the professors attended the conference.,Certains professeurs ont assisté à la conférence.,Algunas de las profesoras asistieron a una conferencia.,Certaines des enseignantes ont assisté à une conférence.
+25,Sama naprawiła samochód.,Elle a réparé la voiture toute seule.,She fixed the car herself.,Elle a réparé la voiture elle-même.,Ella arregló el auto.,Elle a réparé la voiture.
+26,One same zorganizowały wydarzenie.,Elles ont organisé l'événement elles-mêmes.,They organized the event themselves.,Ils ont organisé l'événement eux-mêmes.,Ellos mismos organizaron el evento.,Ils ont organisé l'événement eux-mêmes.
+27,"Te, które uczestniczyły w programie, były zadowolone.",Ceux qui ont participé au programme étaient satisfaits.,The ones that were on the show were happy.,Ceux qui étaient dans le spectacle étaient heureux.,Las que participaron en el programa estaban satisfechas.,Celles qui ont participé au programme étaient satisfaites.
+28,Takich naukowczyń nie znajdziesz łatwo.,Ce genre de scientifique n'est pas facile à trouver.,You can't find such scientists easily.,Vous ne pouvez pas trouver ces scientifiques facilement.,Una científica como esa no es fácil de encontrar.,Une scientifique comme ça n'est pas facile à trouver.
+29,"Te, które tutaj pracują, są doskonałe.",Ceux qui travaillent ici sont parfaits.,The ones that work here are perfect.,Ceux qui travaillent ici sont parfaits.,Los que trabajan aquí son perfectos.,Ceux qui travaillent ici sont parfaits.
+30,Sama zaprezentowała projekt.,Elle a présenté le projet elle-même.,She presented the project herself.,Elle a présenté le projet elle-même.,Ella presentó el proyecto ella misma.,Elle a présenté le projet elle-même.
+31,Skończyła projekt sama.,Elle a fini le projet toute seule.,She finished the project herself.,Elle a fini le projet elle-même.,Terminó el proyecto sola.,Elle a fini le projet seule.
+32,One same zdecydowały o zmianie.,Elles ont décidé de changer.,They decided to change themselves.,Ils ont décidé de se changer.,Ellos mismos decidieron cambiar.,Ils ont décidé de changer eux-mêmes.
+33,Jedna zawsze pomaga drugiej.,L'une aide toujours l'autre.,One always helps the other.,L'un aide toujours l'autre.,Una siempre ayuda a la otra.,L'une aide toujours l'autre.
+34,Wspierają się nawzajem w pracy.,Ils se soutiennent l'un l'autre au travail.,They support each other at work.,Ils se soutiennent les uns les autres au travail.,Se apoyan el uno al otro en el trabajo.,Ils se soutiennent l'un l'autre au travail.
+35,Która z inżynierek dyżuruje dzisiaj?,Lequel des ingénieurs est de garde aujourd'hui ?,Which of the engineers is on duty today?,Lequel des ingénieurs est en service aujourd'hui ?,¿Cuál de las ingenieros está de guardia hoy?,Lequel des ingénieurs est de garde aujourd'hui ?
+36,Które z inżynierek zaprezentują projekt?,Lequel des ingénieurs va présenter le projet ?,Which of the engineers will present the project?,Lequel des ingénieurs présentera le projet?,¿Cuál de las ingenieros va a presentar el proyecto?,Lequel des ingénieurs va présenter le projet ?
+37,Ja sama naprawię samochód.,Je vais réparer la voiture moi-même.,I'll fix the car myself.,Je vais réparer la voiture moi-même.,Yo arreglaré el auto.,Je vais réparer la voiture.
+38,My same zorganizujemy wydarzenie.,Nous allons organiser l'événement nous-mêmes.,We'll organize the event ourselves.,Nous organiserons l'événement nous-mêmes.,Nosotros organizaremos el evento.,Nous organiserons l'événement.
+39,Widzisz te pieczęcie tam.,Tu vois ces sceaux là-bas.,You see those seals over there.,Vous voyez ces phoques là-bas.,Ves esos sellos ahí.,Tu vois ces timbres là-bas.
+40,Muchy roku,Les mouches de l'année,Flies of the Year,Les mouches de l'année,Moscas del año,Mouche de l'année
+41,Muchy czasu,Les mouches du temps,Flies of time,Les mouches du temps,Moscas del tiempo,Mouche météo
+42,Alex przyszedł bez dzisiaj.,Alex n'est pas venu aujourd'hui.,Alex came without today.,Alex est venu sans aujourd'hui.,Alex vino sin hoy.,Alex est venu sans aujourd'hui.
+43,Jordan pracuje jako inżynier.,Jordan est ingénieur.,Jordan works as an engineer.,Jordan travaille comme ingénieur.,Jordan trabaja como ingeniero.,Jordan travaille comme ingénieur.
+44,Morgan chce kupić nowy samochód.,Morgan veut acheter une nouvelle voiture.,Morgan wants to buy a new car.,Morgan veut acheter une nouvelle voiture.,Morgan quiere comprar un auto nuevo.,Morgan veut acheter une nouvelle voiture.
+45,Słuchaj mnie uważnie!,Ecoute-moi bien !,Listen to me carefully!,Écoutez-moi attentivement !,¡Escúchame con atención!,Écoute-moi bien !
+46,"Patrz na mnie, gdy do ciebie mówię!",Regarde-moi quand je te parle !,Look at me when I'm talking to you!,Regarde-moi quand je te parle !,¡Mírame cuando te hablo!,Regarde-moi quand je te parle !
+47,Idźcie szybko naprzód!,Avancez vite !,Keep moving fast!,Continuez à avancer vite !,¡Avancen rápido!,Avancez vite !
+48,Śpisz dobrze?,Tu dors bien ?,Are you sleeping okay?,Tu dors bien ?,¿Duermes bien?,Tu dors bien ?
+49,Śpicie dobrze?,Vous dormez bien ?,Are you sleeping okay?,Tu dors bien ?,¿Están durmiendo bien?,Vous dormez bien ?
+50,Jesteście bardzo dobre.,Vous êtes très douées.,You're very good.,Vous êtes très bon.,Son muy buenas.,Elles sont très bonnes.
+51,Wy jesteście w porządku.,Vous êtes très bien.,You guys are okay.,Vous allez bien.,Vosotros estáis bien.,Vous allez bien.
+52,Wy gracie bardzo dobrze.,Vous jouez très bien.,You guys play very well.,Vous jouez très bien.,Ustedes juegan muy bien.,Vous jouez très bien.
+53,Wszystkie były tam.,Elles étaient toutes là.,They were all there.,Ils étaient tous là.,Todas estaban ahí.,Elles étaient toutes là.
+54,Wszystko było tam.,Tout était là-bas.,It was all there.,Tout était là.,Todo estaba ahí.,Tout était là.
+55,Ta książka jest twoja.,Ce livre est à toi.,This book is yours.,Ce livre est à toi.,Este libro es tuyo.,Ce livre est à toi.
+56,Te kubki są wasze.,Ces tasses sont à vous.,Those cups are yours.,Ces tasses sont à toi.,Estas tazas son suyas.,Ces tasses sont à vous.
