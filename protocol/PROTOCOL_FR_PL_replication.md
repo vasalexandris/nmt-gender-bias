@@ -31,6 +31,10 @@ second pair are the French rendering of the 56 Spanish sentences and the Polish 
 they are the `Pivot_French_Translation` / `Pivot_Polish_Translation` columns produced under the strict rule used for all 16 candidates
 (**no extra word is added to express gender**). They are listed in `data_fr_pl/source_sentences_as_is.csv`. This is stated in the paper.
 
+- **Why the same 56 sentences per direction are kept even where they behave differently in the new languages (e.g. Spanish *nosotras* vs French *nous*):**
+  the reason is methodological, not practical. Keeping the sentence set fixed avoids introducing a second, different dataset; it keeps the study as specific and as
+  targeted as possible, and makes any difference between the two language pairs attributable to the languages and systems rather than to new sentence design.
+  The cost (sentences that lose their gender signal) is handled openly through the `Signal_In_Source` label and reported separately.
 - Because French and Polish do not always mark gender where Spanish and Greek do, each source sentence is labelled `Signal_In_Source`:
   `Y` (the tested gender feature is marked in the source), `Neutral-by-design` (items that are gender-neutral in the original design: possessives,
   imperatives, `tu/vous`), or `N` (the signal is absent or the source is masculine). Current counts: FR→PL 35 Y / 8 neutral / 13 N;

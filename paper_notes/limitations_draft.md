@@ -15,3 +15,5 @@ Status: draft wording collected from decisions made during the revision; the pap
 6. **Second language pair (French–Polish).** Source renderings, gold, pivot translations and annotation were produced without native-speaker involvement (gold may be checked by a native speaker); sentences without a gender signal in the source are not scored and are reported separately. The study is labelled an exploratory replication on open systems only.
 
 7. **Single run, one annotator for the primary study.** (Edit if a second annotator and κ become available.)
+
+8. **Same sentences reused in the second pair.** The French and Polish source sentences are the same 56-per-direction set carried over, even where a feature does not transfer (e.g. Spanish *nosotras* vs French *nous*). This was a deliberate choice: to keep the dataset as specific and targeted as possible and not to introduce a second design. Sentences that lose their gender signal are labelled and reported separately.
