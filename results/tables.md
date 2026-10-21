@@ -29,8 +29,8 @@ Paired exact McNemar tests on the 112 sentences (only-A / only-B / p):
 Bias rate (Gender_Bias=1), n=56 per direction
                          ES->EL     EL->ES
 Direct bilingual       25 (44.6%)       n/a
-Cascade via English    47 (83.9%)   40 (71.4%)
-Cascade via French     34 (60.7%)   29 (51.8%)
+Cascade via English    47 (83.9%)   41 (73.2%)
+Cascade via French     34 (60.7%)   30 (53.6%)
 
 Gender-marker diagnostic subset (match = output carries the English route's biased marker)
   Cascade via English              15/15 = 100.0%
