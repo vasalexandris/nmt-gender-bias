@@ -1,0 +1,3 @@
+# OPUS-MT controls: annotation status
+
+Final. The Gender_Bias values and Justifications of `ES_EL_opus_controls.csv` and `EL_ES_opus_controls.csv` (direct bilingual, English cascade, French cascade; rule: 1 = gender lost or changed, or tense/number/person changed, or polysemous sense lost; purely lexical differences = 0) were checked by the authors on 2026-10-21: a random sample of 30 rows was reviewed, and all rows concerning the number/formality of "you" were re-checked for consistency (one correction: EL->ES ID49, both cascades, now 1). Borderline decision kept as 0: EL->ES ID48 ("Estás durmiendo", progressive instead of simple present).

@@ -239,12 +239,12 @@
 48,OPUS_EN,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,To eksperci programiści.,FR256,1,,Gender change: masculine 'eksperci programiści'
 48,OPUS_ES,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,Są programistkami.,FR069,0,,
 48,OPUS_direct,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,Są specjalistami od programów.,FR231,1,,Feminine lost: 'specjalistami od programów'
-49,EuroLLM,Y,Tu vas bien.,Ty masz się dobrze.,W porządku.,FR097,1,,Addressee/person lost: 'W porządku.'
+49,EuroLLM,Y,Tu vas bien.,Ty masz się dobrze.,W porządku.,FR097,0,,"Impersonal 'W porządku.'; addressee not marked (kept 0, authors' decision)"
 49,NLLB,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR060,0,,
 49,OPUS_EN,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR157,0,,
 49,OPUS_ES,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR236,0,,
 49,OPUS_direct,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR237,0,,
-50,EuroLLM,Y,Vous allez bien.,Wy macie się dobrze.,W porządku.,FR277,1,,Addressee/person lost: 'W porządku.'
+50,EuroLLM,Y,Vous allez bien.,Wy macie się dobrze.,W porządku.,FR277,0,,"Impersonal 'W porządku.'; addressee not marked (kept 0, authors' decision)"
 50,NLLB,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR080,1,,Number change: singular 'ci'
 50,OPUS_EN,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR105,1,,Number change: singular 'ci'
 50,OPUS_ES,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR252,1,,Number change: singular 'ci'

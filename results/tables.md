@@ -76,12 +76,12 @@ FR_PL: scored n=43 (N sentences excluded); English-route-biased subset n=30
   OPUS_ES      bias 24/43 = 55.8% [41%-70%] | English-biased subset 17/30 = 56.7% [39%-73%]
   OPUS_direct  bias 20/43 = 46.5% [33%-61%] | English-biased subset 15/30 = 50.0% [33%-67%]
   NLLB         bias 19/43 = 44.2% [30%-59%] | English-biased subset 14/30 = 46.7% [30%-64%]
-  EuroLLM      bias 16/43 = 37.2% [24%-52%] | English-biased subset 10/30 = 33.3% [19%-51%]
+  EuroLLM      bias 14/43 = 32.6% [20%-47%] | English-biased subset 10/30 = 33.3% [19%-51%]
   McNemar exact OPUS_EN vs OPUS_direct: only-OPUS_EN=12, only-OPUS_direct=1, p=0.0034
   McNemar exact OPUS_EN vs OPUS_ES: only-OPUS_EN=10, only-OPUS_ES=3, p=0.0923
   McNemar exact OPUS_direct vs OPUS_ES: only-OPUS_direct=3, only-OPUS_ES=7, p=0.3438
   McNemar exact NLLB vs OPUS_direct: only-NLLB=4, only-OPUS_direct=5, p=1.0000
-  McNemar exact EuroLLM vs OPUS_direct: only-EuroLLM=3, only-OPUS_direct=7, p=0.3438
+  McNemar exact EuroLLM vs OPUS_direct: only-EuroLLM=2, only-OPUS_direct=8, p=0.1094
 
 PL_FR: scored n=50 (N sentences excluded); English-route-biased subset n=31
   OPUS_EN      bias 33/50 = 66.0% [52%-78%] | English-biased subset 30/31 = 96.8% [84%-99%]

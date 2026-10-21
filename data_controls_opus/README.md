@@ -17,7 +17,7 @@ Notes / limitations
 - `opus-mt-tc-big-el-en` produced degenerate output (even for its own model-card example) under the transformers versions we
   tried (5.17, 4.46.3); `code/run_opus_controls_part1.py` therefore contains an unusable EL→EN half whose output was discarded.
   EL→EN uses `opus-mt-ine-en` instead (`code/run_opus_controls_part2.py`).
-- `Direct_Bias`/`Cascade_*_Bias` are provisional annotations (with short Justification columns) by the same rule as the other systems, pending author review. They are also included as extra blocks (rows 305+) in `complete_dataset_v9.xlsx`.
+- `Direct_Bias`/`Cascade_*_Bias` are the final annotations (see ANNOTATION_STATUS.md). They are also included as extra blocks (rows 305+) in `complete_dataset_v9.xlsx`.
 - The 15-sentence diagnostic match flags (13 ES→EL, 2 EL→ES) are in `code/opus_control_judgments.py`.
 - Exact-string matching against the Claude-generated back-translations has low sensitivity even for a true English cascade
   (it matched 15/56 ES→EL), because the OPUS wording differs from Claude's; use the gender-marker criterion for the controls.
