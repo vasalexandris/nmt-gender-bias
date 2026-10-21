@@ -1,10 +1,12 @@
 # French<->Polish annotation status
 
-Provisional. The annotations (`FR_PL_annotations.csv`, `PL_FR_annotations.csv`) were produced blind to system identity and in randomised order. A random sample of 30 rows (24 scored, 6 N) was reviewed by the authors on 2026-10-22 without objections, and the rows on the number/formality of "you" were re-checked for consistency; EuroLLM "W porządku." (FR->PL IDs 49, 50) was set to 0 by the authors.
+**Final** (locked 2026-10-22).
 
-Decision (authors, 2026-10-22): the annotations are locked **after** the authors have reviewed the gold translations (`gold_review_sheet.xlsx`). If a gold translation changes, the annotations that depended on it are re-examined before locking.
+Process: annotations (`FR_PL_annotations.csv`, `PL_FR_annotations.csv`) were produced blind to system identity and in randomised order, using the rule *1 = gender lost or changed, or tense/number/person changed, or polysemous sense lost; purely lexical differences = 0; a gender- and person-neutral possessive accepts any 3rd/2nd-person rendering*. A random sample of 30 rows (24 scored, 6 N) was reviewed by the authors without objections; the rows on the number/formality of "you" were re-checked for consistency; EuroLLM "W porządku." (FR->PL IDs 49, 50) was set to 0 by the authors.
 
-## Update 2026-10-22: gold review of the FR->PL direction
-The authors reviewed the Polish gold (table `fr-pl_gold_translations.csv`, with comments by a second reviewer) and agreed with it. Corrections applied: ID2 ("i", single "One"), ID5 ("zdecydowały się"), ID32/33 ("sobie nawzajem" / "się nawzajem"), ID39 ("Tamta ławka."), ID49/50 ("Dobrze się masz/macie."), ID51/52 (pronoun "Wy" dropped), IDs 21-23 (both "Jej" and "Jego" accepted). The French gold of the PL->FR direction has **not** been reviewed.
+Gold review (no native speaker was available):
+- FR->PL (Polish gold): reviewed by the authors using a table with comments from a second reviewer; corrections applied to ID2, 5, 21-23, 32, 33, 39, 49-52 (gold only; system outputs and the annotations of gender were unaffected).
+- PL->FR (French gold): reviewed by the authors using an analysis by another AI; no change needed. Notes added for IDs 18-21 (French cannot mark the possessor's gender).
+- Observed in the review and kept: some Polish source sentences (the strict renderings of the original Greek sentences) are slightly unnatural ("nauczała lekcji", "Muchy czasu", "bez dzisiaj"); they are used as-is by design. "Muchy roku / Muchy czasu" are the original polysemy item on "flies".
 
-Annotation consequence: the dataset convention that a gender- and person-neutral possessive ("su", "son") accepts any 3rd/2nd-person rendering was applied consistently: OPUS-MT controls ES->EL IDs 21-23 and FR->PL IDs 21-23 set to 0 (14 French-Polish rows and 8 control rows changed). Possessives with an explicit possessor in the source (PL->FR, "Jej") are unaffected.
+Consequence for the paper: gold and annotations of the French-Polish study were produced without a native speaker; the study is presented as an exploratory replication (see protocol/ and paper_notes/limitations_draft.md).

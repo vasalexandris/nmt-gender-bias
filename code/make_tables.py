@@ -2,7 +2,7 @@
 """Regenerate every table/number used in the paper from the released data. Run from the repository root:
     python code/make_tables.py            # prints and writes results/tables.md
 Sections: A bias rates (5 systems), B OPUS-MT controls, C English-specific subset, D French<->Polish, E English-route robustness check.
-Annotations of the NLLB, EuroLLM and OPUS-MT control outputs are final (approved by the authors); those of the French-Polish outputs are drafts pending the review of the gold."""
+Annotations of the NLLB, EuroLLM and OPUS-MT control outputs are final (approved by the authors); those of the French-Polish outputs are final (locked 2026-10-22; no native speaker was involved)."""
 import csv, io, math, subprocess, sys, contextlib
 from itertools import combinations
 sys.path.insert(0, 'code')
