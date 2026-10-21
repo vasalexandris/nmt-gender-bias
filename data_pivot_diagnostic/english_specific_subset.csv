@@ -1,14 +1,16 @@
-﻿Direction,ID,Feature,English_route,Google,DeepL_Classic,DeepL_NextGen,NLLB,EuroLLM,OPUS_direct,OPUS_EN_cascade,OPUS_other_cascade,Note
-ES_EL,19,you: number/formality (tú -> plural),Είστε κουρασμένοι μετά τη δουλειά;,1,1,0,0,0,0,0,0,"English cascade (OPUS) keeps singular here, so it does not reproduce the collapse"
-ES_EL,38,polysemy: bates,Οι μεγάλες νυχτερίδες που είδαμε (animal),1,1,0,1,0,0,1,0,other cascade = French
-ES_EL,40,polysemy: foca,Η παλιά σφραγίδα (stamp),1,0,0,0,0,0,1,0,other cascade = French
-ES_EL,49,you: number (tú -> Είστε),Είστε καλά.,0,0,0,0,0,0,0,0,English route resolves the ambiguity arbitrarily; no system follows
-ES_EL,53,yours: formality (tuyo -> σας),Αυτό το βιβλίο είναι δικό σας.,0,0,0,0,0,0,0,0,English route resolves the ambiguity arbitrarily; no system follows
-EL_ES,15,you: number (pl -> sg),¿Estás cansado del viaje?,1,1,0,0,0,,1,1,no direct el-es model; other cascade = French (also collapses)
-EL_ES,50,you: number (pl -> sg),Eres muy bueno.,1,0,0,0,0,,1,1,
-EL_ES,51,you: number (pl -> sg),Estás bien.,1,0,0,0,0,,1,1,
-EL_ES,52,you: number (pl -> sg),Juegas muy bien.,1,0,0,0,0,,1,1,
-EL_ES,56,yours: number (vuestras -> tuyas),Estas tazas son tuyas.,1,1,0,0,0,,1,1,
-FR_PL,38,polysemy: battes,Wielkie nietoperze (animal),,,,0,0,0,1,0,other cascade = Spanish; NLLB error is a different one (baty)
-FR_PL,40,polysemy: phoque,Stara pieczęć (stamp),,,,0,0,0,1,0,other cascade = Spanish
-PL_FR,39,polysemy: pieczęcie,"Tu vois ces timbres/tampons (ambiguous English ""stamps"")",,,,0,0,0,1,1,EN cascade gives phoques (other wrong sense); Spanish cascade gives timbres; both lose the seal/stamp sense
+﻿Direction,ID,Feature,English_route,Google,DeepL_Classic,DeepL_NextGen,NLLB,EuroLLM,OPUS_direct,OPUS_EN_cascade,OPUS_other_cascade,Note,Status
+ES_EL,19,you: number/formality (tú -> plural),Είστε κουρασμένοι μετά τη δουλειά;,1,1,0,0,0,0,0,0,"English cascade (OPUS) keeps singular here, so it does not reproduce the collapse",primary
+ES_EL,38,polysemy: bates,Οι μεγάλες νυχτερίδες που είδαμε (animal),1,1,0,1,0,0,1,0,other cascade = French,primary
+ES_EL,40,polysemy: foca,Η παλιά σφραγίδα (stamp),1,0,0,0,0,0,1,0,other cascade = French,primary
+ES_EL,49,you: number (tú -> Είστε),Είστε καλά.,0,0,0,0,0,0,0,0,English route resolves the ambiguity arbitrarily; no system follows,primary
+ES_EL,53,yours: formality (tuyo -> σας),Αυτό το βιβλίο είναι δικό σας.,0,0,0,0,0,0,0,0,English route resolves the ambiguity arbitrarily; no system follows,primary
+EL_ES,15,you: number (pl -> sg),¿Estás cansado del viaje?,1,1,0,0,0,,1,1,no direct el-es model; other cascade = French (also collapses),primary
+EL_ES,50,you: number (pl -> sg),Eres muy bueno.,1,0,0,0,0,,1,1,,primary
+EL_ES,51,you: number (pl -> sg),Estás bien.,1,0,0,0,0,,1,1,,primary
+EL_ES,52,you: number (pl -> sg),Juegas muy bien.,1,0,0,0,0,,1,1,,primary
+EL_ES,56,yours: number (vuestras -> tuyas),Estas tazas son tuyas.,1,1,0,0,0,,1,1,,primary
+FR_PL,38,polysemy: battes,Wielkie nietoperze (animal),,,,0,0,0,1,0,other cascade = Spanish; NLLB error is a different one (baty),primary
+FR_PL,40,polysemy: phoque,Stara pieczęć (stamp),,,,0,0,0,1,0,other cascade = Spanish,primary
+PL_FR,39,polysemy: pieczęcie,"Tu vois ces timbres/tampons (ambiguous English ""stamps"")",,,,0,0,0,1,1,EN cascade gives phoques (other wrong sense); Spanish cascade gives timbres; both lose the seal/stamp sense,primary
+EL_ES,40,polysemy/idiom: 'Μύγες του χρόνου' (flies of time) read as 'time flies',EuroLLM English route: 'Time flies' -> 'El tiempo vuela' (Claude's route: 'Flies of the year' -> correct sense),1,1,0,0,0,,0,0,Found after the primary subset was fixed (post hoc). Google and DeepL Classic answer 'El tiempo vuela'. English cascade (OPUS) loses the sense differently ('Fluctuaciones del tiempo'). French/Polish: no system shows it.,exploratory
+EL_ES,41,polysemy/idiom: 'Μύγες χρόνου' (flies of time) read as 'time flies',EuroLLM English route: 'Time flies' -> 'El tiempo vuela' (Claude's route: 'Flies of time' -> correct sense),1,1,0,0,0,,0,0,"Post hoc, as ID40.",exploratory

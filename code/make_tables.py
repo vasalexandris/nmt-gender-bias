@@ -38,13 +38,15 @@ P('\n## B. OPUS-MT controls (bias 1/0, annotator) and gender-marker diagnostic\n
 r = subprocess.run([sys.executable, 'code/summarize_controls.py'], capture_output=True, text=True); P('```\n' + r.stdout.strip() + '\n```')
 
 P('\n## C. English-specific diagnostic subset (number/formality of "you", polysemy)\n')
-rows = rd('data_pivot_diagnostic/english_specific_subset.csv'); cols = ['Google', 'DeepL_Classic', 'DeepL_NextGen', 'NLLB', 'EuroLLM', 'OPUS_direct', 'OPUS_EN_cascade', 'OPUS_other_cascade']
+rows = [x for x in rd('data_pivot_diagnostic/english_specific_subset.csv') if x['Status'] == 'primary']; cols = ['Google', 'DeepL_Classic', 'DeepL_NextGen', 'NLLB', 'EuroLLM', 'OPUS_direct', 'OPUS_EN_cascade', 'OPUS_other_cascade']
 for lab, sel in (('ES<->EL (10 sentences)', [x for x in rows if x['Direction'] in ('ES_EL', 'EL_ES')]), ('FR<->PL (3 sentences)', [x for x in rows if x['Direction'] in ('FR_PL', 'PL_FR')])):
     P(f'**{lab}**\n'); P('| System | Matches |'); P('|---|---|')
     for c in cols:
         v = [x[c] for x in sel if x[c] in ('0', '1')]
         if v: P(f"| {c} | {sum(map(int, v))}/{len(v)} |")
     P('')
+expl = [x for x in rd('data_pivot_diagnostic/english_specific_subset.csv') if x['Status'] == 'exploratory']
+P('**Exploratory (found after the subset was fixed; not included above):** ' + '; '.join(f"{x['Direction']} ID{x['ID']}: Google {x['Google']}, Classic {x['DeepL_Classic']}, Next Gen {x['DeepL_NextGen']}, NLLB {x['NLLB']}, EuroLLM {x['EuroLLM']}" for x in expl) + '\n')
 
 P('## D. French<->Polish replication (open systems; N sentences not scored)\n')
 r = subprocess.run([sys.executable, 'code/analyze_fr_pl.py'], capture_output=True, text=True); P('```\n' + r.stdout.strip() + '\n```')

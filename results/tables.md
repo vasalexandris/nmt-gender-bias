@@ -68,6 +68,8 @@ Gender-marker diagnostic subset (match = output carries the English route's bias
 | OPUS_EN_cascade | 3/3 |
 | OPUS_other_cascade | 1/3 |
 
+**Exploratory (found after the subset was fixed; not included above):** EL_ES ID40: Google 1, Classic 1, Next Gen 0, NLLB 0, EuroLLM 0; EL_ES ID41: Google 1, Classic 1, Next Gen 0, NLLB 0, EuroLLM 0
+
 ## D. French<->Polish replication (open systems; N sentences not scored)
 
 ```
