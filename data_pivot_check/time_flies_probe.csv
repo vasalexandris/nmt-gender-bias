@@ -1,0 +1,10 @@
+﻿Direction,Source,Type,NLLB,EuroLLM,EuroLLM_English_route,OPUS_direct,OPUS_English_route,OPUS_via_English
+EL_ES,Ο χρόνος πετά.,verb idiom,El tiempo vuela.,El tiempo vuela.,Time flies.,,Time's flying.,El tiempo vuela.
+EL_ES,Μύγες του χρόνου,noun phrase (dataset ID40),Las moscas del tiempo,Moscas del tiempo,Time flies,,Time fluctuations,Fluctuaciones del tiempo
+EL_ES,Μύγες χρόνου,noun phrase (dataset ID41),Las moscas del tiempo,Moscas del tiempo,Time flies,,Timetime fluctuations,Fluctuaciones del tiempo
+ES_EL,El tiempo vuela.,verb idiom,Ο χρόνος πετάει.,Ο χρόνος πετάει.,Time flies.,Ο χρόνος περνάει.,Time flies.,Ο χρόνος περνάει.
+ES_EL,Moscas de tiempo,noun phrase,Μύγες του καιρού,Μύγες του χρόνου,Time Flies,Μύγες του χρόνου,Time flies,Ο χρόνος πετάει
+FR_PL,Le temps vole.,verb idiom,Czas ucieka.,Czas leci.,Time flies.,Czas leci.,Time flies.,Czas leci.
+FR_PL,Mouches du temps,noun phrase,Węże czasu,Muchy czasu,Time flies,Machy czasu,Weaknesses of time,Słabości czasu
+PL_FR,Czas leci.,verb idiom,Le temps passe.,Le temps passe.,Time flies.,Le temps passe.,Time flies.,Le temps s'envole.
+PL_FR,Muchy czasu,noun phrase,Les mouches du temps,Les mouches du temps,Time flies,Les mouches du temps,Flies of time,Les mouches du temps
