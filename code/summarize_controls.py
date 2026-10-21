@@ -8,13 +8,12 @@ Controls (all Marian bilingual transformers, 6+6 layers, trained from scratch pe
 Gender_Bias for the controls was assigned with the same rule as the other systems (1 = gender lost/changed, or
 tense/number/person change, or lost polysemy sense; purely lexical = 0). Judgments are in code/opus_control_judgments.py.
 """
-import sys
-import pandas as pd
+import csv, sys
 sys.path.insert(0, 'code')
 from opus_control_judgments import ES_EL, EL_ES, DIAG_ES, DIAG_EL
 
-dd = pd.read_csv('data_pivot_diagnostic/gender_marker_diagnostic_subset.csv')
-dd = dd[dd.Diagnostic == 'YES']
+dd = [r for r in csv.DictReader(open('data_pivot_diagnostic/gender_marker_diagnostic_subset.csv', encoding='utf-8-sig')) if r['Diagnostic'] == 'YES']
+S = lambda col: sum(int(float(r[col])) for r in dd)
 
 print("Bias rate (Gender_Bias=1), n=56 per direction")
 print(f"{'':20s} {'ES->EL':>10s} {'EL->ES':>10s}")
@@ -28,9 +27,9 @@ for k, (a, b) in bias.items():
 
 print("\nGender-marker diagnostic subset (match = output carries the English route's biased marker)")
 es = list(zip(*DIAG_ES.values())); el = list(zip(*DIAG_EL.values()))
-rows = {'Cascade via English': (sum(es[1]) + sum(el[0]), 15), 'Google': (int(dd.Google_Match.sum()), 15),
-        'DeepL Classic': (int(dd.DeepLClassic_Match.sum()), 15), 'Cascade via French': (sum(es[2]) + sum(el[1]), 15),
-        'NLLB-1.3B': (int(dd.NLLB_Match.sum()), 15), 'Direct bilingual (ES->EL only)': (sum(es[0]), 13),
-        'EuroLLM-9B': (int(dd.EuroLLM_Match.sum()), 15), 'DeepL Next Gen': (int(dd.DeepLNextGen_Match.sum()), 15)}
+rows = {'Cascade via English': (sum(es[1]) + sum(el[0]), 15), 'Google': (S('Google_Match'), 15),
+        'DeepL Classic': (S('DeepLClassic_Match'), 15), 'Cascade via French': (sum(es[2]) + sum(el[1]), 15),
+        'NLLB-1.3B': (S('NLLB_Match'), 15), 'Direct bilingual (ES->EL only)': (sum(es[0]), 13),
+        'EuroLLM-9B': (S('EuroLLM_Match'), 15), 'DeepL Next Gen': (S('DeepLNextGen_Match'), 15)}
 for k, (m, n) in sorted(rows.items(), key=lambda x: -x[1][0] / x[1][1]):
     print(f"  {k:32s} {m:2d}/{n} = {m/n:5.1%}")

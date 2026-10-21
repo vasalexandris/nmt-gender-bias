@@ -22,4 +22,6 @@ keywords:
   - polysemy
   - Greek
   - Spanish
-license: MIT  # TODO: README says CC BY 4.0 for the data; decide and unify
+license:
+  - MIT          # code
+  - CC-BY-4.0    # data (see LICENSE-DATA.md)
