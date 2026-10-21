@@ -4,11 +4,11 @@
 1,OPUS_EN,N,Nous avons terminé nos études.,Skończyliśmy nasze studia. / Skończyłyśmy nasze studia.,Skończyliśmy studia.,FR036,,M,
 1,OPUS_ES,N,Nous avons terminé nos études.,Skończyliśmy nasze studia. / Skończyłyśmy nasze studia.,Skończyliśmy nasze studia.,FR184,,M,
 1,OPUS_direct,N,Nous avons terminé nos études.,Skończyliśmy nasze studia. / Skończyłyśmy nasze studia.,Skończyliśmy studia.,FR161,,M,
-2,EuroLLM,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowały usta i paznokcie oraz założyły spódniczki.,FR139,0,,
-2,NLLB,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowały usta i paznokcie i założyły spódnice.,FR017,0,,
-2,OPUS_EN,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowali usta i paznokcie i założyli spódnice.,FR113,1,,Gender change: virile 'Pomalowali'
-2,OPUS_ES,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowali jej usta i paznokcie i założyli spódnice.,FR061,1,,Gender change: virile 'Pomalowali' (and 'jej' added)
-2,OPUS_direct,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,"One pomalowały sobie usta i paznokcie, a one założyły spódnice.",Pomalowały usta i paznokcie i założyły spódnice.,FR110,0,,
+2,EuroLLM,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,One pomalowały sobie usta i paznokcie i założyły spódnice.,Pomalowały usta i paznokcie oraz założyły spódniczki.,FR139,0,,
+2,NLLB,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,One pomalowały sobie usta i paznokcie i założyły spódnice.,Pomalowały usta i paznokcie i założyły spódnice.,FR017,0,,
+2,OPUS_EN,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,One pomalowały sobie usta i paznokcie i założyły spódnice.,Pomalowali usta i paznokcie i założyli spódnice.,FR113,1,,Gender change: virile 'Pomalowali'
+2,OPUS_ES,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,One pomalowały sobie usta i paznokcie i założyły spódnice.,Pomalowali jej usta i paznokcie i założyli spódnice.,FR061,1,,Gender change: virile 'Pomalowali' (and 'jej' added)
+2,OPUS_direct,Y,Elles ont peint leurs lèvres et leurs ongles et elles ont mis leurs jupes.,One pomalowały sobie usta i paznokcie i założyły spódnice.,Pomalowały usta i paznokcie i założyły spódnice.,FR110,0,,
 3,EuroLLM,Y,Elles voyageront ensemble en France.,One pojadą razem do Francji.,Będą razem podróżować po Francji.,FR220,1,,Feminine lost: 'Będą…podróżować'
 3,NLLB,Y,Elles voyageront ensemble en France.,One pojadą razem do Francji.,Będą razem podróżować do Francji.,FR062,1,,Feminine lost: 'Będą…podróżować'
 3,OPUS_EN,Y,Elles voyageront ensemble en France.,One pojadą razem do Francji.,Będą podróżować razem we Francji.,FR093,1,,Feminine lost: 'Będą…podróżować'
@@ -19,11 +19,11 @@
 4,OPUS_EN,Y,Elles ont défendu leur projet avec passion.,One broniły swojego projektu z pasją.,Bronili swego projektu pasją.,FR046,1,,Gender change: virile 'Bronili'
 4,OPUS_ES,Y,Elles ont défendu leur projet avec passion.,One broniły swojego projektu z pasją.,Broniły swojego projektu z pasją.,FR260,0,,
 4,OPUS_direct,Y,Elles ont défendu leur projet avec passion.,One broniły swojego projektu z pasją.,Broniły swojego projektu z pasją.,FR010,0,,
-5,EuroLLM,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Zdecydowały się na założenie własnej firmy.,FR143,0,,
-5,NLLB,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Postanowiły założyć własną firmę.,FR092,0,,
-5,OPUS_EN,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Zdecydowali się założyć własny interes.,FR243,1,,Gender change: virile 'Zdecydowali'
-5,OPUS_ES,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Zdecydowali się założyć własną firmę.,FR218,1,,Gender change: virile 'Zdecydowali'
-5,OPUS_direct,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały założyć własną firmę.,Zdecydowały się założyć własną firmę.,FR044,0,,
+5,EuroLLM,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały się założyć własną firmę.,Zdecydowały się na założenie własnej firmy.,FR143,0,,
+5,NLLB,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały się założyć własną firmę.,Postanowiły założyć własną firmę.,FR092,0,,
+5,OPUS_EN,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały się założyć własną firmę.,Zdecydowali się założyć własny interes.,FR243,1,,Gender change: virile 'Zdecydowali'
+5,OPUS_ES,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały się założyć własną firmę.,Zdecydowali się założyć własną firmę.,FR218,1,,Gender change: virile 'Zdecydowali'
+5,OPUS_direct,Y,Elles ont décidé de créer leur propre entreprise.,One zdecydowały się założyć własną firmę.,Zdecydowały się założyć własną firmę.,FR044,0,,
 6,EuroLLM,Y,Elles ont obtenu leur diplôme avec mention.,One ukończyły studia z wyróżnieniem.,Otrzymały dyplomy z wyróżnieniem.,FR101,0,,
 6,NLLB,Y,Elles ont obtenu leur diplôme avec mention.,One ukończyły studia z wyróżnieniem.,Ukończyły studia z wyróżnieniem.,FR261,0,,
 6,OPUS_EN,Y,Elles ont obtenu leur diplôme avec mention.,One ukończyły studia z wyróżnieniem.,Ukończyli z honorami.,FR144,1,,Gender change: virile 'Ukończyli'
@@ -99,21 +99,21 @@
 20,OPUS_EN,N,Êtes-vous fatigués du voyage?,Czy jesteście zmęczeni podróżą?,Jesteś zmęczona podróżą?,FR066,,F,
 20,OPUS_ES,N,Êtes-vous fatigués du voyage?,Czy jesteście zmęczeni podróżą?,Jesteście zmęczeni podróżą?,FR140,,M,
 20,OPUS_direct,N,Êtes-vous fatigués du voyage?,Czy jesteście zmęczeni podróżą?,Jesteście zmęczeni podróżą?,FR153,,M,
-21,EuroLLM,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR214,1,,Gender change: 'Jego'
-21,NLLB,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR198,1,,Gender change: 'Jego'
-21,OPUS_EN,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR016,1,,Gender change: 'Jego' instead of 'Jej'
-21,OPUS_ES,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Twoja książka jest bardzo interesująca.,FR269,1,,Person change: 'Twoja' for 'Jej'
-21,OPUS_direct,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR208,1,,Gender change: 'Jego'
-22,EuroLLM,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Jego buty są nowe.,FR076,1,,Gender change: 'Jego' instead of 'Jej'
-22,NLLB,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Jego buty są nowe.,FR128,1,,Gender change: 'Jego'
-22,OPUS_EN,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Jej buty są nowe.,FR278,0,,
-22,OPUS_ES,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Twoje buty są nowe.,FR263,1,,Person change: 'Twoje' for 'Jej'
-22,OPUS_direct,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe.,Jego buty są nowe.,FR189,1,,Gender change: 'Jego'
-23,EuroLLM,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego dokumentacja została utracona wczoraj.,FR134,1,,Gender change: 'Jego'
-23,NLLB,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego akta zostały zgubione wczoraj.,FR119,1,,Gender change: 'Jego'
-23,OPUS_EN,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego akta zgubiły się wczoraj.,FR264,1,,Gender change: 'Jego'
-23,OPUS_ES,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego akta zaginęły wczoraj.,FR137,1,,Gender change: 'Jego'
-23,OPUS_direct,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj.,Jego akta zaginęły wczoraj.,FR149,1,,Gender change: 'Jego'
+21,EuroLLM,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca. / Jego książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR214,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+21,NLLB,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca. / Jego książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR198,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+21,OPUS_EN,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca. / Jego książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR016,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+21,OPUS_ES,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca. / Jego książka jest bardzo interesująca.,Twoja książka jest bardzo interesująca.,FR269,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+21,OPUS_direct,Neutral-by-design,Son livre est très intéressant.,Jej książka jest bardzo interesująca. / Jego książka jest bardzo interesująca.,Jego książka jest bardzo interesująca.,FR208,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+22,EuroLLM,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe. / Jego buty są nowe.,Jego buty są nowe.,FR076,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+22,NLLB,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe. / Jego buty są nowe.,Jego buty są nowe.,FR128,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+22,OPUS_EN,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe. / Jego buty są nowe.,Jej buty są nowe.,FR278,0,,
+22,OPUS_ES,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe. / Jego buty są nowe.,Twoje buty są nowe.,FR263,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+22,OPUS_direct,Neutral-by-design,Ses chaussures sont neuves.,Jej buty są nowe. / Jego buty są nowe.,Jego buty są nowe.,FR189,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+23,EuroLLM,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj. / Jego teczka zaginęła wczoraj.,Jego dokumentacja została utracona wczoraj.,FR134,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+23,NLLB,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj. / Jego teczka zaginęła wczoraj.,Jego akta zostały zgubione wczoraj.,FR119,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+23,OPUS_EN,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj. / Jego teczka zaginęła wczoraj.,Jego akta zgubiły się wczoraj.,FR264,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+23,OPUS_ES,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj. / Jego teczka zaginęła wczoraj.,Jego akta zaginęły wczoraj.,FR137,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
+23,OPUS_direct,Neutral-by-design,Son dossier a été perdu hier.,Jej teczka zaginęła wczoraj. / Jego teczka zaginęła wczoraj.,Jego akta zaginęły wczoraj.,FR149,0,,Possessive 'son/ses' is gender- and person-neutral in the source; any rendering acceptable (dataset convention)
 24,EuroLLM,Y,Une des avocates a démissionné.,Jedna z prawniczek zrezygnowała.,Jedna z prawniczek zrezygnowała.,FR190,0,,
 24,NLLB,Y,Une des avocates a démissionné.,Jedna z prawniczek zrezygnowała.,Jedna z prawników zrezygnowała.,FR156,1,,Gender change: masculine 'prawników'
 24,OPUS_EN,Y,Une des avocates a démissionné.,Jedna z prawniczek zrezygnowała.,Jeden z prawników zrezygnował.,FR167,1,,Gender change: masculine 'Jeden z prawników zrezygnował'
@@ -154,16 +154,16 @@
 31,OPUS_EN,Y,Elle a terminé le projet seule.,Skończyła projekt sama.,Sama skończyła projekt.,FR138,0,,
 31,OPUS_ES,Y,Elle a terminé le projet seule.,Skończyła projekt sama.,Skończyła projekt na własną rękę.,FR223,0,,
 31,OPUS_direct,Y,Elle a terminé le projet seule.,Skończyła projekt sama.,Skończyła sama.,FR141,0,,
-32,EuroLLM,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze sobie pomagają.,FR041,1,,Feminine reciprocal lost
-32,NLLB,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze pomagają sobie nawzajem.,FR109,1,,Feminine reciprocal lost
-32,OPUS_EN,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze sobie pomagają.,FR042,1,,Feminine reciprocal lost
-32,OPUS_ES,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze sobie pomagają.,FR033,1,,Feminine reciprocal lost: 'sobie pomagają'
-32,OPUS_direct,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają jedna drugiej.,Zawsze pomagają sobie nawzajem.,FR203,1,,Feminine reciprocal lost
-33,EuroLLM,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Wspierają się nawzajem w pracy.,FR070,1,,Feminine reciprocal lost
-33,NLLB,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Wzajemnie się wspierają w pracy.,FR279,1,,Feminine reciprocal lost
-33,OPUS_EN,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Wspierają się w pracy.,FR179,1,,Feminine reciprocal lost
-33,OPUS_ES,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Opierają się wzajemnie w pracy.,FR045,1,,Feminine reciprocal lost: 'wzajemnie'
-33,OPUS_direct,Y,Elles se soutiennent les unes les autres au travail.,One wspierają jedna drugą w pracy.,Wspierają się nawzajem w pracy.,FR206,1,,Feminine reciprocal lost
+32,EuroLLM,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają sobie nawzajem.,Zawsze sobie pomagają.,FR041,1,,Feminine reciprocal lost
+32,NLLB,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają sobie nawzajem.,Zawsze pomagają sobie nawzajem.,FR109,1,,Feminine reciprocal lost
+32,OPUS_EN,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają sobie nawzajem.,Zawsze sobie pomagają.,FR042,1,,Feminine reciprocal lost
+32,OPUS_ES,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają sobie nawzajem.,Zawsze sobie pomagają.,FR033,1,,Feminine reciprocal lost: 'sobie pomagają'
+32,OPUS_direct,Y,Elles s'aident toujours l'une l'autre.,One zawsze pomagają sobie nawzajem.,Zawsze pomagają sobie nawzajem.,FR203,1,,Feminine reciprocal lost
+33,EuroLLM,Y,Elles se soutiennent les unes les autres au travail.,One wspierają się nawzajem w pracy.,Wspierają się nawzajem w pracy.,FR070,1,,Feminine reciprocal lost
+33,NLLB,Y,Elles se soutiennent les unes les autres au travail.,One wspierają się nawzajem w pracy.,Wzajemnie się wspierają w pracy.,FR279,1,,Feminine reciprocal lost
+33,OPUS_EN,Y,Elles se soutiennent les unes les autres au travail.,One wspierają się nawzajem w pracy.,Wspierają się w pracy.,FR179,1,,Feminine reciprocal lost
+33,OPUS_ES,Y,Elles se soutiennent les unes les autres au travail.,One wspierają się nawzajem w pracy.,Opierają się wzajemnie w pracy.,FR045,1,,Feminine reciprocal lost: 'wzajemnie'
+33,OPUS_direct,Y,Elles se soutiennent les unes les autres au travail.,One wspierają się nawzajem w pracy.,Wspierają się nawzajem w pracy.,FR206,1,,Feminine reciprocal lost
 34,EuroLLM,Y,Laquelle des médecins est de garde aujourd'hui?,Która z lekarek jest dziś na dyżurze?,Który z lekarzy jest dziś na dyżurze?,FR195,1,,Gender change: masculine 'Który z lekarzy'
 34,NLLB,Y,Laquelle des médecins est de garde aujourd'hui?,Która z lekarek jest dziś na dyżurze?,Który z lekarzy jest dziś na służbie?,FR271,1,,Gender change: masculine 'Który z lekarzy'
 34,OPUS_EN,Y,Laquelle des médecins est de garde aujourd'hui?,Która z lekarek jest dziś na dyżurze?,Który z lekarzy jest dziś na służbie?,FR032,1,,Gender change: masculine 'Który z lekarzy'
@@ -189,11 +189,11 @@
 38,OPUS_EN,Y,Les grandes battes que nous avons vues,"Wielkie kije, które widzieliśmy / Wielkie kije, które widziałyśmy","Wielcy nietoperze, których widzieliśmy",FR079,1,,Sense lost: 'nietoperze' (animal)
 38,OPUS_ES,Y,Les grandes battes que nous avons vues,"Wielkie kije, które widzieliśmy / Wielkie kije, które widziałyśmy","Wielkie kije, jakie widzieliśmy.",FR038,0,,
 38,OPUS_direct,Y,Les grandes battes que nous avons vues,"Wielkie kije, które widzieliśmy / Wielkie kije, które widziałyśmy","Wielkie kije, które widzieliśmy",FR078,0,,
-39,EuroLLM,Y,Ce banc là-bas,Ta ławka tam.,Tamten ławka,FR196,0,,grammar error only; bench sense kept
-39,NLLB,Y,Ce banc là-bas,Ta ławka tam.,Ta ławka.,FR095,0,,
-39,OPUS_EN,Y,Ce banc là-bas,Ta ławka tam.,Tamta ławka.,FR027,0,,
-39,OPUS_ES,Y,Ce banc là-bas,Ta ławka tam.,Tamten bank.,FR071,1,,Sense lost: 'bank' for bench
-39,OPUS_direct,Y,Ce banc là-bas,Ta ławka tam.,Tamta ławka.,FR034,0,,
+39,EuroLLM,Y,Ce banc là-bas,Tamta ławka.,Tamten ławka,FR196,0,,grammar error only; bench sense kept
+39,NLLB,Y,Ce banc là-bas,Tamta ławka.,Ta ławka.,FR095,0,,
+39,OPUS_EN,Y,Ce banc là-bas,Tamta ławka.,Tamta ławka.,FR027,0,,
+39,OPUS_ES,Y,Ce banc là-bas,Tamta ławka.,Tamten bank.,FR071,1,,Sense lost: 'bank' for bench
+39,OPUS_direct,Y,Ce banc là-bas,Tamta ławka.,Tamta ławka.,FR034,0,,
 40,EuroLLM,Y,Le vieux phoque,Stara foka,Stary foka,FR122,0,,grammar error only; seal (animal) sense kept
 40,NLLB,Y,Le vieux phoque,Stara foka,Stary fokiem,FR152,0,,grammar error only; seal (animal) sense kept
 40,OPUS_EN,Y,Le vieux phoque,Stara foka,Stara pieczęć.,FR117,1,,Sense lost: 'pieczęć' (stamp) for seal
@@ -239,26 +239,26 @@
 48,OPUS_EN,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,To eksperci programiści.,FR256,1,,Gender change: masculine 'eksperci programiści'
 48,OPUS_ES,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,Są programistkami.,FR069,0,,
 48,OPUS_direct,Y,Elles sont des programmeuses expertes.,One są doświadczonymi programistkami.,Są specjalistami od programów.,FR231,1,,Feminine lost: 'specjalistami od programów'
-49,EuroLLM,Y,Tu vas bien.,Ty masz się dobrze.,W porządku.,FR097,0,,"Impersonal 'W porządku.'; addressee not marked (kept 0, authors' decision)"
-49,NLLB,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR060,0,,
-49,OPUS_EN,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR157,0,,
-49,OPUS_ES,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR236,0,,
-49,OPUS_direct,Y,Tu vas bien.,Ty masz się dobrze.,Nic ci nie jest.,FR237,0,,
-50,EuroLLM,Y,Vous allez bien.,Wy macie się dobrze.,W porządku.,FR277,0,,"Impersonal 'W porządku.'; addressee not marked (kept 0, authors' decision)"
-50,NLLB,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR080,1,,Number change: singular 'ci'
-50,OPUS_EN,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR105,1,,Number change: singular 'ci'
-50,OPUS_ES,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR252,1,,Number change: singular 'ci'
-50,OPUS_direct,Y,Vous allez bien.,Wy macie się dobrze.,Nic ci nie jest.,FR178,1,,Number change: singular 'ci'
-51,EuroLLM,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteście bardzo dobre.,FR238,0,,
-51,NLLB,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteście bardzo dobrzy.,FR058,1,,Gender change: masculine 'dobrzy'
-51,OPUS_EN,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteś bardzo dobry.,FR275,1,,Number/gender change: singular masculine 'Jesteś…dobry'
-51,OPUS_ES,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteś bardzo dobra.,FR106,1,,Number change: singular 'Jesteś'
-51,OPUS_direct,Y,Vous êtes très bonnes.,Wy jesteście bardzo dobre.,Jesteście naprawdę dobrzy.,FR249,1,,Gender change: masculine 'dobrzy'
-52,EuroLLM,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Jesteście bardzo dobrzy.,FR025,0,,
-52,NLLB,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Jesteście bardzo dobrzy.,FR199,0,,
-52,OPUS_EN,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Jesteś bardzo dobry.,FR242,1,,Number change: singular 'Jesteś…dobry'
-52,OPUS_ES,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Są naprawdę dobre.,FR088,1,,"Gender/person change: 'Są…dobre' (3rd person, feminine)"
-52,OPUS_direct,Y,Vous êtes très bons.,Wy jesteście bardzo dobrzy.,Jesteście naprawdę dobrzy.,FR055,0,,
+49,EuroLLM,Y,Tu vas bien.,Dobrze się masz.,W porządku.,FR097,0,,"Impersonal 'W porządku.'; addressee not marked (kept 0, authors' decision)"
+49,NLLB,Y,Tu vas bien.,Dobrze się masz.,Nic ci nie jest.,FR060,0,,
+49,OPUS_EN,Y,Tu vas bien.,Dobrze się masz.,Nic ci nie jest.,FR157,0,,
+49,OPUS_ES,Y,Tu vas bien.,Dobrze się masz.,Nic ci nie jest.,FR236,0,,
+49,OPUS_direct,Y,Tu vas bien.,Dobrze się masz.,Nic ci nie jest.,FR237,0,,
+50,EuroLLM,Y,Vous allez bien.,Dobrze się macie.,W porządku.,FR277,0,,"Impersonal 'W porządku.'; addressee not marked (kept 0, authors' decision)"
+50,NLLB,Y,Vous allez bien.,Dobrze się macie.,Nic ci nie jest.,FR080,1,,Number change: singular 'ci'
+50,OPUS_EN,Y,Vous allez bien.,Dobrze się macie.,Nic ci nie jest.,FR105,1,,Number change: singular 'ci'
+50,OPUS_ES,Y,Vous allez bien.,Dobrze się macie.,Nic ci nie jest.,FR252,1,,Number change: singular 'ci'
+50,OPUS_direct,Y,Vous allez bien.,Dobrze się macie.,Nic ci nie jest.,FR178,1,,Number change: singular 'ci'
+51,EuroLLM,Y,Vous êtes très bonnes.,Jesteście bardzo dobre.,Jesteście bardzo dobre.,FR238,0,,
+51,NLLB,Y,Vous êtes très bonnes.,Jesteście bardzo dobre.,Jesteście bardzo dobrzy.,FR058,1,,Gender change: masculine 'dobrzy'
+51,OPUS_EN,Y,Vous êtes très bonnes.,Jesteście bardzo dobre.,Jesteś bardzo dobry.,FR275,1,,Number/gender change: singular masculine 'Jesteś…dobry'
+51,OPUS_ES,Y,Vous êtes très bonnes.,Jesteście bardzo dobre.,Jesteś bardzo dobra.,FR106,1,,Number change: singular 'Jesteś'
+51,OPUS_direct,Y,Vous êtes très bonnes.,Jesteście bardzo dobre.,Jesteście naprawdę dobrzy.,FR249,1,,Gender change: masculine 'dobrzy'
+52,EuroLLM,Y,Vous êtes très bons.,Jesteście bardzo dobrzy.,Jesteście bardzo dobrzy.,FR025,0,,
+52,NLLB,Y,Vous êtes très bons.,Jesteście bardzo dobrzy.,Jesteście bardzo dobrzy.,FR199,0,,
+52,OPUS_EN,Y,Vous êtes très bons.,Jesteście bardzo dobrzy.,Jesteś bardzo dobry.,FR242,1,,Number change: singular 'Jesteś…dobry'
+52,OPUS_ES,Y,Vous êtes très bons.,Jesteście bardzo dobrzy.,Są naprawdę dobre.,FR088,1,,"Gender/person change: 'Są…dobre' (3rd person, feminine)"
+52,OPUS_direct,Y,Vous êtes très bons.,Jesteście bardzo dobrzy.,Jesteście naprawdę dobrzy.,FR055,0,,
 53,EuroLLM,Neutral-by-design,Ce livre est à toi.,Ta książka jest twoja.,Ten zeszyt jest dla ciebie.,FR004,0,,lexical (zeszyt for książka)
 53,NLLB,Neutral-by-design,Ce livre est à toi.,Ta książka jest twoja.,Ta książka jest twoja.,FR270,0,,
 53,OPUS_EN,Neutral-by-design,Ce livre est à toi.,Ta książka jest twoja.,Ta książka jest twoja.,FR247,0,,

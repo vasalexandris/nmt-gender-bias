@@ -28,9 +28,9 @@ Paired exact McNemar tests on the 112 sentences (only-A / only-B / p):
 ```
 Bias rate (Gender_Bias=1), n=56 per direction
                          ES->EL     EL->ES
-Direct bilingual       25 (44.6%)       n/a
-Cascade via English    47 (83.9%)   41 (73.2%)
-Cascade via French     34 (60.7%)   30 (53.6%)
+Direct bilingual       22 (39.3%)       n/a
+Cascade via English    44 (78.6%)   41 (73.2%)
+Cascade via French     32 (57.1%)   30 (53.6%)
 
 Gender-marker diagnostic subset (match = output carries the English route's biased marker)
   Cascade via English              15/15 = 100.0%
@@ -72,13 +72,13 @@ Gender-marker diagnostic subset (match = output carries the English route's bias
 
 ```
 FR_PL: scored n=43 (N sentences excluded); English-route-biased subset n=30
-  OPUS_EN      bias 31/43 = 72.1% [57%-83%] | English-biased subset 26/30 = 86.7% [70%-95%]
-  OPUS_ES      bias 24/43 = 55.8% [41%-70%] | English-biased subset 17/30 = 56.7% [39%-73%]
-  OPUS_direct  bias 20/43 = 46.5% [33%-61%] | English-biased subset 15/30 = 50.0% [33%-67%]
-  NLLB         bias 19/43 = 44.2% [30%-59%] | English-biased subset 14/30 = 46.7% [30%-64%]
-  EuroLLM      bias 14/43 = 32.6% [20%-47%] | English-biased subset 10/30 = 33.3% [19%-51%]
-  McNemar exact OPUS_EN vs OPUS_direct: only-OPUS_EN=12, only-OPUS_direct=1, p=0.0034
-  McNemar exact OPUS_EN vs OPUS_ES: only-OPUS_EN=10, only-OPUS_ES=3, p=0.0923
+  OPUS_EN      bias 29/43 = 67.4% [53%-80%] | English-biased subset 26/30 = 86.7% [70%-95%]
+  OPUS_ES      bias 21/43 = 48.8% [35%-63%] | English-biased subset 17/30 = 56.7% [39%-73%]
+  OPUS_direct  bias 17/43 = 39.5% [26%-54%] | English-biased subset 15/30 = 50.0% [33%-67%]
+  NLLB         bias 16/43 = 37.2% [24%-52%] | English-biased subset 14/30 = 46.7% [30%-64%]
+  EuroLLM      bias 11/43 = 25.6% [15%-40%] | English-biased subset 10/30 = 33.3% [19%-51%]
+  McNemar exact OPUS_EN vs OPUS_direct: only-OPUS_EN=12, only-OPUS_direct=0, p=0.0005
+  McNemar exact OPUS_EN vs OPUS_ES: only-OPUS_EN=10, only-OPUS_ES=2, p=0.0386
   McNemar exact OPUS_direct vs OPUS_ES: only-OPUS_direct=3, only-OPUS_ES=7, p=0.3438
   McNemar exact NLLB vs OPUS_direct: only-NLLB=4, only-OPUS_direct=5, p=1.0000
   McNemar exact EuroLLM vs OPUS_direct: only-EuroLLM=2, only-OPUS_direct=8, p=0.1094
