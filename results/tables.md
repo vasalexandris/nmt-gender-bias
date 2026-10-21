@@ -8,20 +8,20 @@
 | DeepL Classic | 41/56 = 73.2% | 37/56 = 66.1% | 78/112 = 69.6% [60.6%-77.4%] | 1.47 |
 | DeepL Next Gen | 4/56 = 7.1% | 3/56 = 5.4% | 7/112 = 6.2% [3.1%-12.3%] |  |
 | NLLB-200 1.3B | 24/56 = 42.9% | 25/56 = 44.6% | 49/112 = 43.8% [34.9%-53.0%] | 0.94 |
-| EuroLLM-9B (draft ann.) | 14/56 = 25.0% | 14/56 = 25.0% | 28/112 = 25.0% [17.9%-33.8%] | 0.54 |
+| EuroLLM-9B | 14/56 = 25.0% | 14/56 = 25.0% | 28/112 = 25.0% [17.9%-33.8%] | 0.54 |
 
 Paired exact McNemar tests on the 112 sentences (only-A / only-B / p):
 
 - Google Translate vs DeepL Classic: 11 / 4 / p = 0.1185
 - Google Translate vs DeepL Next Gen: 80 / 2 / p = 0.0000
 - Google Translate vs NLLB-200 1.3B: 41 / 5 / p = 0.0000
-- Google Translate vs EuroLLM-9B (draft ann.): 61 / 4 / p = 0.0000
+- Google Translate vs EuroLLM-9B: 61 / 4 / p = 0.0000
 - DeepL Classic vs DeepL Next Gen: 73 / 2 / p = 0.0000
 - DeepL Classic vs NLLB-200 1.3B: 37 / 8 / p = 0.0000
-- DeepL Classic vs EuroLLM-9B (draft ann.): 54 / 4 / p = 0.0000
+- DeepL Classic vs EuroLLM-9B: 54 / 4 / p = 0.0000
 - DeepL Next Gen vs NLLB-200 1.3B: 1 / 43 / p = 0.0000
-- DeepL Next Gen vs EuroLLM-9B (draft ann.): 1 / 22 / p = 0.0000
-- NLLB-200 1.3B vs EuroLLM-9B (draft ann.): 29 / 8 / p = 0.0008
+- DeepL Next Gen vs EuroLLM-9B: 1 / 22 / p = 0.0000
+- NLLB-200 1.3B vs EuroLLM-9B: 29 / 8 / p = 0.0008
 
 ## B. OPUS-MT controls (bias 1/0, annotator) and gender-marker diagnostic
 

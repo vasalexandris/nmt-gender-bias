@@ -28,7 +28,7 @@ What the evidence supports, and what it does not:
 | DeepL Classic | commercial NMT (announced as replaced by Next Gen) | no (dated snapshot) | 69.6% |
 | DeepL Next Gen | commercial, LLM-based | no (dated snapshot) | 6.25% |
 | NLLB-200 distilled 1.3B | open encoder–decoder NMT | yes (pinned revision) | 43.8% |
-| EuroLLM-9B-Instruct (GGUF Q4_K_M) | open decoder-only LLM | yes (pinned revision) | 25.0% (draft annotation) |
+| EuroLLM-9B-Instruct (GGUF Q4_K_M) | open decoder-only LLM | yes (pinned revision) | 25.0% |
 
 The closed systems were queried by the authors on dates that were not recorded; the outputs released here are the analysed snapshot. Pivot translations and back-translations were generated with Claude Sonnet 4.5 (temperature 0, instruction to preserve gender strictly, two steps); the exact prompts were not archived. The generated texts themselves are released, so all analyses can be re-run from the data.
 
